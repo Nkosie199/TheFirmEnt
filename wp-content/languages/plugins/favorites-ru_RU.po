@@ -1,0 +1,656 @@
+# Translation of Plugins - Favorites - Stable (latest release) in Russian
+# This file is distributed under the same license as the Plugins - Favorites - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2018-04-24 10:46:55+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: GlotPress/2.4.0-alpha\n"
+"Language: ru\n"
+"Project-Id-Version: Plugins - Favorites - Stable (latest release)\n"
+
+#: app/Views/settings/settings-users.php:42
+msgid "Enter the Page/Post ID to redirect to (defaults to the site url)"
+msgstr "Введите ID страницы/записи, на которую делать перенаправления (по умолчанию берется URL сайта)"
+
+#: app/Views/settings/settings-users.php:25
+msgid "Redirect Anonymous Users to a Page"
+msgstr "Перенаправление анонимных пользователей"
+
+#: app/Views/settings/settings-users.php:23
+msgid "Show Buttons and Display Modal for Anonymous Users"
+msgstr "Показать кнопки и всплывающее окно для анонимных пользователей"
+
+#: app/Views/settings/settings-users.php:20
+msgid "By default, favorite buttons are hidden from unauthenticated users if anonymous users are disabled."
+msgstr "По умолчанию, если анонимные пользователи отключены, то кнопки добавить в избранное скрыты от незарегистрированных пользователей"
+
+#: app/Views/settings/settings-users.php:19
+msgid "Anonymous Favoriting Behavior"
+msgstr "Избранное для анонимных пользователей"
+
+#: app/Views/settings/settings-display.php:306
+msgid "Permalink (as link)"
+msgstr "Постоянная ссылка (as link)"
+
+#: app/Views/settings/settings-display.php:305
+msgid "Permalink (raw link)"
+msgstr "Постоянная ссылка (raw link)"
+
+#: app/Listeners/AJAXListenerBase.php:44
+msgid "The nonce could not be verified."
+msgstr "Nonce не удалось проверить"
+
+#: app/Entities/Favorite/SyncSingleFavorite.php:121
+#: app/Entities/User/UserRepository.php:124
+msgid "Default List"
+msgstr "По умолчанию"
+
+#: app/Views/settings/settings-general.php:22
+msgid "Enable Development Mode (logs JS responses in the console for debugging)"
+msgstr "Включить режим разработки (записываются ответы JS в консоли для отладки)"
+
+#: app/Views/settings/settings-general.php:15
+msgid "Development Mode"
+msgstr "Режим разработки"
+
+#: app/Views/settings/settings-display.php:78
+msgid "Span"
+msgstr "Тег &lt;span&gt;"
+
+#: app/Views/settings/settings-display.php:76
+msgid "a (link)"
+msgstr "Тег &lt;a&gt;"
+
+#: app/Views/settings/settings-display.php:75
+msgid "Button"
+msgstr "Тег &lt;button&gt;"
+
+#: app/Views/settings/settings-display.php:69
+msgid "By default, the button is displayed in an HTML button element."
+msgstr "По умолчанию, при отображении кнопки используется тег &lt;button&gt;"
+
+#: app/Views/settings/settings-display.php:68
+#: app/Views/settings/settings-display.php:72
+msgid "Button HTML Element"
+msgstr "HTML элемент кнопки"
+
+#: app/Views/settings/settings-users.php:30
+msgid "To add \"close\" button or link, give it a data attribute of \"data-favorites-modal-close\"."
+msgstr "Чтобы добавить кнопку «закрыть» или ссылку, укажите атрибут данных «data-favorites-modal-close»"
+
+#: app/Views/settings/settings-users.php:29
+msgid "If plugin css or javascript has been disabled, the modal window will not display correctly."
+msgstr "Если отключены css или javascript самого плагина, то всплывающее окно будет работать некорректно"
+
+#: app/Views/settings/settings-users.php:29
+msgid "Important: "
+msgstr "Важно:"
+
+#: app/Views/settings/settings-users.php:28
+msgid "Edit the Modal Content Below"
+msgstr "Редактирование содержимого всплывающего окна"
+
+#: app/Views/settings/settings-display.php:319
+msgid "Favorite Button"
+msgstr "Кнопка Избранное"
+
+#: app/Views/settings/settings-display.php:317
+msgid "Favorites Fields"
+msgstr "Поля избранного"
+
+#: app/Views/settings/settings-display.php:314
+#: app/Views/settings/settings-display.php:322
+msgid "Add"
+msgstr "Добавить"
+
+#: app/Views/settings/settings-display.php:310
+msgid "Thumbnail: "
+msgstr "Миниатюра:"
+
+#: app/Views/settings/settings-display.php:304
+msgid "Excerpt"
+msgstr "Отрывок"
+
+#: app/Views/settings/settings-display.php:303
+msgid "Post Title"
+msgstr "Заголовок записи"
+
+#: app/Views/settings/settings-display.php:301
+msgid "Post Fields"
+msgstr "Поля записи"
+
+#: app/Views/settings/settings-display.php:298
+msgid "To add a custom meta field, use the format <code>[custom_field:custom_field_name]</code>"
+msgstr "Чтобы добавить произвольное, используйте формат вида <code>[custom_field:custom_field_name]</code>"
+
+#: app/Views/settings/settings-display.php:297
+msgid "Add Dynamic Fields"
+msgstr "Добавить динамические поля"
+
+#: app/Views/settings/settings-display.php:294
+msgid "By customizing the listing content, some shortcode options will not apply. These options include: include_links, include_buttons, include_thumbnails, and thumbnail_size"
+msgstr "При настройке содержимого ленты записей некоторые параметры шорткодов не применяются. Эти параметры включают: include_links, include_buttons, include_thumbnails и thumbnail_size"
+
+#: app/Views/settings/settings-display.php:294
+msgid "Important:"
+msgstr "Важно:"
+
+#: app/Views/settings/settings-display.php:290
+msgid "Customize Content"
+msgstr "Настройка содержимого"
+
+#: app/Config/SettingsRepository.php:125
+msgid "Please login to add favorites."
+msgstr "Пожалуйста, зарегистрируйтесь для добавления избранного"
+
+#: app/Config/SettingsRepository.php:447 app/Config/SettingsRepository.php:454
+msgid "Background Color"
+msgstr "Цвет фона"
+
+#: app/Config/SettingsRepository.php:448 app/Config/SettingsRepository.php:455
+msgid "Border Color"
+msgstr "Цвет границы"
+
+#: app/Config/SettingsRepository.php:449 app/Config/SettingsRepository.php:456
+msgid "Text Color"
+msgstr "Цвет текста"
+
+#: app/Config/SettingsRepository.php:450 app/Config/SettingsRepository.php:457
+msgid "Icon Color"
+msgstr "Цвет иконки"
+
+#: app/Config/SettingsRepository.php:451 app/Config/SettingsRepository.php:458
+msgid "Count Color"
+msgstr "Цвет счетчика"
+
+#: app/Views/settings/settings-display.php:64
+msgid "Favorite Button Content & Appearance"
+msgstr "Внешний вид и содержание кнопки Избранное"
+
+#: app/Views/settings/settings-display.php:84
+#: app/Views/settings/settings-display.php:88
+msgid "Button Type"
+msgstr "Тип кнопки"
+
+#: app/Views/settings/settings-display.php:117
+msgid "Specify custom colors"
+msgstr "Укажите пользовательские цвета"
+
+#: app/Views/settings/settings-display.php:120
+msgid "Default Button State (Unfavorited)"
+msgstr "Состояние кнопки по умолчанию (не выбрано)"
+
+#: app/Views/settings/settings-display.php:136
+msgid "Active Button State (Favorited)"
+msgstr "Состояние активной кнопки (выбрано)"
+
+#: app/Views/settings/settings-display.php:152
+msgid "Include button shadow"
+msgstr "Включить тень кнопки"
+
+#: app/Views/settings/settings-display.php:160
+msgid "Button Markup: Unfavorited"
+msgstr "Разметка кнопки: не выбрано"
+
+#: app/Views/settings/settings-display.php:255
+msgid "Unordered List (ul)"
+msgstr "Маркированный список (тег &lt;ul&gt;)"
+
+#: app/Views/settings/settings-display.php:256
+msgid "Ordered List (ol)"
+msgstr "Нумерованный список (тег &lt;ol&gt;)"
+
+#: app/Views/settings/settings-display.php:77
+#: app/Views/settings/settings-display.php:257
+#: app/Views/settings/settings-display.php:275
+msgid "Div"
+msgstr "Div"
+
+#: app/Views/settings/settings-display.php:260
+msgid "Wrapper CSS Classes"
+msgstr "Класс CSS для обертки"
+
+#: app/Views/settings/settings-display.php:267
+msgid "Single List Element"
+msgstr "Элемент списка"
+
+#: app/Config/SettingsRepository.php:126
+msgid "Dismiss this notice"
+msgstr "Закрыть уведомление"
+
+#: app/Config/SettingsRepository.php:386 app/Config/SettingsRepository.php:389
+msgid "Like"
+msgstr "Лайк"
+
+#: app/Config/SettingsRepository.php:390
+msgid "Liked"
+msgstr "Лайкнуто"
+
+#: app/Config/SettingsRepository.php:393 app/Config/SettingsRepository.php:396
+msgid "Love"
+msgstr "Love"
+
+#: app/Config/SettingsRepository.php:397
+msgid "Loved"
+msgstr "Loved"
+
+#: app/Config/SettingsRepository.php:400 app/Config/SettingsRepository.php:403
+msgid "Bookmark"
+msgstr "Закладка"
+
+#: app/Config/SettingsRepository.php:404
+msgid "Bookmarked"
+msgstr "Отмечено"
+
+#: app/Config/SettingsRepository.php:407
+msgid "Wishlist"
+msgstr "Список избранного"
+
+#: app/Config/SettingsRepository.php:410
+msgid "Add to Wishlist"
+msgstr "Добавить в список избранного"
+
+#: app/Config/SettingsRepository.php:411
+msgid "Added to Wishlist"
+msgstr "Добавлено в список избранного"
+
+#: app/Views/settings/settings-display.php:85
+msgid "Use a predefined button or add your own markup."
+msgstr "Используйте готовую кнопку или сделайте собственную."
+
+#: app/Views/settings/settings-display.php:90
+msgid "Custom Markup"
+msgstr "Произвольная"
+
+#: app/Views/settings/settings-display.php:101
+msgid "Preview"
+msgstr "Предпросмотр"
+
+#: app/Views/settings/settings-display.php:113
+msgid "Color Options"
+msgstr "Настройки цвета"
+
+#: app/Views/settings/settings-display.php:114
+msgid "If colors are not specified, theme colors will apply. Note: theme styles will effect the appearance of the favorites button. The button is displayed in a button element, with a css class of \"simplefavorites-button\"."
+msgstr "Если цвета не указаны, будут применяться цвета тем. Примечание: стили темы будут влиять на появление кнопки «Избранное». Кнопка отображается в элементе &lt;button&gt; с классом css «simplefavorites-button»."
+
+#: app/Views/settings/settings-display.php:170
+msgid "Button Markup: Favorited"
+msgstr "Разметка кнопки: выбрано"
+
+#: app/Views/settings/settings-display.php:236
+msgid "Listing Display"
+msgstr "Лента выбранных записей"
+
+#: app/Views/settings/settings-display.php:243
+msgid "Customize the favorites list HTML"
+msgstr "Настройка HTML списка избранного"
+
+#: app/Views/settings/settings-display.php:249
+msgid "List Wrapper Element"
+msgstr "Обертка списка избранного"
+
+#: app/Views/settings/settings-display.php:250
+msgid "The list wrapper html element. Defaults to an html ul list."
+msgstr "HTML обертка списка избранного. По умолчанию используется элемент ul"
+
+#: app/Views/settings/settings-display.php:253
+msgid "List Wrapper Type"
+msgstr "Тип обертки"
+
+#: app/Views/settings/settings-display.php:268
+msgid "The individual listing html element. Defaults to an html li item."
+msgstr "Отдельный элемент списка избранного. По умолчанию используется элемент li."
+
+#: app/Views/settings/settings-display.php:271
+msgid "List Element Type"
+msgstr "Отдельный элемент списка избранного"
+
+#: app/Views/settings/settings-display.php:273
+msgid "List Item (li)"
+msgstr "Элемент списка (тег &lt;li&gt;)"
+
+#: app/Views/settings/settings-display.php:278
+msgid "Listing CSS Classes"
+msgstr "CSS класс элемента"
+
+#: app/Views/settings/settings-display.php:274
+msgid "Paragraph (p)"
+msgstr "Абзац (тег &lt;p&gt;)"
+
+#: app/Views/settings/settings-display.php:285
+msgid "Single Listing Content Markup"
+msgstr "Состав отдельного элемента списка избранного"
+
+#: app/Views/settings/settings-display.php:286
+msgid "Optionally customize the single listing markup."
+msgstr "Можно настроить индивидуальную разметку и добавить нужные элементы"
+
+#: app/Views/settings/settings.php:12
+msgid "Display & Post Types"
+msgstr "Вывод и типы записей"
+
+#: app/Views/settings/settings-users.php:50
+msgid "Unauthenticated users' favorites may be saved in either cookies or session. Authenticated users' favorites are saved as user meta."
+msgstr "Избранное неавторизованных пользователей могут быть сохранены в куки или сессии. Избранное зарегистрированных пользователей сохраняется в произвольные поля пользователя."
+
+#: app/Views/settings/settings-users.php:49
+msgid "Save Unauthenticated Favorites as"
+msgstr "Сохранять анонимных пользователей"
+
+#: app/Views/settings/settings-users.php:11
+msgid "Enable Anonymous Users"
+msgstr "Включить анонимных пользователей "
+
+#: app/Views/settings/settings-users.php:8
+msgid "Enable favoriting functionality for unauthenticated users."
+msgstr "Включить избранное для анонимных пользователей"
+
+#: app/Views/settings/settings-users.php:3
+msgid "User Settings"
+msgstr "Настройки пользователей"
+
+#: app/Views/settings/settings-general.php:60
+msgid "Favorites Version"
+msgstr "Favorites версия"
+
+#: app/Views/settings/settings-general.php:45
+msgid "Important: The plugin JavaScript is required for core functions. If this is disabled, the plugin JS <strong>must</strong> be included with the theme along with the global JS variables."
+msgstr "Важно: JavaScript самого плагина необходим для основных функций. Если он отключен, то данный JS <strong>должен</strong> быть включен в тему вместе с глобальными переменными JS."
+
+#: app/Views/settings/settings-general.php:44
+msgid "Enqueue Plugin Javascript"
+msgstr "Включить JavaScript самого плагина"
+
+#: app/Views/settings/settings-general.php:31
+msgid "Enqueue Plugin CSS"
+msgstr "Включить CSS самого плагина"
+
+#: app/Views/settings/settings-general.php:3
+msgid "Page Cache"
+msgstr "Кеширование"
+
+#: app/Views/settings/settings-display.php:362
+msgid "No Favorites Text/HTML"
+msgstr "Нет избранных записей текст/HTML"
+
+#: app/Views/settings/settings-display.php:359
+msgid "Appears in user favorite lists when they have not favorited any posts."
+msgstr "Появляется на странице избранных пользователя, когда нет избранных записей"
+
+#: app/Views/settings/settings-display.php:352
+msgid "Clear Favorites Button Text/HTML"
+msgstr "Текст/HTML кнопки «Очистить избранное»"
+
+#: app/Views/settings/settings-display.php:349
+msgid "The text that appears in the \"Clear Favorites\" button by default. Note, the text may be overridden in the shortcode or function call."
+msgstr "Текст, который появляется на кнопке «Очистить избранное» по умолчанию. Обратите внимание, что текст может быть отменен при вызове шорткода или функции."
+
+#: app/Views/settings/settings-display.php:344
+msgid "Additional Display Settings"
+msgstr "Дополнительные настройки"
+
+#: app/Views/settings/settings-display.php:228
+msgid "Add loading state on page load"
+msgstr "Добавить показатель загрузки (прелоад)"
+
+#: app/Views/settings/settings-display.php:225
+msgid "Adds the loading state to favorites buttons during page load. Helpful on sites with page cache enabled."
+msgstr "Добавляет прелоад к кнопкам избранного во время загрузки страницы. Полезно на сайтах с включенным кешем страницы."
+
+#: app/Views/settings/settings-display.php:224
+msgid "Page Load"
+msgstr "Прелоад"
+
+#: app/Views/settings/settings-display.php:218
+msgid "Use Image/GIF Spinner"
+msgstr "Использовать GIF картинку спиннера"
+
+#: app/Views/settings/settings-display.php:216
+msgid "Use CSS/HTML Spinner"
+msgstr "Использовать CSS/HTML спиннер"
+
+#: app/Views/settings/settings-display.php:213
+msgid "Adds a spinner to the button during loading state. See plugin documentation for filters available for theme customization."
+msgstr "Добавляет спиннер к кнопке во время загрузки. См. документацию плагина о фильтрах для настройки."
+
+#: app/Views/settings/settings-display.php:212
+msgid "Loading Spinner"
+msgstr "Спиннер загрузки"
+
+#: app/Views/settings/settings-display.php:206
+msgid "Loading Text/HTML"
+msgstr "Загрузка текст/HTML"
+
+#: app/Views/settings/settings-display.php:203
+msgid "Replaces the unfavorited/favorited button text during the loading state."
+msgstr "Заменяет текст на кнопке выбрано/не выбрано во время загрузки."
+
+#: app/Views/settings/settings-display.php:202
+msgid "Loading Text"
+msgstr "Текст загрузки"
+
+#: app/Views/settings/settings-display.php:189
+msgid "Favorite Button Loading Indication"
+msgstr "Индикация загрузки"
+
+#: app/Views/settings/settings-display.php:184
+msgid "Include count in button"
+msgstr "Добавить счетчик в кнопку"
+
+#: app/Views/settings/settings-display.php:181
+msgid "Adds the total number of times the post has been favorited to the button."
+msgstr "Добавляет счетчик общего количества выбранных на кнопке, когда запись добавлена в избранные"
+
+#: app/Views/settings/settings-display.php:180
+msgid "Include Total Favorite Count"
+msgstr "Включить счетчик общего количества избранных"
+
+#: app/Views/settings/settings-display.php:171
+msgid "The button inner html, in a favorited state."
+msgstr "HTML кнопки, в выбранном состоянии."
+
+#: app/Views/settings/settings-display.php:164
+#: app/Views/settings/settings-display.php:174
+msgid "Text/HTML"
+msgstr "Текст/HTML"
+
+#: app/Views/settings/settings-display.php:161
+msgid "The button inner html, in an unfavorited state."
+msgstr "HTML кнопки, в не выбранном состоянии."
+
+#: app/Views/settings/settings-display.php:56
+msgid "Add admin column"
+msgstr "Добавить столбец"
+
+#: app/Views/settings/settings-display.php:53
+msgid "Adds a column to the admin listing with the total favorite count."
+msgstr "Добавляет столбец в списке записей адинпанели с общим количеством избранных."
+
+#: app/Views/settings/settings-display.php:47
+msgid "Add meta box"
+msgstr "Добавить метабокс"
+
+#: app/Views/settings/settings-display.php:44
+msgid "Adds a meta box with the total number of favorites the post has received."
+msgstr "Добавляет метабокс с общим количеством избранных записей"
+
+#: app/Views/settings/settings-display.php:43
+msgid "Show favorite count on post edit screen"
+msgstr "Показывать счетчик на странице редактирования записи"
+
+#: app/Views/settings/settings-display.php:38
+msgid "Include after content"
+msgstr "После содержимого"
+
+#: app/Views/settings/settings-display.php:35
+msgid "Favorite buttons are automatically inserted after the content using the_content filter."
+msgstr "Кнопка Избранное автоматически вставляется после содержимого с помощью фильтра the_content."
+
+#: app/Views/settings/settings-display.php:34
+msgid "Insert Favorite button after content"
+msgstr "Вставить кнопку перед содержимым"
+
+#: app/Views/settings/settings-display.php:29
+msgid "Include before content"
+msgstr "Перед содержимым"
+
+#: app/Views/settings/settings-display.php:26
+msgid "Favorite buttons are automatically inserted before the content using the_content filter."
+msgstr "Кнопка Избранное автоматически вставляется перед содержимым с помощью фильтра the_content."
+
+#: app/Views/settings/settings-display.php:25
+msgid "Insert Favorite button before content"
+msgstr "Вставить кнопку перед содержимым"
+
+#: app/Views/settings/settings-display.php:7
+msgid "Enabled Favorites for:"
+msgstr "Включить избранное для:"
+
+#. Author URI of the plugin/theme
+msgid "https://github.com/kylephillips"
+msgstr "https://github.com/kylephillips"
+
+#. Author of the plugin/theme
+msgid "Kyle Phillips"
+msgstr "Kyle Phillips"
+
+#. Description of the plugin/theme
+msgid "Simple and flexible favorite buttons for any post type."
+msgstr "Простые и гибкие кнопки избранного для любого типа записей."
+
+#. Plugin URI of the plugin/theme
+msgid "http://favoriteposts.com"
+msgstr "http://favoriteposts.com"
+
+#: app/Views/settings/settings.php:9
+msgid "Users"
+msgstr "Пользователи"
+
+#: app/Views/settings/settings.php:6
+msgid "General"
+msgstr "Основные"
+
+#: app/Views/settings/settings-users.php:56
+msgid "Session"
+msgstr "Сессия"
+
+#: app/Views/settings/settings-users.php:53
+msgid "Cookie"
+msgstr "Куки"
+
+#: app/Views/settings/settings-users.php:13
+msgid "Include in Post Favorite Count"
+msgstr "Включить счетчик избранного"
+
+#: app/Views/settings/settings-general.php:52
+msgid "If you are compiling your own minified Javascript, include the below (required for plugin functionality):"
+msgstr "Если вы используете свой собственный минифиированный Javascript, добавьте следующее (требуется для функциональности плагина):"
+
+#: app/Views/settings/settings-general.php:49
+msgid "Output Plugin JavaScript"
+msgstr "JavaScript плагина"
+
+#: app/Views/settings/settings-general.php:37
+msgid "If you are compiling your own minified CSS, include the CSS below:"
+msgstr "Если вы используете свой собственный минифиированный CSS, добавьте следующее:"
+
+#: app/Views/settings/settings-general.php:34
+msgid "Output Plugin CSS"
+msgstr "CSS плагина"
+
+#: app/Views/settings/settings-general.php:10
+msgid "Cache Enabled on Site (Favorites content is injected on page load with AJAX request)"
+msgstr "Кэш включен на сайте (содержимое избранного вводится при загрузке страницы с AJAX запросом)"
+
+#: app/Views/settings/settings-general.php:27
+msgid "Dependencies"
+msgstr "Зависимости"
+
+#: app/Views/settings/settings-display.php:358
+msgid "No Favorites Text"
+msgstr "Текст, когда нет Избранного"
+
+#: app/Views/settings/settings-display.php:196
+msgid "Helpful for slow sites with cache enabled"
+msgstr "Полезно для медленных сайтов с включенным кэшем"
+
+#: app/Views/settings/settings-display.php:196
+msgid "Display loading indicator for buttons"
+msgstr "Индикатор загрузки для кнопок"
+
+#: app/Views/settings/settings-display.php:320
+msgid "Favorite Count"
+msgstr "Счетчик избранных"
+
+#: app/Views/settings/settings-display.php:348
+msgid "Clear Favorites Button Text"
+msgstr "Текст для кнопки Очистить избранное"
+
+#: app/Views/settings/settings-display.php:52
+msgid "Show favorite count in admin columns"
+msgstr "Показывать количество избранных в админпанели"
+
+#: app/Entities/Post/PostMeta.php:44
+msgid "Total Favorites"
+msgstr "Всего выбрано"
+
+#. #-#-#-#-#  favorites-code.pot (Favorites 2.1.6)  #-#-#-#-#
+#. Plugin Name of the plugin/theme
+#: app/Entities/Post/AdminColumns.php:63 app/Entities/Post/PostMeta.php:28
+#: app/Favorites.php:18
+msgid "Favorites"
+msgstr "Favorites"
+
+#: app/Config/SettingsRepository.php:331
+msgid "No Favorites"
+msgstr "Нет избранных"
+
+#: app/Config/SettingsRepository.php:248
+msgid "Loading"
+msgstr "Загрузка"
+
+#: app/Config/SettingsRepository.php:188
+msgid "Clear Favorites"
+msgstr "Очистить избранное"
+
+#: app/Config/SettingsRepository.php:176 app/Config/SettingsRepository.php:383
+msgid "Favorited"
+msgstr "Выбрано"
+
+#: app/Config/SettingsRepository.php:164 app/Config/SettingsRepository.php:379
+#: app/Config/SettingsRepository.php:382
+msgid "Favorite"
+msgstr "Избранное"
+
+#: app/Bootstrap.php:60
+msgid "FAQ"
+msgstr "ЧАВО"
+
+#: app/Bootstrap.php:59 app/Config/Settings.php:52
+#: app/Views/settings/settings-display.php:20
+#: app/Views/settings/settings-display.php:197
+#: app/Views/settings/settings-display.php:244
+#: app/Views/settings/settings.php:2
+msgid "Settings"
+msgstr "Настройки"
+
+#: app/Activation/Activate.php:40
+msgid "Favorited <i class=\"sf-icon-star-full\"></i>"
+msgstr "Выбрано <i class=\"sf-icon-star-full\"></i>"
+
+#: app/Activation/Activate.php:39
+msgid "Favorite <i class=\"sf-icon-star-empty\"></i>"
+msgstr "Избранное <i class=\"sf-icon-star-empty\"></i>"
+
+#: app/API/Shortcodes/PostFavoritesShortcode.php:28
+msgid "Anonymous User"
+msgstr "Анонимный пользователь"
+
+#: app/API/Shortcodes/PostFavoritesShortcode.php:27
+#: app/Views/settings/settings-users.php:7
+msgid "Anonymous Users"
+msgstr "Анонимные пользователи"

@@ -1,0 +1,243 @@
+# Translation of Plugins - Add From Server - Stable (latest release) in Vietnamese
+# This file is distributed under the same license as the Plugins - Add From Server - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2018-12-17 01:41:08+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: GlotPress/2.4.0-alpha\n"
+"Language: vi_VN\n"
+"Project-Id-Version: Plugins - Add From Server - Stable (latest release)\n"
+
+#: class.add-from-server.php:402
+msgid "Genre: %s."
+msgstr "Thể loại: %s."
+
+#: class.add-from-server.php:398
+msgid "Track %1$s."
+msgstr "Bài %1$s."
+
+#: class.add-from-server.php:396
+msgid "Track %1$s of %2$s."
+msgstr "Bài %1$s trong tổng %2$s."
+
+#: class.add-from-server.php:391
+msgid "Released: %d."
+msgstr "Phát hành: %d."
+
+#. translators: 1: audio album title, 2: artist name
+#: class.add-from-server.php:379
+msgid "%1$s by %2$s."
+msgstr "%1$s bởi %2$s."
+
+#: class.add-from-server.php:372
+msgid "\"%s\"."
+msgstr "\"%s\"."
+
+#. translators: 1: audio track title, 2: artist name
+#: class.add-from-server.php:370
+msgid "\"%1$s\" by %2$s."
+msgstr "\"%1$s\" bởi %2$s."
+
+#. translators: 1: audio track title, 2: album title
+#: class.add-from-server.php:367
+msgid "\"%1$s\" from %2$s."
+msgstr "\"%1$s\" từ %2$s."
+
+#. translators: 1: audio track title, 2: album title, 3: artist name
+#: class.add-from-server.php:364
+msgid "\"%1$s\" from %2$s by %3$s."
+msgstr "\"%1$s\" từ %2$s bởi %3$s."
+
+#: old-versions.php:10 old-versions.php:27
+msgid "This plugin requires WordPress %1$s or greater, and PHP %2$s or greater. You are currently running WordPress %3$s and PHP %4$s. Please contact your website host or server administrator for more information. The plugin has been deactivated."
+msgstr "Plugin này yêu cầu Wordpress %1$s hoặc cao hơn, và PHP %2$s hoặc cao hơn. Bạn đang chạy trên WordPress %3$s và PHP %4$s.Vui lòng liên hệ với quản trị viên máy chủ lưu trữ trang web của bạn để biết thêm thông tin. Plugin đã bị hủy kích hoạt."
+
+#. translators: %1$s = The Locale (de_DE, en_US, fr_FR, he_IL, etc). %2$s = The
+#. translate.wordpress.org link to the plugin overview
+#: class.add-from-server.php:736
+msgid ""
+"Hi there!\n"
+"I notice you use WordPress in a Language other than English (US), Did you know you can translate WordPress Plugins into your native language as well?\n"
+"If you'd like to help out with translating this plugin into %1$s you can head over to <a href=\"%2$s\">translate.WordPress.org</a> and suggest translations for any languages which you know.\n"
+"Thanks! Dion."
+msgstr ""
+"Chào bạn! \n"
+"Tôi nhận thấy bạn sử dụng WordPress bằng Ngôn ngữ khác tiếng Anh (Mỹ), Bạn có biết bạn cũng có thể dịch WordPress Plugins sang ngôn ngữ mẹ đẻ của bạn không?\n"
+"Nếu bạn muốn giúp đỡ trong việc dịch plugin này sang %1$s Bạn có thể đi qua <a href=\"%2$s\">translate.WordPress.org</a> Và đề nghị dịch cho bất kỳ ngôn ngữ nào mà bạn biết.\n"
+"Cảm ơn! Dion."
+
+#: class.add-from-server.php:547
+msgid "Once you have Imported your files, head over to <strong>Insert Media</strong> to add them to your post."
+msgstr "Khi bạn đã Nhập tệp của mình, hãy đi tới <strong>Chèn phương tiện</strong> để thêm chúng vào bài đăng của bạn."
+
+#. Author URI of the plugin/theme
+msgid "https://dd32.id.au/"
+msgstr "https://dd32.id.au/"
+
+#. Author of the plugin/theme
+msgid "Dion Hulse"
+msgstr "Dion Hulse"
+
+#. Description of the plugin/theme
+msgid "Plugin to allow the Media Manager to add files from the webservers filesystem. <strong>Note:</strong> All files are copied to the uploads directory."
+msgstr "Plugin cho phép Media Manager thêm tệp từ hệ thống tệp của máy chủ web. <strong>Lưu ý:</strong> Tất cả các tệp được sao chép vào thư mục uploads."
+
+#. Plugin URI of the plugin/theme
+msgid "https://dd32.id.au/wordpress-plugins/add-from-server/"
+msgstr "https://dd32.id.au/wordpress-plugins/add-from-server/"
+
+#: class.add-from-server.php:669
+msgid "Import"
+msgstr "Nhập"
+
+#: class.add-from-server.php:663
+msgid "Post Time"
+msgstr "Thời gian đăng"
+
+#: class.add-from-server.php:660
+msgid "Current Time"
+msgstr "Thời gian hiện tại"
+
+#: class.add-from-server.php:659
+msgid "Set the imported date to the"
+msgstr "Đặt ngày tháng đã nhập tới"
+
+#: class.add-from-server.php:656
+msgid "Attach imported files to this post"
+msgstr "Đính kèm tệp đã được nhập vào bài này"
+
+#: class.add-from-server.php:653
+msgid "Import Options"
+msgstr "Tùy chọn nhập"
+
+#: class.add-from-server.php:633
+msgid "Sorry, but this file is unreadable by your Webserver. Perhaps check your File Permissions?"
+msgstr "Xin lỗi, nhưng máy chủ Web của bạn không thể đọc tập tin này. Có lẽ kiểm tra Quyền Tệp tin (File Permissions) của Bạn?"
+
+#: class.add-from-server.php:631
+msgid "Sorry, this file type is not permitted for security reasons. Please see the FAQ."
+msgstr "Rất tiếc, loại tệp này không được phép vì lý do bảo mật. Vui lòng xem FAQ."
+
+#: class.add-from-server.php:566
+msgid "Parent Folder"
+msgstr "Thư mục gốc"
+
+#: class.add-from-server.php:553 class.add-from-server.php:647
+msgid "File"
+msgstr "Tệp"
+
+#: class.add-from-server.php:718
+msgid "<strong>Quick Jump:</strong> %s"
+msgstr "<strong>Chọn nhanh:</strong> %s"
+
+#: class.add-from-server.php:689
+msgid "Content Folder"
+msgstr "Thư mục Content"
+
+#: class.add-from-server.php:684
+msgid "Uploads Folder"
+msgstr "Thư mục Uploads"
+
+#: class.add-from-server.php:679
+msgid "WordPress Root"
+msgstr "Thư mục gốc WordPress"
+
+#: class.add-from-server.php:544
+msgid "<strong>Current Directory:</strong> <span id=\"cwd\">%s</span>"
+msgstr "<strong>Thư mục hiện tại:</strong> <span id=\"cwd\">%s</span>"
+
+#: class.add-from-server.php:513
+msgid "<strong>Error:</strong> This users root directory is not readable. Please have your site administrator correct the <em>Add From Server</em> root directory settings."
+msgstr "<strong>Lỗi:</strong> Thư mục gốc của người dùng này không thể đọc được. Vui lòng yêu cầu quản trị viên trang web sửa <em>Add From Server</em> cài đặt thư mục gốc."
+
+#: class.add-from-server.php:330
+msgid "The selected file could not be copied to %s."
+msgstr "Không thể sao chép tập tin đã chọn %s."
+
+#: class.add-from-server.php:296
+msgid "Sorry, That file already exists in the WordPress media library."
+msgstr "Rất tiếc, tệp đó đã tồn tại trong thư viện phương tiện WordPress."
+
+#: class.add-from-server.php:282
+msgid "Sorry, this file type is not permitted for security reasons."
+msgstr "Rất tiếc, loại tệp này không được phép vì lý do bảo mật."
+
+#: class.add-from-server.php:248
+msgid "<em>%s</em> has been added to Media library"
+msgstr "<em>%s</em> đã được thêm vào thư viện Media"
+
+#: class.add-from-server.php:246
+msgid "<em>%s</em> was <strong>not</strong> imported due to an error: %s"
+msgstr "<em>%s</em> đã <strong>không</strong> được nhập vào vì một lỗi: %s"
+
+#: class.add-from-server.php:207
+msgid "The root path specified could not be read."
+msgstr "Không thể đọc được đường dẫn gốc."
+
+#: class.add-from-server.php:199
+msgid "The placeholder %s is not valid in the root path."
+msgstr "Trình giữ chỗ %s không hợp lệ trong đường dẫn gốc."
+
+#: class.add-from-server.php:59
+msgid "Options"
+msgstr "Cài đặt"
+
+#: class.add-from-server.php:56
+msgid "Import Files"
+msgstr "Nhập vào tệp"
+
+#. #-#-#-#-#  tmp-add-from-server.pot (Add From Server 3.3.3)  #-#-#-#-#
+#. Plugin Name of the plugin/theme
+#: class.add-from-server-settings.php:13 class.add-from-server.php:48
+#: class.add-from-server.php:50 class.add-from-server.php:68
+#: class.add-from-server.php:89 class.add-from-server.php:104
+#: old-versions.php:25
+msgid "Add From Server"
+msgstr "Thêm từ máy chủ"
+
+#: class.add-from-server-settings.php:113
+msgid "Save Changes"
+msgstr "Lưu lại"
+
+#: class.add-from-server-settings.php:100
+msgid "For reference, Your WordPress Root path is: <code>%s</code>"
+msgstr "Để tham khảo, đường dẫn WordPress Root của bạn là: <code>%s</code>"
+
+#: class.add-from-server-settings.php:98
+msgid "You may use placeholders such as %s and %s in the path."
+msgstr "Bạn có thể sử dụng các trình giữ chỗ như %s và %s trong đường dẫn."
+
+#: class.add-from-server-settings.php:90
+msgid "Lock browsing to the directory specified below"
+msgstr "Khóa duyệt đến thư mục được chỉ định dưới đây"
+
+#: class.add-from-server-settings.php:84
+msgid "Do not lock browsing to a specific directory"
+msgstr "Không khóa trình duyệt vào một thư mục cụ thể"
+
+#: class.add-from-server-settings.php:70 class.add-from-server-settings.php:75
+msgid "Root Directory"
+msgstr "Thư mục gốc"
+
+#: class.add-from-server-settings.php:65
+msgid "List the user login's one per line"
+msgstr "Liệt kê người đăng nhập của một người dùng trên mỗi dòng"
+
+#: class.add-from-server-settings.php:59
+msgid "Any users with the ability to upload files listed below"
+msgstr "Bất kỳ người dùng nào có khả năng tải tệp lên được liệt kê dưới đây"
+
+#: class.add-from-server-settings.php:38
+msgid "Any user with the ability to upload files in the following roles"
+msgstr "Bất kỳ người dùng nào có khả năng tải tệp lên trong các vai trò sau"
+
+#: class.add-from-server-settings.php:32
+msgid "All users with the ability to upload files"
+msgstr "Tất cả người dùng có khả năng tải tệp lên"
+
+#: class.add-from-server-settings.php:23 class.add-from-server-settings.php:28
+msgid "User Access Control"
+msgstr "Kiểm soát truy cập của người dùng"

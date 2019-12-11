@@ -1,0 +1,247 @@
+# Translation of Plugins - Add From Server - Stable (latest release) in Italian
+# This file is distributed under the same license as the Plugins - Add From Server - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2016-11-24 21:48:52+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/2.4.0-alpha\n"
+"Language: it\n"
+"Project-Id-Version: Plugins - Add From Server - Stable (latest release)\n"
+
+#: class.add-from-server.php:402
+msgid "Genre: %s."
+msgstr "Genere: %s "
+
+#: class.add-from-server.php:398
+msgid "Track %1$s."
+msgstr "Traccia %1$s."
+
+#: class.add-from-server.php:396
+msgid "Track %1$s of %2$s."
+msgstr "Traccia %1$s di %2$s."
+
+#: class.add-from-server.php:391
+msgid "Released: %d."
+msgstr "Rilasciato: %d."
+
+#. translators: 1: audio album title, 2: artist name
+#: class.add-from-server.php:379
+msgid "%1$s by %2$s."
+msgstr "%1$s da %2$s."
+
+#: class.add-from-server.php:372
+msgid "\"%s\"."
+msgstr "\"%s\"."
+
+#. translators: 1: audio track title, 2: artist name
+#: class.add-from-server.php:370
+msgid "\"%1$s\" by %2$s."
+msgstr "\"%1$s\" da %2$s."
+
+#. translators: 1: audio track title, 2: album title
+#: class.add-from-server.php:367
+msgid "\"%1$s\" from %2$s."
+msgstr "\"%1$s\" da %2$s."
+
+#. translators: 1: audio track title, 2: album title, 3: artist name
+#: class.add-from-server.php:364
+msgid "\"%1$s\" from %2$s by %3$s."
+msgstr "\"%1$s\" da %2$s di %3$s."
+
+#: old-versions.php:10 old-versions.php:27
+msgid "This plugin requires WordPress %1$s or greater, and PHP %2$s or greater. You are currently running WordPress %3$s and PHP %4$s. Please contact your website host or server administrator for more information. The plugin has been deactivated."
+msgstr "Questo plugin richiede WordPress %1$s o superiori, e PHP %2$s o superiori. Attualmente stai utilizzando WordPress %3$s e PHP %4$s. Contatta il tuo website host o amministratore del server per ulteriori informazioni. Il plugin è stato disattivato."
+
+#. translators: %1$s = The Locale (de_DE, en_US, fr_FR, he_IL, etc). %2$s = The
+#. translate.wordpress.org link to the plugin overview
+#: class.add-from-server.php:736
+msgid ""
+"Hi there!\n"
+"I notice you use WordPress in a Language other than English (US), Did you know you can translate WordPress Plugins into your native language as well?\n"
+"If you'd like to help out with translating this plugin into %1$s you can head over to <a href=\"%2$s\">translate.WordPress.org</a> and suggest translations for any languages which you know.\n"
+"Thanks! Dion."
+msgstr ""
+"Ciao!\n"
+"stavo notando che utilizzi WordPress in una Lingua diversa dall'Inglese (US), Sai di poter contribuire a tradurre i Plugin di Wordpress nella tua lingua nativa?\n"
+"Se desideri dare una mano a tradurre questo plugin in %1$s visita <a href=\"%2$s\">translate.WordPress.org</a> e suggerisci le traduzioni per le lingue che conosci.\n"
+"Grazie! Dion."
+
+#: class.add-from-server.php:547
+msgid "Once you have Imported your files, head over to <strong>Insert Media</strong> to add them to your post."
+msgstr "Dopo aver importato i file, clicca su <strong>Inserisci Media</strong>  per aggiungerli al tuo articolo."
+
+#. Author URI of the plugin/theme
+msgid "https://dd32.id.au/"
+msgstr "https://dd32.id.au/"
+
+#. Author of the plugin/theme
+msgid "Dion Hulse"
+msgstr "Dion Hulse"
+
+#. Description of the plugin/theme
+msgid "Plugin to allow the Media Manager to add files from the webservers filesystem. <strong>Note:</strong> All files are copied to the uploads directory."
+msgstr "Plugin per consentire la Gestione dei Media consentendo di aggiungere i file dal file system del server web. <strong> non </strong> Tutti i file vengono copiati nella directory di upload."
+
+#. Plugin URI of the plugin/theme
+msgid "https://dd32.id.au/wordpress-plugins/add-from-server/"
+msgstr "https://dd32.id.au/wordpress-plugins/add-from-server/"
+
+#: class.add-from-server.php:669
+msgid "Import"
+msgstr "Importa"
+
+#: class.add-from-server.php:663
+msgid "Post Time"
+msgstr "Data dell'Articolo"
+
+#: class.add-from-server.php:661
+msgid "File Time"
+msgstr "Data del File"
+
+#: class.add-from-server.php:660
+msgid "Current Time"
+msgstr "Ora attuale"
+
+#: class.add-from-server.php:659
+msgid "Set the imported date to the"
+msgstr "Impostare i dati importati al"
+
+#: class.add-from-server.php:656
+msgid "Attach imported files to this post"
+msgstr "Allegare file importati a questo post"
+
+#: class.add-from-server.php:653
+msgid "Import Options"
+msgstr "Opzioni Importazione"
+
+#: class.add-from-server.php:633
+msgid "Sorry, but this file is unreadable by your Webserver. Perhaps check your File Permissions?"
+msgstr "Siamo spiacenti, ma questo file è illeggibile dal server Web. Hai verificato i permessi dei file?"
+
+#: class.add-from-server.php:631
+msgid "Sorry, this file type is not permitted for security reasons. Please see the FAQ."
+msgstr "Siamo spiacenti, questo tipo di file non è consentito per motivi di sicurezza. Si prega di consultare le FAQ."
+
+#: class.add-from-server.php:566
+msgid "Parent Folder"
+msgstr "Cartella madre"
+
+#: class.add-from-server.php:553 class.add-from-server.php:647
+msgid "File"
+msgstr "File"
+
+#: class.add-from-server.php:718
+msgid "<strong>Quick Jump:</strong> %s"
+msgstr "<strong>Passaggio Immediato:</strong> %s"
+
+#: class.add-from-server.php:689
+msgid "Content Folder"
+msgstr "Cartella Contenuti"
+
+#: class.add-from-server.php:684
+msgid "Uploads Folder"
+msgstr "Cartella Uploads"
+
+#: class.add-from-server.php:679
+msgid "WordPress Root"
+msgstr "WordPress Root"
+
+#: class.add-from-server.php:544
+msgid "<strong>Current Directory:</strong> <span id=\"cwd\">%s</span>"
+msgstr "<strong>Directory Corrente:</strong> <span id=\"cwd\">%s</span>"
+
+#: class.add-from-server.php:513
+msgid "<strong>Error:</strong> This users root directory is not readable. Please have your site administrator correct the <em>Add From Server</em> root directory settings."
+msgstr "<strong>Errore:</strong> Questa root non è leggibile. Si prega di avvisare l'amministratore del sito di correggere l'impostazione della root del plugin <em>Aggiungi Da Server</em> ."
+
+#: class.add-from-server.php:330
+msgid "The selected file could not be copied to %s."
+msgstr "Il file selezionato non può essere copiato in %s."
+
+#: class.add-from-server.php:296
+msgid "Sorry, That file already exists in the WordPress media library."
+msgstr "Spiacente, il file esiste già nella libreria multimediale WordPress."
+
+#: class.add-from-server.php:282
+msgid "Sorry, this file type is not permitted for security reasons."
+msgstr "Siamo spiacenti, questo tipo di file non è consentito per motivi di sicurezza."
+
+#: class.add-from-server.php:248
+msgid "<em>%s</em> has been added to Media library"
+msgstr "<em>%s</em> è stato aggiunto alla Libreria Media"
+
+#: class.add-from-server.php:246
+msgid "<em>%s</em> was <strong>not</strong> imported due to an error: %s"
+msgstr "<em>%s</em> <strong>non</strong> è stato importato a causa di un errore: %s"
+
+#: class.add-from-server.php:207
+msgid "The root path specified could not be read."
+msgstr "Non è possibile leggere il percorso pricipale specificato."
+
+#: class.add-from-server.php:199
+msgid "The placeholder %s is not valid in the root path."
+msgstr "Il segnaposto %s non è valido per il percorso principale."
+
+#: class.add-from-server.php:59
+msgid "Options"
+msgstr "Opzioni"
+
+#: class.add-from-server.php:56
+msgid "Import Files"
+msgstr "Importa i File"
+
+#. #-#-#-#-#  tmp-add-from-server.pot (Add From Server 3.3.3)  #-#-#-#-#
+#. Plugin Name of the plugin/theme
+#: class.add-from-server-settings.php:13 class.add-from-server.php:48
+#: class.add-from-server.php:50 class.add-from-server.php:68
+#: class.add-from-server.php:89 class.add-from-server.php:104
+#: old-versions.php:25
+msgid "Add From Server"
+msgstr "Aggiungi da server"
+
+#: class.add-from-server-settings.php:113
+msgid "Save Changes"
+msgstr "Salva modifiche"
+
+#: class.add-from-server-settings.php:100
+msgid "For reference, Your WordPress Root path is: <code>%s</code>"
+msgstr "Come riferimento, La Cartella Principale del tuo Wordpress è: <code>%s</code>"
+
+#: class.add-from-server-settings.php:98
+msgid "You may use placeholders such as %s and %s in the path."
+msgstr "Devi usare dei segnaposto come %s e %s in questo percorso."
+
+#: class.add-from-server-settings.php:90
+msgid "Lock browsing to the directory specified below"
+msgstr "Blocca la navigazione ad uno specifico percorso"
+
+#: class.add-from-server-settings.php:84
+msgid "Do not lock browsing to a specific directory"
+msgstr "Non bloccare la navigazione ad uno specifico percorso"
+
+#: class.add-from-server-settings.php:70 class.add-from-server-settings.php:75
+msgid "Root Directory"
+msgstr "Cartella Root"
+
+#: class.add-from-server-settings.php:65
+msgid "List the user login's one per line"
+msgstr "Elenca nome utente per il login uno per riga"
+
+#: class.add-from-server-settings.php:59
+msgid "Any users with the ability to upload files listed below"
+msgstr "Qualsiasi utente che può caricare file inserito nell'elenco seguente"
+
+#: class.add-from-server-settings.php:38
+msgid "Any user with the ability to upload files in the following roles"
+msgstr "Qualsiasi utente che può caricare file con il seguente ruolo"
+
+#: class.add-from-server-settings.php:32
+msgid "All users with the ability to upload files"
+msgstr "Tutti gli utenti che possono caricare file"
+
+#: class.add-from-server-settings.php:23 class.add-from-server-settings.php:28
+msgid "User Access Control"
+msgstr "Controllo Accesso Utente"

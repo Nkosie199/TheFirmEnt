@@ -1,0 +1,184 @@
+# Translation of Plugins - WP Mail SMTP - Stable (latest release) in Vietnamese
+# This file is distributed under the same license as the Plugins - WP Mail SMTP - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2016-12-05 02:10:49+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: GlotPress/2.3.0-alpha\n"
+"Language: vi_VN\n"
+"Project-Id-Version: Plugins - WP Mail SMTP - Stable (latest release)\n"
+
+#. Author URI of the plugin/theme
+msgid "http://www.callum-macdonald.com/"
+msgstr "http://www.callum-macdonald.com/"
+
+#. Author of the plugin/theme
+msgid "Callum Macdonald"
+msgstr "Callum Macdonald"
+
+#. Description of the plugin/theme
+msgid "Reconfigures the wp_mail() function to use SMTP instead of mail() and creates an options page to manage the settings."
+msgstr "Cấu hình lại hàm wp_email() để sử dụng SMTP thay vì mail() và tạo một trang lựa chọn để quản lý các thiết lập."
+
+#. Plugin URI of the plugin/theme
+msgid "http://www.callum-macdonald.com/code/wp-mail-smtp/"
+msgstr "http://www.callum-macdonald.com/code/wp-mail-smtp/"
+
+#. Plugin Name of the plugin/theme
+msgid "WP-Mail-SMTP"
+msgstr "WP-Mail-SMTP"
+
+#: wp_mail_smtp.php:413
+msgid "Settings"
+msgstr "Thiết lập"
+
+#: wp_mail_smtp.php:343
+msgid "Email"
+msgstr "Email"
+
+#: wp_mail_smtp.php:323
+msgid "Type an email address here and then click Send Test to generate a test email."
+msgstr "Gõ vào đây một địa chỉ e-mail và kích nút Gửi thử để tạo ra một e-mail thử nghiệm."
+
+#: wp_mail_smtp.php:321
+msgid "To:"
+msgstr "Đến:"
+
+#: wp_mail_smtp.php:315
+msgid "Send a Test Email"
+msgstr "Gửi một E-mail thử nghiệm"
+
+#: wp_mail_smtp.php:309
+msgid "Save Changes"
+msgstr "Lưu thay đổi"
+
+#: wp_mail_smtp.php:304
+msgid "Password"
+msgstr "Mật khẩu"
+
+#: wp_mail_smtp.php:300
+msgid "Username"
+msgstr "Tài khoản"
+
+#: wp_mail_smtp.php:296
+msgid "If this is set to no, the values below are ignored."
+msgstr "Nếu được lựa chọn là Không, các giá trị bên dưới sẽ bị bỏ qua."
+
+#: wp_mail_smtp.php:295
+msgid "Yes: Use SMTP authentication."
+msgstr "Có: Dùng xác thực SMTP."
+
+#: wp_mail_smtp.php:293
+msgid "No: Do not use SMTP authentication."
+msgstr "Không: Đừng dùng xác thực SMTP."
+
+#: wp_mail_smtp.php:290
+msgid "Authentication"
+msgstr "Xác thực"
+
+#: wp_mail_smtp.php:286
+msgid "Use TLS encryption. This is not the same as STARTTLS. For most servers SSL is the recommended option."
+msgstr "Dùng mã hóa TLS. Mã hóa này không giống như STARTTLS. Đối với hầu hết các server, SSL là lựa chọn được khuyên dùng."
+
+#: wp_mail_smtp.php:284
+msgid "Use SSL encryption."
+msgstr "Dùng mã hóa SSL"
+
+#: wp_mail_smtp.php:282
+msgid "No encryption."
+msgstr "Không mã hóa"
+
+#: wp_mail_smtp.php:279 wp_mail_smtp.php:280
+msgid "Encryption"
+msgstr "Mã hóa"
+
+#: wp_mail_smtp.php:275
+msgid "SMTP Port"
+msgstr "SMTP Port"
+
+#: wp_mail_smtp.php:271
+msgid "SMTP Host"
+msgstr "SMTP Host"
+
+#: wp_mail_smtp.php:267
+msgid "These options only apply if you have chosen to send mail by SMTP above."
+msgstr "Các lựa chọn này chỉ áp dụng nếu bạn đã chọn gửi mail qua SMTP ở trên."
+
+#: wp_mail_smtp.php:266
+msgid "SMTP Options"
+msgstr "Các lựa chọn SMTP"
+
+#: wp_mail_smtp.php:261
+msgid "Set the return-path to match the From Email"
+msgstr "Đặt đường dẫn trở về để khớp với địa chỉ Email gửi đi (From Email)"
+
+#: wp_mail_smtp.php:258 wp_mail_smtp.php:259
+msgid "Return Path"
+msgstr "Đường dẫn trở về"
+
+#: wp_mail_smtp.php:250
+msgid "Use the PHP mail() function to send emails."
+msgstr "Dùng hàm PHP mail() để gửi mail."
+
+#: wp_mail_smtp.php:248
+msgid "Send all WordPress emails via SMTP."
+msgstr "Gửi tất cả các email WordPress qua SMTP"
+
+#: wp_mail_smtp.php:245 wp_mail_smtp.php:246
+msgid "Mailer"
+msgstr "Phương thức gửi mail"
+
+#: wp_mail_smtp.php:238
+msgid "You can specify the name that emails should be sent from. If you leave this blank, the emails will be sent from WordPress."
+msgstr "Bạn có thể chỉ định tên người gửi. Nếu bạn không thiết lập thông tin này, các e-mail sẽ được hiển thị như là được gửi từ Wordpress."
+
+#: wp_mail_smtp.php:236
+msgid "From Name"
+msgstr "Tên người gửi"
+
+#: wp_mail_smtp.php:233
+msgid "<strong>Please Note:</strong> You appear to be using a version of WordPress prior to 2.3. Please ignore the From Name field and instead enter Name&lt;email@domain.com&gt; in this field."
+msgstr "<strong>Xin lưu ý:</strong> Có vẻ như bạn đang sử dụng phiên bản WordPress trước 2.3. Xin bỏ qua trường Mail đi (Mail From) mà thay vào đó nhập Tên&lt;email@domain.com&gt; vào ô nhập."
+
+#: wp_mail_smtp.php:233
+msgid "You can specify the email address that emails should be sent from. If you leave this blank, the default email will be used."
+msgstr "Bạn có thể chỉ định địa chỉ email mà từ đó e-mail được gửi đi. Nếu bạn không thiết lập thông tin này, e-mail quản trị mặc định sẽ được dùng để thay thế."
+
+#: wp_mail_smtp.php:231
+msgid "From Email"
+msgstr "Mail đi"
+
+#: wp_mail_smtp.php:225 wp_mail_smtp.php:343
+msgid "Advanced Email Options"
+msgstr "Các lựa chọn E-mail cấp cao"
+
+#: wp_mail_smtp.php:213
+msgid "The SMTP debugging output is shown below:"
+msgstr "Kết quả dò lỗi SMTP được hiển thị bên dưới:"
+
+#: wp_mail_smtp.php:211
+msgid "The full debugging output is shown below:"
+msgstr "Toàn bộ kết quả dò lỗi được hiển thị bên dưới:"
+
+#: wp_mail_smtp.php:209
+msgid "The result was:"
+msgstr "Kết quả là:"
+
+#: wp_mail_smtp.php:208
+msgid "Test Message Sent"
+msgstr "Thông điệp thử nghiệm đã được gửi"
+
+#: wp_mail_smtp.php:188
+msgid "This is a test email generated by the WP Mail SMTP WordPress plugin."
+msgstr "Đây là e-mail thử nghiệm được tạo bởi WP Mail SMTP WordPress plugin"
+
+#: wp_mail_smtp.php:187
+msgid "Test mail to "
+msgstr "Gửi thử mail đến"
+
+#: wp_mail_smtp.php:181 wp_mail_smtp.php:326
+msgid "Send Test"
+msgstr "Gửi thử"

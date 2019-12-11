@@ -1,0 +1,1770 @@
+# Translation of Stable (latest release) in Finnish
+# This file is distributed under the same license as the Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2016-02-22 08:39:39+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/1.1.0-alpha\n"
+"Project-Id-Version: Stable (latest release)\n"
+
+#. Author of the plugin/theme
+msgid "Janis Elsts, Vladimir Prelovac"
+msgstr "Janis Elsts, Vladimir Prelovac"
+
+#: includes/any-post.php:614 modules/containers/custom_field.php:336
+msgid "Can't move post \"%s\" (%d) to the trash because the trash feature is disabled"
+msgstr "Ei voida siirtää artikkelia \"%s\" (%d) roskakoriin, koska roskakoritoiminto on poissa käytöstä"
+
+#: includes/any-post.php:634 modules/containers/custom_field.php:355
+msgid "Failed to move post \"%s\" (%d) to the trash"
+msgstr "Artikkelin \"%s\" (%d) siirtäminen roskakoriin epäonnistui"
+
+#: includes/any-post.php:742
+msgid "%d post deleted."
+msgid_plural "%d posts deleted."
+msgstr[0] "%d artikkeli poistettu."
+msgstr[1] "%d artikkelia poistettu."
+
+#: includes/any-post.php:744
+msgid "%d page deleted."
+msgid_plural "%d pages deleted."
+msgstr[0] "%d sivu poistettu."
+msgstr[1] "%d sivua poistettu."
+
+#: includes/any-post.php:746
+msgid "%d \"%s\" deleted."
+msgid_plural "%d \"%s\" deleted."
+msgstr[0] "%d \"%s\" poistettu."
+msgstr[1] "%d \"%s\" poistettu."
+
+#: includes/any-post.php:765
+msgid "%d post moved to the Trash."
+msgid_plural "%d posts moved to the Trash."
+msgstr[0] "%d artikkeli siirretty roskakoriin."
+msgstr[1] "%d artikkelia siirretty roskakoriin."
+
+#: includes/any-post.php:767
+msgid "%d page moved to the Trash."
+msgid_plural "%d pages moved to the Trash."
+msgstr[0] "%d sivu siirretty roskakoriin."
+msgstr[1] "%d sivua siirretty roskakoriin."
+
+#: includes/any-post.php:769
+msgid "%d \"%s\" moved to the Trash."
+msgid_plural "%d \"%s\" moved to the Trash."
+msgstr[0] "%d \"%s\" siirretty roskakoriin."
+msgstr[1] "%d \"%s\" siirretty roskakoriin."
+
+#: includes/containers.php:122
+msgid "%d '%s' has been deleted"
+msgid_plural "%d '%s' have been deleted"
+msgstr[0] "%d '%s' on poistettu"
+msgstr[1] "%d '%s' on poistettu"
+
+#: includes/containers.php:888 includes/containers.php:906
+msgid "Container type '%s' not recognized"
+msgstr "Säiliön tyyppiä '%s' ei tunnistettu"
+
+#: includes/extra-strings.php:2
+msgctxt "module name"
+msgid "Basic HTTP"
+msgstr "Perus HTTP"
+
+#: includes/extra-strings.php:3
+msgctxt "module name"
+msgid "Blogroll items"
+msgstr "Blogilistat"
+
+#: includes/extra-strings.php:4
+msgctxt "module name"
+msgid "Comments"
+msgstr "Kommentit"
+
+#: includes/extra-strings.php:5
+msgctxt "module name"
+msgid "Custom fields"
+msgstr "Mukautetut kentät"
+
+#: includes/extra-strings.php:6
+msgctxt "module name"
+msgid "Embedded DailyMotion videos"
+msgstr "Upotetut DailyMotion-videot"
+
+#: includes/extra-strings.php:7
+msgctxt "module name"
+msgid "Embedded GoogleVideo videos"
+msgstr "Upotetut GoogleVideo-videot"
+
+#: includes/extra-strings.php:8
+msgctxt "module name"
+msgid "Embedded Vimeo videos"
+msgstr "Upotetut Vimeo-videot"
+
+#: includes/extra-strings.php:9
+msgctxt "module name"
+msgid "Embedded YouTube playlists (old embed code)"
+msgstr "Upotetut YouTuben soittolistat (vanha upotuskoodi)"
+
+#: includes/extra-strings.php:10
+msgctxt "module name"
+msgid "Embedded YouTube videos"
+msgstr "Upotetut YouTube-videot"
+
+#: includes/extra-strings.php:11
+msgctxt "module name"
+msgid "Embedded YouTube videos (old embed code)"
+msgstr "Upotetut YouTube-videot (vanha upotuskoodi)"
+
+#: includes/extra-strings.php:12
+msgctxt "module name"
+msgid "HTML images"
+msgstr "HTML-kuvat"
+
+#: includes/extra-strings.php:13
+msgctxt "module name"
+msgid "HTML links"
+msgstr "HTML-linkit"
+
+#: includes/extra-strings.php:14
+msgctxt "module name"
+msgid "MediaFire API"
+msgstr "MediaFire API"
+
+#: includes/extra-strings.php:15
+msgctxt "module name"
+msgid "Plaintext URLs"
+msgstr "Tekstilinkit"
+
+#: includes/extra-strings.php:16
+msgctxt "module name"
+msgid "RapidShare API"
+msgstr "RapidShare API"
+
+#: includes/extra-strings.php:17
+msgctxt "module name"
+msgid "Smart YouTube httpv:// URLs"
+msgstr "Smart YouTube httpv:// verkko-osoitteet/URL"
+
+#: includes/extra-strings.php:18
+msgctxt "module name"
+msgid "YouTube API"
+msgstr "YouTube API"
+
+#: includes/extra-strings.php:19
+msgctxt "module name"
+msgid "Posts"
+msgstr "Artikkelit"
+
+#: includes/extra-strings.php:20
+msgctxt "module name"
+msgid "Pages"
+msgstr "Sivut"
+
+#: includes/instances.php:105 includes/instances.php:161
+msgid "Container %s[%d] not found"
+msgstr "Säiliötä %s[%d] ei löytynyt"
+
+#: includes/instances.php:114 includes/instances.php:170
+msgid "Parser '%s' not found."
+msgstr "Jäsennintä '%s' ei löydy."
+
+#: includes/link-query.php:25
+msgid "All"
+msgstr "Kaikki"
+
+#: includes/link-query.php:26
+msgid "Detected Links"
+msgstr "Havaitut linkit"
+
+#: includes/link-query.php:27
+msgid "No links found (yet)"
+msgstr "Linkkejä ei löytynyt (vielä)"
+
+#: includes/link-query.php:36
+msgid "Broken"
+msgstr "Rikkinäinen"
+
+#: includes/link-query.php:38
+msgid "No broken links found"
+msgstr "Rikkinäisiä linkkejä ei löytynyt"
+
+#: includes/link-query.php:46
+msgctxt "filter name"
+msgid "Warnings"
+msgstr "Varoitukset"
+
+#: includes/link-query.php:47
+msgid "Warnings"
+msgstr "Varoitukset"
+
+#: includes/link-query.php:48
+msgid "No warnings found"
+msgstr "Varoituksia ei löytynyt"
+
+#: includes/link-query.php:56
+msgid "Redirects"
+msgstr "Uudelleenohjaukset"
+
+#: includes/link-query.php:57
+msgid "Redirected Links"
+msgstr "Uudelleenohjatut linkit"
+
+#: includes/link-query.php:58
+msgid "No redirects found"
+msgstr "Uudelleenohjauksia ei löytynyt"
+
+#: includes/link-query.php:66
+msgid "Dismissed"
+msgstr "Piilotettu"
+
+#: includes/link-query.php:67
+msgid "Dismissed Links"
+msgstr "Piilotetut linkit"
+
+#: includes/link-query.php:68
+msgid "No dismissed links found"
+msgstr "Piilotettuja linkkejä ei löytynyt"
+
+#: includes/link-query.php:82
+msgid "Search Results"
+msgstr "Hakutulokset"
+
+#: includes/link-query.php:83 includes/link-query.php:130
+msgid "No links found for your query"
+msgstr "Kyselyllä ei löytynyt linkkejä."
+
+#: includes/links.php:224
+msgid "The plugin script was terminated while trying to check the link."
+msgstr "Lisäosan ohjelmisto keskeytettiin kesken linkkien tarkistuksen."
+
+#: includes/links.php:271
+msgid "The plugin doesn't know how to check this type of link."
+msgstr "Lisäosa ei tiedä kuinka tarkistaa tämän tyyppisiä linkkejä."
+
+#: includes/links.php:502
+msgid "Link is broken."
+msgstr "Linkki on rikkinäinen."
+
+#: includes/links.php:504
+msgid "Link is valid."
+msgstr "Linkki on kelvollinen."
+
+#: includes/links.php:733 includes/links.php:835 includes/links.php:869
+msgid "Link is not valid"
+msgstr "Linkki on virheellinen"
+
+#: includes/links.php:750
+msgid "This link can not be edited because it is not used anywhere on this site."
+msgstr "Tätä linkkiä ei voi muokata, koska sitä ei ole käytetty missään tällä sivustolla."
+
+#: includes/links.php:776
+msgid "Failed to create a DB entry for the new URL."
+msgstr "Tietokantamerkinnän luominen uudelle URL-osoitteelle epäonnistui."
+
+#: includes/links.php:842
+msgid "This link is not a redirect"
+msgstr "Tämä linkki ei ole uudelleenohjaus"
+
+#: includes/links.php:896 includes/links.php:933
+msgid "Couldn't delete the link's database record"
+msgstr "Linkkien tietokantamerkintöjä ei voitu poistaa"
+
+#: includes/links.php:1007
+msgctxt "link status"
+msgid "Unknown"
+msgstr "Tuntematon"
+
+#: includes/links.php:1020 modules/checkers/http.php:313
+#: modules/extras/mediafire.php:115 modules/extras/youtube.php:132
+#: modules/extras/youtube.php:229
+msgid "Unknown Error"
+msgstr "Tuntematon virhe"
+
+#: includes/links.php:1044
+msgid "Not checked"
+msgstr "Ei tarkistettu"
+
+#: includes/links.php:1047
+msgid "False positive"
+msgstr "Virheellinen positiivinen"
+
+#: includes/links.php:1050 modules/extras/rapidshare.php:145
+#: modules/extras/rapidshare.php:151 modules/extras/rapidshare.php:178
+#: modules/extras/youtube.php:138 modules/extras/youtube.php:215
+msgctxt "link status"
+msgid "OK"
+msgstr "OK"
+
+#: includes/parsers.php:117
+msgid "Editing is not implemented in the '%s' parser"
+msgstr "Muokkausta ei ole toteutettu '%s' jäsentimeen"
+
+#: includes/parsers.php:132
+msgid "Unlinking is not implemented in the '%s' parser"
+msgstr "Linkkien poistamista ei ole toteutettu '%s' jäsentimeen"
+
+#: includes/utility-class.php:245
+msgid "%d second"
+msgid_plural "%d seconds"
+msgstr[0] "%d sekunti"
+msgstr[1] "%d sekuntia"
+
+#: includes/utility-class.php:246
+msgid "%d second ago"
+msgid_plural "%d seconds ago"
+msgstr[0] "%d sekunti sitten"
+msgstr[1] "%d sekuntia sitten"
+
+#: includes/utility-class.php:249
+msgid "%d minute"
+msgid_plural "%d minutes"
+msgstr[0] "%d minuutti"
+msgstr[1] "%d minuuttia"
+
+#: includes/utility-class.php:250
+msgid "%d minute ago"
+msgid_plural "%d minutes ago"
+msgstr[0] "%d minuutti sitten"
+msgstr[1] "%d minuuttia sitten"
+
+#: includes/utility-class.php:253
+msgid "%d hour"
+msgid_plural "%d hours"
+msgstr[0] "%d tunti"
+msgstr[1] "%d tuntia"
+
+#: includes/utility-class.php:254
+msgid "%d hour ago"
+msgid_plural "%d hours ago"
+msgstr[0] "%d tunti sitten"
+msgstr[1] "%d tuntia sitten"
+
+#: includes/utility-class.php:257
+msgid "%d day"
+msgid_plural "%d days"
+msgstr[0] "%d päivä"
+msgstr[1] "%d päivää"
+
+#: includes/utility-class.php:258
+msgid "%d day ago"
+msgid_plural "%d days ago"
+msgstr[0] "%d päivä sitten"
+msgstr[1] "%d päivää sitten"
+
+#: includes/utility-class.php:261
+msgid "%d month"
+msgid_plural "%d months"
+msgstr[0] "%d kuukausi"
+msgstr[1] "%d kuukautta"
+
+#: includes/utility-class.php:262
+msgid "%d month ago"
+msgid_plural "%d months ago"
+msgstr[0] "%d kuukausi sitten"
+msgstr[1] "%d kuukautta sitten"
+
+#: modules/checkers/http.php:290
+msgid "Server Not Found"
+msgstr "Palvelinta ei löydy"
+
+#: modules/checkers/http.php:306
+msgid "Connection Failed"
+msgstr "Yhteys epäonnistui"
+
+#: modules/checkers/http.php:349 modules/checkers/http.php:431
+msgid "HTTP code : %d"
+msgstr "HTTP-koodi: %d"
+
+#: modules/checkers/http.php:351 modules/checkers/http.php:433
+msgid "(No response)"
+msgstr "(Ei vastausta)"
+
+#: modules/checkers/http.php:369
+msgid "Most likely the connection timed out or the domain doesn't exist."
+msgstr "Todennäköisimmin yhteyden aikakatkaisu tai verkkotunnusta ei ole olemassa."
+
+#: modules/checkers/http.php:440
+msgid "Request timed out."
+msgstr "Pyynnön aikakatkaisu."
+
+#: modules/checkers/http.php:458
+msgid "Using Snoopy"
+msgstr "Käytetään Snoopy"
+
+#: modules/containers/blogroll.php:21
+msgid "Bookmark"
+msgstr "Kirjanmerkki"
+
+#: modules/containers/blogroll.php:27 modules/containers/blogroll.php:46
+msgid "Edit this bookmark"
+msgstr "Muokkaa tätä kirjanmerkkiä"
+
+#: modules/containers/blogroll.php:47
+msgid ""
+"You are about to delete this link '%s'\n"
+"  'Cancel' to stop, 'OK' to delete."
+msgstr ""
+"Olet aikaissa poistaa linkin '%s'\n"
+"  'Peruuta' lopettaaksesi, 'OK' poistaaksi."
+
+#: modules/containers/blogroll.php:97
+msgid "Updating bookmark %d failed"
+msgstr "Kirjanmerkin %d päivitys epäonnistui"
+
+#: modules/containers/blogroll.php:128
+msgid "Failed to delete blogroll link \"%s\" (%d)"
+msgstr "Blogilistan \"%s\" (%d) linkin poistaminen epäonnistui"
+
+#: modules/containers/blogroll.php:298
+msgid "%d blogroll link deleted."
+msgid_plural "%d blogroll links deleted."
+msgstr[0] "%d blogilistan linkki poistettu."
+msgstr[1] "%d blogilistan linkkiä poistettu."
+
+#: modules/containers/comment.php:53
+msgid "Updating comment %d failed"
+msgstr "Kommentin %d päivitys epäonnistui"
+
+#: modules/containers/comment.php:74
+msgid "Failed to delete comment %d"
+msgstr "Kommentin %d poistaminen epäonnistui"
+
+#: modules/containers/comment.php:95
+msgid "Can't move comment %d to the trash"
+msgstr "Kommenttia %d ei voida siirtää roskakoriin"
+
+#: modules/containers/comment.php:159 modules/containers/comment.php:201
+msgid "Edit comment"
+msgstr "Muokkaa kommenttia"
+
+#: modules/containers/comment.php:166
+msgid "Delete Permanently"
+msgstr "Poista pysyvästi"
+
+#: modules/containers/comment.php:168
+msgid "Move this comment to the trash"
+msgstr "Siirrä tämä kommentti roskakoriin"
+
+#: modules/containers/comment.php:168
+msgctxt "verb"
+msgid "Trash"
+msgstr "Roskakoriin"
+
+#: modules/containers/comment.php:172
+msgid "View comment"
+msgstr "Näytä kommentti"
+
+#: modules/containers/comment.php:189
+msgid "Comment"
+msgstr "Kommentti"
+
+#: modules/containers/comment.php:364
+msgid "%d comment has been deleted."
+msgid_plural "%d comments have been deleted."
+msgstr[0] "%d kommentti poistettu."
+msgstr[1] "%d kommenttia poistettu."
+
+#: modules/containers/comment.php:383
+msgid "%d comment moved to the Trash."
+msgid_plural "%d comments moved to the Trash."
+msgstr[0] "%d kommentti siirretty roskakoriin."
+msgstr[1] "%d kommenttia siirretty roskakoriin."
+
+#: modules/containers/custom_field.php:85
+msgid "Failed to update the meta field '%s' on %s [%d]"
+msgstr "Meta-kentän '%s' sijainnista %s [%d] päivittäminen epäonnistui"
+
+#: modules/containers/custom_field.php:115
+msgid "Failed to delete the meta field '%s' on %s [%d]"
+msgstr "Meta-kentän '%s' sijainnista %s [%d] poistaminen epäonnistui"
+
+#: modules/containers/custom_field.php:216
+msgid "Edit this post"
+msgstr "Muokkaa tätä artikkelia"
+
+#: modules/containers/custom_field.php:250
+msgid "View \"%s\""
+msgstr "Näytä \"%s\""
+
+#: modules/containers/dummy.php:34 modules/containers/dummy.php:45
+msgid "I don't know how to edit a '%s' [%d]."
+msgstr "En tiedä kuinka muokata '%s' [%d]."
+
+#: modules/extras/dailymotion-embed.php:23
+msgid "DailyMotion Video"
+msgstr "DailyMotion-video"
+
+#: modules/extras/dailymotion-embed.php:24
+msgid "Embedded DailyMotion video"
+msgstr "Upotettu DailyMotion-video"
+
+#: modules/extras/embed-parser-base.php:197
+msgid "Embedded videos can't be edited using Broken Link Checker. Please edit or replace the video in question manually."
+msgstr "Upotettuja videoita ei voida muokata Broken Link Checkeria käyttäen. Muokkaa tai korvaa kyseinen video käsin."
+
+#: modules/extras/googlevideo-embed.php:24
+msgid "GoogleVideo Video"
+msgstr "GoogleVideo-video"
+
+#: modules/extras/googlevideo-embed.php:25
+msgid "Embedded GoogleVideo video"
+msgstr "Upotettu GoogleVideo-video"
+
+#: modules/extras/mediafire.php:97 modules/extras/mediafire.php:103
+#: modules/extras/rapidshare.php:139
+msgid "Not Found"
+msgstr "Ei löydy"
+
+#: modules/extras/mediafire.php:109
+msgid "Permission Denied"
+msgstr "Oikeus evätty"
+
+#: modules/extras/rapidshare.php:51
+msgid "Using RapidShare API"
+msgstr "Käytetään RapidShare API"
+
+#: modules/extras/rapidshare.php:158
+msgid "RS Server Down"
+msgstr "RS-palvelin alhaalla"
+
+#: modules/extras/rapidshare.php:165
+msgid "File Blocked"
+msgstr "Tiedosto estetty"
+
+#: modules/extras/rapidshare.php:172
+msgid "File Locked"
+msgstr "Tiedosto lukittu"
+
+#: modules/extras/rapidshare.php:183
+msgid "RapidShare : %s"
+msgstr "RapidShare : %s"
+
+#: modules/extras/rapidshare.php:189
+msgid "RapidShare API error: %s"
+msgstr "RapidShare API-virhe: %s"
+
+#: modules/extras/vimeo-embed.php:24
+msgid "Vimeo Video"
+msgstr "Vimeo-video"
+
+#: modules/extras/vimeo-embed.php:25
+msgid "Embedded Vimeo video"
+msgstr "Upotettu Vimeo-video"
+
+#: modules/extras/youtube-embed.php:24 modules/extras/youtube-iframe.php:25
+msgid "YouTube Video"
+msgstr "YouTube-video"
+
+#: modules/extras/youtube-embed.php:25 modules/extras/youtube-iframe.php:26
+msgid "Embedded YouTube video"
+msgstr "Upotettu YouTube-video"
+
+#: modules/extras/youtube-playlist-embed.php:24
+msgid "YouTube Playlist"
+msgstr "YouTube-soittolista"
+
+#: modules/extras/youtube-playlist-embed.php:25
+msgid "Embedded YouTube playlist"
+msgstr "Upotettu YouTube-soittolista"
+
+#: modules/extras/youtube.php:137
+msgid "Video OK"
+msgstr "Video OK"
+
+#: modules/extras/youtube.php:149 modules/extras/youtube.php:152
+msgid "Video Not Found"
+msgstr "Videota ei löydy"
+
+#: modules/extras/youtube.php:171 modules/extras/youtube.php:174
+msgid "Playlist Not Found"
+msgstr "Soittolistaa ei löytynyt"
+
+#: modules/extras/youtube.php:181
+msgid "Playlist Restricted"
+msgstr "Soittolista on salattu"
+
+#: modules/extras/youtube.php:188
+msgid "This playlist has no entries or all entries have been deleted."
+msgstr "Tällä soittolistalla ei ole sisältöä tai kaikki sisältö on poistettu."
+
+#: modules/extras/youtube.php:189
+msgctxt "link status"
+msgid "Empty Playlist"
+msgstr "Tyhjä soittolista"
+
+#: modules/extras/youtube.php:199
+msgid "Video status : %s%s"
+msgstr "Videon tila : %s%s"
+
+#: modules/extras/youtube.php:205
+msgid "Video Restricted"
+msgstr "Rajoitettu video"
+
+#: modules/extras/youtube.php:214
+msgid "Playlist OK"
+msgstr "Soittolista OK"
+
+#: modules/extras/youtube.php:263
+msgid "Unknown YouTube API response received."
+msgstr "Vastaanotettiin tuntematon YouTube API-vastaus."
+
+#: modules/parsers/image.php:186
+msgid "Image"
+msgstr "Kuva"
+
+#: modules/parsers/metadata.php:119
+msgid "Custom field"
+msgstr "Mukautettu kenttä"
+
+#. Plugin URI of the plugin/theme
+msgid "http://w-shadow.com/blog/2007/08/05/broken-link-checker-for-wordpress/"
+msgstr "http://w-shadow.com/blog/2007/08/05/broken-link-checker-for-wordpress/"
+
+#. Description of the plugin/theme
+msgid "Checks your blog for broken links and missing images and notifies you on the dashboard if any are found."
+msgstr "Tarkistaa blogisi rikkinäisten linkkien ja puuttuvien kuvien osalta sekä ilmoittaa ohjausnäkymässä mikäli niitä löytyy."
+
+#. Author URI of the plugin/theme
+msgid "http://w-shadow.com/"
+msgstr "http://w-shadow.com/"
+
+#: core/core.php:158 includes/admin/links-page-js.php:45
+msgid "Loading..."
+msgstr "Ladataan..."
+
+#: core/core.php:182 includes/admin/options-page-js.php:18
+msgid "[ Network error ]"
+msgstr "[ Verkkovirhe ]"
+
+#: core/core.php:209
+msgid "Automatically expand the widget if broken links have been detected"
+msgstr "Laajenna vimpain automaattisesti mikäli rikkinäisiä linkkejä on havattu"
+
+#: core/core.php:300
+msgid "Link Checker Settings"
+msgstr "Linkkien tarkistuksen asetukset"
+
+#: core/core.php:301
+msgid "Link Checker"
+msgstr "Linkkien tarkistus"
+
+#: core/core.php:306 includes/link-query.php:37
+msgid "Broken Links"
+msgstr "Rikkinäiset linkit"
+
+#: core/core.php:322
+msgid "View Broken Links"
+msgstr "Näytä rikkinäiset linkit"
+
+#: core/core.php:337
+msgid "Go to Broken Links"
+msgstr "Siirry rikkinäisiin linkkeihin"
+
+#: core/core.php:355
+msgid "Settings"
+msgstr "Asetukset"
+
+#: core/core.php:384 includes/admin/table-printer.php:287
+#: includes/admin/table-printer.php:682
+msgid "Edit URL"
+msgstr "Muokkaa URL"
+
+#: core/core.php:385 includes/admin/links-page-js.php:710
+#: includes/admin/table-printer.php:292 includes/admin/table-printer.php:685
+msgid "Unlink"
+msgstr "Poista linkki"
+
+#: core/core.php:386 includes/admin/links-page-js.php:111
+#: includes/admin/table-printer.php:691
+msgid "Not broken"
+msgstr "Ei-rikkinäinen"
+
+#: core/core.php:387 includes/admin/table-printer.php:291
+#: includes/admin/table-printer.php:699
+msgid "Dismiss"
+msgstr "Piilota"
+
+#: core/core.php:388 includes/admin/table-printer.php:288
+#: includes/admin/table-printer.php:711
+msgid "Recheck"
+msgstr "Tarkista uudelleen"
+
+#: core/core.php:389 includes/admin/table-printer.php:719
+msgctxt "link action; replace one redirect with a direct link"
+msgid "Fix redirect"
+msgstr "Korjaa uudelleenohjaus"
+
+#: core/core.php:609
+msgid "Settings saved."
+msgstr "Asetukset tallennettu."
+
+#: core/core.php:615
+msgid "Thank you for your donation!"
+msgstr "Kiitos lahjoituksesta!"
+
+#: core/core.php:623
+msgid "Complete site recheck started."
+msgstr "Koko sivuston uudelleentarkistus aloitettu."
+
+#: core/core.php:645
+msgid "General"
+msgstr "Yleinen"
+
+#: core/core.php:646
+msgid "Look For Links In"
+msgstr "Etsi linkkejä"
+
+#: core/core.php:647
+msgid "Which Links To Check"
+msgstr "Mitä linkkejä tarkistetaan"
+
+#: core/core.php:648
+msgid "Protocols & APIs"
+msgstr "Protokollat & API:t"
+
+#: core/core.php:649
+msgid "Advanced"
+msgstr "Lisäasetukset"
+
+#: core/core.php:664
+msgid "Broken Link Checker Options"
+msgstr "Rikkinäisten linkkientarkastuksen asetukset"
+
+#: core/core.php:706 includes/admin/table-printer.php:211
+msgid "Status"
+msgstr "Tila"
+
+#: core/core.php:708 includes/admin/options-page-js.php:56
+msgid "Show debug info"
+msgstr "Näytä debug-tiedot"
+
+#: core/core.php:736
+msgid "Check each link"
+msgstr "Tarkista jokainen linkki"
+
+#: core/core.php:741
+msgid "Every %s hours"
+msgstr "Joka %s tunti"
+
+#: core/core.php:750
+msgid "Existing links will be checked this often. New links will usually be checked ASAP."
+msgstr "Olemassa olevat linkit tarkastetaan näin usein. Uudet linkit tarkastetaan yleensä heti kun se on mahdollista."
+
+#: core/core.php:757
+msgid "E-mail notifications"
+msgstr "Sähköposti-ilmoitukset"
+
+#: core/core.php:763
+msgid "Send me e-mail notifications about newly detected broken links"
+msgstr "Lähetä sähköposti-ilmoituksia uusista havaituista rikkinäisistä linkeistä"
+
+#: core/core.php:771
+msgid "Send authors e-mail notifications about broken links in their posts"
+msgstr "Lähetä tekijöille sähköposti-ilmoituksia rikkinäisistä linkeistä heidän artikkeleissaan"
+
+#: core/core.php:778
+msgid "Notification e-mail address"
+msgstr "Sähköpostiosoite ilmoituksille"
+
+#: core/core.php:790
+msgid "Leave empty to use the e-mail address specified in Settings &rarr; General."
+msgstr "Jätä tyhjäksi käyttääksesi sähköpostiosoitetta, jonka olet määritellyt kohdassa: Asetukset &rarr; Yleinen"
+
+#: core/core.php:797
+msgid "Link tweaks"
+msgstr "Linkkien lisätoiminnot"
+
+#: core/core.php:803
+msgid "Apply custom formatting to broken links"
+msgstr "Käytä mukautettua muotoilua rikkinäisille linkeille"
+
+#: core/core.php:807 core/core.php:838
+msgid "Edit CSS"
+msgstr "Muokkaa CSS"
+
+#: core/core.php:823
+msgid "Example : Lorem ipsum <a %s>broken link</a>, dolor sit amet."
+msgstr "Esimerkki : Lorem ipsum <a %s>rikkinäinen linkki</a>, dolor sit amet."
+
+#: core/core.php:826 core/core.php:857
+msgid "Click \"Save Changes\" to update example output."
+msgstr "Napsauta \"Tallenna muutokset\" päivittääksesi esimerkin ulosannin."
+
+#: core/core.php:834
+msgid "Apply custom formatting to removed links"
+msgstr "Käytä mukautettua muotoilua poistetuille linkeille"
+
+#: core/core.php:854
+msgid "Example : Lorem ipsum <span %s>removed link</span>, dolor sit amet."
+msgstr "Esimerkki : Lorem ipsum <span %s>poistettu linkki</span>, dolor sit amet."
+
+#: core/core.php:867
+msgid "Stop search engines from following broken links"
+msgstr "Estä hakupalveluita seuraamasta rikkinäisiä linkkejä"
+
+#: core/core.php:873
+msgctxt "\"Link tweaks\" settings"
+msgid "These settings only apply to the content of posts, not comments or custom fields."
+msgstr "Nämä asetukset vaikuttavat vain artikkeleiden ja sivujen sisältöön, eikä kommentteihin tai kustomoituihin kenttiin."
+
+#: core/core.php:884
+msgctxt "settings page"
+msgid "Suggestions"
+msgstr "Ehdotukset"
+
+#: core/core.php:889
+msgid "Suggest alternatives to broken links"
+msgstr "Ehdoita vaihtoehtoja rikkinäisille linkeille"
+
+#: core/core.php:895
+msgctxt "settings page"
+msgid "Warnings"
+msgstr "Varoitukset"
+
+#: core/core.php:900
+msgid "Show uncertain or minor problems as \"warnings\" instead of \"broken\""
+msgstr "Näytä epävarmat ja pienet ongelmat \"varoituksina\" \"rikkinäisen\" sijaan"
+
+#: core/core.php:903
+msgid "Turning off this option will make the plugin report all problems as broken links."
+msgstr "Ottamalla pois käytöstä tämän asetuksen lisäosa ilmoittaa kaikki ongelmat rikkinäisinä linkkeinä."
+
+#: core/core.php:918
+msgid "Look for links in"
+msgstr "Etsi linkkejä"
+
+#: core/core.php:929
+msgid "Post statuses"
+msgstr "Artikkelien tilat"
+
+#: core/core.php:962
+msgid "Link types"
+msgstr "Linkkityypit"
+
+#: core/core.php:968
+msgid "Error : All link parsers missing!"
+msgstr "Virhe : Kaikki linkkijäsentimet puuttuvat!"
+
+#: core/core.php:975
+msgid "Exclusion list"
+msgstr "Pois suljetut"
+
+#: core/core.php:976
+msgid "Don't check links where the URL contains any of these words (one per line) :"
+msgstr "Älä tarkasta linkkejä joiden URL-osoite sisältää minkä tahansa näistä sanoista (yksi per rivi):"
+
+#: core/core.php:994
+msgid "Check links using"
+msgstr "Tarkista linkit käyttäen"
+
+#: core/core.php:1013 includes/links.php:1024
+msgid "Timeout"
+msgstr "Aikakatkaisu"
+
+#: core/core.php:1019 core/core.php:1106 core/core.php:3418
+msgid "%s seconds"
+msgstr "%s sekuntia"
+
+#: core/core.php:1028
+msgid "Links that take longer than this to load will be marked as broken."
+msgstr "Linkit joiden avaaminen kestää kauemmin kuin tämän merkitään rikkinäisiksi."
+
+#: core/core.php:1035
+msgid "Link monitor"
+msgstr "Linkkien valvonta"
+
+#: core/core.php:1043
+msgid "Run continuously while the Dashboard is open"
+msgstr "Suorita toistuvasti kun ohjausnäkymä on auki"
+
+#: core/core.php:1051
+msgid "Run hourly in the background"
+msgstr "Suorita tunnin välein taustalla"
+
+#: core/core.php:1059
+msgid "Show the dashboard widget for"
+msgstr "Näytä ohjausnäkymän vimpain"
+
+#: core/core.php:1064
+msgctxt "dashboard widget visibility"
+msgid "Administrator"
+msgstr "Ylläpitäjälle"
+
+#: core/core.php:1065
+msgctxt "dashboard widget visibility"
+msgid "Editor and above"
+msgstr "Päätoimittajalle ja sitä ylemmille"
+
+#: core/core.php:1066
+msgctxt "dashboard widget visibility"
+msgid "Nobody (disables the widget)"
+msgstr "Ei kenellekkään (poistaa vimpaimen käytöstä)"
+
+#: core/core.php:1082
+msgctxt "settings page"
+msgid "Show link actions"
+msgstr "Näytä linkki-toiminnot"
+
+#: core/core.php:1100
+msgid "Max. execution time"
+msgstr "Maksimi suoritusaika"
+
+#: core/core.php:1117
+msgid "The plugin works by periodically launching a background job that parses your posts for links, checks the discovered URLs, and performs other time-consuming tasks. Here you can set for how long, at most, the link monitor may run each time before stopping."
+msgstr "Lisäosa toimii määräajoin ajettavilla taustatehtävillä joka jäsentää artikkelisi linkkejä, tarkistaa havaitut URL-osoitteet ja suorittaa muita aikaa vieviä tehtäviä. Voit asettaa tässä kuinka kauan, korkeintaan, linkkienvalvonta voi toimia ennen pysäyttämistä."
+
+#: core/core.php:1126
+msgid "Server load limit"
+msgstr "Palvelimen kuormitusraja"
+
+#: core/core.php:1141
+msgid "Current load : %s"
+msgstr "Nykyinen kuorma : %s"
+
+#: core/core.php:1146
+msgid "Link checking will be suspended if the average <a href=\"%s\">server load</a> rises above this number. Leave this field blank to disable load limiting."
+msgstr "Linkkien tarkastus pysäytetään mikäli keskimääräinen <a href=\"%s\">palvelimen kuorma</a> nousee yli tämän arvon. Jätä tämä kenttä tyhjäksi poistaaksesi kuormituksenrajoituksen käytöstä."
+
+#: core/core.php:1155
+msgid "Not available"
+msgstr "Ei saatavilla"
+
+#: core/core.php:1157
+msgid "Load limiting only works on Linux-like systems where <code>/proc/loadavg</code> is present and accessible."
+msgstr "Kuorman rajoitus toimii ainoastaan Linux-tyyppisissä järjestelmissä mistä löytyy <code>/proc/loadavg</code> ja se on käytettävissä."
+
+#: core/core.php:1165
+msgid "Target resource usage"
+msgstr "Resurssien käytön tavoite"
+
+#: core/core.php:1183
+msgid "Logging"
+msgstr "Kirjaaminen"
+
+#: core/core.php:1189
+msgid "Enable logging"
+msgstr "Ota käyttöön loki"
+
+#: core/core.php:1196
+msgid "Log file location"
+msgstr "Loki-tiedoston sijainti"
+
+#: core/core.php:1205
+msgctxt "log file location"
+msgid "Default"
+msgstr "Oletus"
+
+#: core/core.php:1219
+msgctxt "log file location"
+msgid "Custom"
+msgstr "Mukautettu"
+
+#: core/core.php:1231
+msgid "Forced recheck"
+msgstr "Pakotettu uudelleentarkistus"
+
+#: core/core.php:1234
+msgid "Re-check all pages"
+msgstr "Tarkista kaikki sivut uudelleen"
+
+#: core/core.php:1238
+msgid "The \"Nuclear Option\". Click this button to make the plugin empty its link database and recheck the entire site from scratch."
+msgstr "\"Ydinase-valinta\". Napsauta tätä painiketta pakottaaksesi lisäosan tyhjentämään linkkitietokantansa ja tarkistamaan uudelleen koko sivuston alusta alkaen."
+
+#: core/core.php:1249
+msgid "Save Changes"
+msgstr "Tallenna muutokset"
+
+#: core/core.php:1300
+msgid "Configure"
+msgstr "Määrittele"
+
+#: core/core.php:1382
+msgid "Enter the names of custom fields you want to check (one per line). If a field contains HTML code, prefix its name with <code>html:</code>. For example, <code>html:field_name</code>."
+msgstr "Lisää niiden kustomoitujen kenttien nimet, jotka haluat tarkistaa (yksi per rivi). Jos kenttä sisältää HTML-koodia, kirjoita sen nimen eteen <code>html:</code>. Esim. <code>html:field_name</code>."
+
+#: core/core.php:1517 core/core.php:1601 core/core.php:1633
+msgid "Database error : %s"
+msgstr "Tietokantavirhe : %s"
+
+#: core/core.php:1582
+msgid "You must enter a filter name!"
+msgstr "Suodattimen nimi vaaditaan!"
+
+#: core/core.php:1586
+msgid "Invalid search query."
+msgstr "Virheellinen hakulause."
+
+#: core/core.php:1596
+msgid "Filter \"%s\" created"
+msgstr "Suodatin \"%s\" luotu"
+
+#: core/core.php:1623
+msgid "Filter ID not specified."
+msgstr "Suodattimen ID:tä ei ole määritelty."
+
+#: core/core.php:1630
+msgid "Filter deleted"
+msgstr "Suodatin poistettu"
+
+#: core/core.php:1677
+msgid "Replaced %d redirect with a direct link"
+msgid_plural "Replaced %d redirects with direct links"
+msgstr[0] "Uudelleenohjaus %d korvattu suoralla linkillä"
+msgstr[1] "Uudelleenohjaukset %d korvattu suorilla linkeillä"
+
+#: core/core.php:1688
+msgid "Failed to fix %d redirect"
+msgid_plural "Failed to fix %d redirects"
+msgstr[0] "Uudelleenohjauksen %d korjaus epäonnistui"
+msgstr[1] "Uudelleenohjausten %d korjaus epäonnistui"
+
+#: core/core.php:1699
+msgid "None of the selected links are redirects!"
+msgstr "Mikään valituista linkeistä ei ole uudelleenohjaus!"
+
+#: core/core.php:1777
+msgid "%d link updated."
+msgid_plural "%d links updated."
+msgstr[0] "Linkki %d päivitetty."
+msgstr[1] "Linkit %d päivitetty."
+
+#: core/core.php:1788
+msgid "Failed to update %d link."
+msgid_plural "Failed to update %d links."
+msgstr[0] "Linkin %d päivitys epäonnistui."
+msgstr[1] "Linkkien %d päivitys epäonnistui."
+
+#: core/core.php:1877
+msgid "%d link removed"
+msgid_plural "%d links removed"
+msgstr[0] "Linkki %d poistettu"
+msgstr[1] "Linkit %d poistettu"
+
+#: core/core.php:1888
+msgid "Failed to remove %d link"
+msgid_plural "Failed to remove %d links"
+msgstr[0] "Linkin %d poistaminen epäonnistui"
+msgstr[1] "Linkkien %d poistaminen epäonnistui"
+
+#: core/core.php:1997
+msgid "%d item was skipped because it can't be moved to the Trash. You need to delete it manually."
+msgid_plural "%d items were skipped because they can't be moved to the Trash. You need to delete them manually."
+msgstr[0] "%d kohde ohitettiin koska sitä ei voitu siirtää roskakoriin. Sinun täytyy poistaa se käsin."
+msgstr[1] "%d kohdetta ohitettiin koska niitä ei voitu siirtää roskakoriin. Sinun täytyy poistaa ne käsin."
+
+#: core/core.php:2019
+msgid "Didn't find anything to delete!"
+msgstr "Mitään poistettavaa ei löytynyt!"
+
+#: core/core.php:2049
+msgid "%d link scheduled for rechecking"
+msgid_plural "%d links scheduled for rechecking"
+msgstr[0] "%d linkki aikataulutettu uudelleentarkastukseen"
+msgstr[1] "%d linkkiä aikataulutettu uudelleentarkastukseen"
+
+#: core/core.php:2096 core/core.php:2916
+msgid "This link was manually marked as working by the user."
+msgstr "Käyttäjä on merkinnyt tämän linkin toimivaksi."
+
+#: core/core.php:2104 core/core.php:2163
+msgid "Couldn't modify link %d"
+msgstr "Ei voitu muokata linkkiä %d"
+
+#: core/core.php:2114
+msgid "%d link marked as not broken"
+msgid_plural "%d links marked as not broken"
+msgstr[0] "%d linkki merkitty ei rikkinäiseksi"
+msgstr[1] "%d linkkiä merkitty ei rikkinäisiksi"
+
+#: core/core.php:2173
+msgid "%d link dismissed"
+msgid_plural "%d links dismissed"
+msgstr[0] "%d linkki piilotettu"
+msgstr[1] "%d linkit piilotettu"
+
+#: core/core.php:2230
+msgid "The \"Warnings\" page lists problems that are probably temporary or suspected to be false positives.<br> Warnings that persist for a long time will usually be reclassified as broken links."
+msgstr "\"Varoitukset\"-sivu listaa ongelmat, jotka ovat luultavasti tilapäisiä tai epäillään olevan ehkä rikkinäisiä.<br> Varoitukset, jotka jatkuvat pitkän aikaa, siirretään yleensä rikkinäisiin linkkeihin."
+
+#: core/core.php:2235
+msgctxt "admin notice under Tools - Broken links - Warnings"
+msgid "Hide notice"
+msgstr "Piilota ilmoitus"
+
+#: core/core.php:2241
+msgctxt "a link from the admin notice under Tools - Broken links - Warnings"
+msgid "Change warning settings"
+msgstr "Muuta varoitus-asetukset"
+
+#: core/core.php:2266
+msgid "Table columns"
+msgstr "Taulukon sarakkeet"
+
+#: core/core.php:2285
+msgid "Show on screen"
+msgstr "Näytä ruudulla"
+
+#: core/core.php:2292
+msgid "links"
+msgstr "linkit"
+
+#: core/core.php:2293 includes/admin/table-printer.php:171
+msgid "Apply"
+msgstr "Käytä"
+
+#: core/core.php:2297
+msgid "Misc"
+msgstr "Sekalaiset"
+
+#: core/core.php:2312
+msgid "Highlight links broken for at least %s days"
+msgstr "Korosta linkkejä, jotka ovat olleet rikki ainekin %s päivää"
+
+#: core/core.php:2321
+msgid "Color-code status codes"
+msgstr "Tilakoodien väriarvot"
+
+#: core/core.php:2338 core/core.php:2900 core/core.php:2942 core/core.php:2976
+#: core/core.php:3077 core/core.php:3121 core/core.php:3183
+msgid "You're not allowed to do that!"
+msgstr "Tämä ei ole sallittua!"
+
+#: core/core.php:2769
+msgid "View broken links"
+msgstr "Näytä rikkinäiset linkit"
+
+#: core/core.php:2770
+msgid "Found %d broken link"
+msgid_plural "Found %d broken links"
+msgstr[0] "Löydettiin %d rikkinäinen linkki"
+msgstr[1] "Löydettiin %d rikkinäistä linkkiä"
+
+#: core/core.php:2776
+msgid "No broken links found."
+msgstr "Rikkinäisiä linkkejä ei löydetty."
+
+#: core/core.php:2783
+msgid "%d URL in the work queue"
+msgid_plural "%d URLs in the work queue"
+msgstr[0] "%d URL-osoite työjonossa"
+msgstr[1] "%d URL-osoitetta työjonossa"
+
+#: core/core.php:2786
+msgid "No URLs in the work queue."
+msgstr "Ei URL-osoitteita työjonossa."
+
+#: core/core.php:2792
+msgctxt "for the \"Detected X unique URLs in Y links\" message"
+msgid "%d unique URL"
+msgid_plural "%d unique URLs"
+msgstr[0] "%d uniikki verkko-osoite"
+msgstr[1] "%d uniikkia verkko-osoitetta"
+
+#: core/core.php:2796
+msgctxt "for the \"Detected X unique URLs in Y links\" message"
+msgid "%d link"
+msgid_plural "%d links"
+msgstr[0] "%d linkissä"
+msgstr[1] "%d linkistä"
+
+#: core/core.php:2802
+msgid "Detected %1$s in %2$s and still searching..."
+msgstr "Havaittiin %1$s %2$s ja yhä etsitään..."
+
+#: core/core.php:2808
+msgid "Detected %1$s in %2$s."
+msgstr "Havaittiin %1$s %2$s."
+
+#: core/core.php:2815
+msgid "Searching your blog for links..."
+msgstr "Haetaan blogista linkkejä..."
+
+#: core/core.php:2817
+msgid "No links detected."
+msgstr "Linkkejä ei löydetty."
+
+#: core/core.php:2843
+msgctxt "current load"
+msgid "Unknown"
+msgstr "Tuntematon"
+
+#: core/core.php:2908 core/core.php:2950 core/core.php:2991 core/core.php:3087
+#: core/core.php:3136 core/core.php:3198
+msgid "Oops, I can't find the link %d"
+msgstr "Hups, linkkiä %d ei löydetty"
+
+#: core/core.php:2923 core/core.php:2961
+msgid "Oops, couldn't modify the link!"
+msgstr "Hups, linkkiä ei pystytty muokkaamaan!"
+
+#: core/core.php:2926 core/core.php:2964 core/core.php:3113 core/core.php:3127
+#: core/core.php:3189
+msgid "Error : link_id not specified"
+msgstr "Virhe : link_id määrittely puuttuu"
+
+#: core/core.php:2982
+msgid "Error : link_id or new_url not specified"
+msgstr "Virhe : link_id tai new_url määrittely puuttuu"
+
+#: core/core.php:3000 core/core.php:3010
+msgid "Oops, the new URL is invalid!"
+msgstr "Hups, uusi URL in virheellinen!"
+
+#: core/core.php:3026
+msgid "An unexpected error occurred!"
+msgstr "Odottamaton virhe tapahtui!"
+
+#: core/core.php:3096
+msgid "An unexpected error occured!"
+msgstr "Odottamaton virhe tapahtui!"
+
+#: core/core.php:3226
+msgid "You don't have sufficient privileges to access this information!"
+msgstr "Sinulla ei ole tähän tietoon tarvittavia oikeuksia!"
+
+#: core/core.php:3239
+msgid "Error : link ID not specified"
+msgstr "Virhe : linkin ID:tä ei ole määritelty"
+
+#: core/core.php:3253
+msgid "Failed to load link details (%s)"
+msgstr "Virhe ladattaessa linkin tietoja (%s)"
+
+#. #-#-#-#-#  tmp-broken-link-checker.pot (Broken Link Checker 1.11.2) 
+#. #-#-#-#-#
+#. Plugin Name of the plugin/theme
+#: core/core.php:3307
+msgid "Broken Link Checker"
+msgstr "Broken Link Checker"
+
+#: core/core.php:3327
+msgid "PHP version"
+msgstr "PHP-versio"
+
+#: core/core.php:3333
+msgid "MySQL version"
+msgstr "MySQL-versio"
+
+#: core/core.php:3346
+msgid "You have an old version of CURL. Redirect detection may not work properly."
+msgstr "Käytössäsi on CURL:n vanha versio. Uudelleenohjausten tunnistus ei välttämättä toimi oikein."
+
+#: core/core.php:3358 core/core.php:3374 core/core.php:3379
+msgid "Not installed"
+msgstr "Ei asennettu"
+
+#: core/core.php:3361
+msgid "CURL version"
+msgstr "CURL-versio"
+
+#: core/core.php:3367
+msgid "Installed"
+msgstr "Asennettu"
+
+#: core/core.php:3380
+msgid "You must have either CURL or Snoopy installed for the plugin to work!"
+msgstr "Lisäosan toiminta vaatii, että joko CURL tai Snoopy on asennettuna!"
+
+#: core/core.php:3391
+msgid "On"
+msgstr "Päällä"
+
+#: core/core.php:3392
+msgid "Redirects may be detected as broken links when safe_mode is on."
+msgstr "Uudelleenohjaukset voidaan tunnistaa rikkinäisiksi linkeiksi kun safe_mode on käytössä."
+
+#: core/core.php:3397 core/core.php:3411
+msgid "Off"
+msgstr "Pois"
+
+#: core/core.php:3405
+msgid "On ( %s )"
+msgstr "Päällä ( %s )"
+
+#: core/core.php:3406
+msgid "Redirects may be detected as broken links when open_basedir is on."
+msgstr "Uudelleenohjaukset voidaan tunnistaa rikkinäisiksi linkeiksi kun open_basedir on käytössä."
+
+#: core/core.php:3424
+msgid "Database character set"
+msgstr "Tietokannan merkistö"
+
+#: core/core.php:3443
+msgid "If this value is zero even after several page reloads you have probably encountered a bug."
+msgstr "Mikäli tämä arvo on nolla vielä useiden sivujen päivitysten jälkeen, olet todennäköisesti kohdannut virheen."
+
+#: core/core.php:3566 core/core.php:3685
+msgid "[%s] Broken links detected"
+msgstr "[%s] rikkinäisiä linkkejä havaittu"
+
+#: core/core.php:3571
+msgid "Broken Link Checker has detected %d new broken link on your site."
+msgid_plural "Broken Link Checker has detected %d new broken links on your site."
+msgstr[0] "Broken Link Checker on havainnut %d uuden rikkinäisen linkin sivustoltasi."
+msgstr[1] "Broken Link Checker on havainnut %d uutta rikkinäistä linkkiä sivustoltasi."
+
+#: core/core.php:3602
+msgid "Here's a list of the first %d broken links:"
+msgid_plural "Here's a list of the first %d broken links:"
+msgstr[0] "Tässä on lista ensimmäisestä %d rikkinäisestä linkistä:"
+msgstr[1] "Tässä on lista ensimmäisistä %d rikkinäisestä linkistä:"
+
+#: core/core.php:3611
+msgid "Here's a list of the new broken links: "
+msgstr "Tässä on lista uusista rikkinäisistä linkeistä:"
+
+#: core/core.php:3620
+msgid "Link text : %s"
+msgstr "Linkin teksti : %s"
+
+#: core/core.php:3621
+msgid "Link URL : <a href=\"%s\">%s</a>"
+msgstr "Linkin URL : <a href=\"%s\">%s</a>"
+
+#: core/core.php:3622
+msgid "Source : %s"
+msgstr "Lähde : %s"
+
+#: core/core.php:3636
+msgid "You can see all broken links here:"
+msgstr "Näet kaikki rikkinäiset linkit tässä:"
+
+#: core/core.php:3690
+msgid "Broken Link Checker has detected %d new broken link in your posts."
+msgid_plural "Broken Link Checker has detected %d new broken links in your posts."
+msgstr[0] "Broken Link Checker on havainnut %d uuden rikkinäisen linkin artikkeleistasi."
+msgstr[1] "Broken Link Checker on havainnut %d uutta rikkinäistä linkkiä artikkeleistasi."
+
+#: core/init.php:255
+msgid "Once Weekly"
+msgstr "Kerran viikossa"
+
+#: core/init.php:261
+msgid "Twice a Month"
+msgstr "Kaksi kertaa kuukaudessa"
+
+#: core/init.php:337
+msgid "Broken Link Checker installation failed. Try deactivating and then reactivating the plugin."
+msgstr "Broken Link Checker asennus epäonnistui. Yritä poistaa lisäosa käytöstä ja sitten aktivoida se uudelleen."
+
+#: core/init.php:341
+msgid "Please activate the plugin separately on each site. Network activation is not supported."
+msgstr "Aktivoi lisäosa erikseen jokaisella sivustolla. Verkkoaktivointia ei tueta."
+
+#: includes/admin/db-upgrade.php:97
+msgid "Failed to delete old DB tables. Database error : %s"
+msgstr "Vanhojen tietokantataulujen poistaminen epäonnistui. Tietokantavirhe : %s"
+
+#: includes/admin/links-page-js.php:64 includes/admin/links-page-js.php:650
+msgid "Wait..."
+msgstr "Odota..."
+
+#: includes/admin/links-page-js.php:370
+msgctxt "link text"
+msgid "(None)"
+msgstr "(Ei mitään)"
+
+#: includes/admin/links-page-js.php:371
+msgctxt "link text"
+msgid "(Multiple links)"
+msgstr "(Useita linkkejä)"
+
+#: includes/admin/links-page-js.php:429
+msgctxt "link suggestions"
+msgid "Searching..."
+msgstr "Etsitään..."
+
+#: includes/admin/links-page-js.php:430
+msgctxt "link suggestions"
+msgid "No suggestions available."
+msgstr "Ei ehdotuksia saatavissa."
+
+#: includes/admin/links-page-js.php:431
+msgctxt "link suggestions"
+msgid "Archived page from %s (via the Wayback Machine)"
+msgstr "Arkistoitu sivu %s (Wayback Machinesta)"
+
+#: includes/admin/links-page-js.php:525
+msgid "%d instances of the link were successfully modified."
+msgstr "%d tapauksessa muokattiin linkkiä onnistuneesti."
+
+#: includes/admin/links-page-js.php:531
+msgid "However, %d instances couldn't be edited and still point to the old URL."
+msgstr "Kuitenkaan, %d tapausta ei voitu muokata ja ne osoittavat vielä vanhaan URL-osoitteeseen."
+
+#: includes/admin/links-page-js.php:537
+msgid "The link could not be modified."
+msgstr "Linkkiä ei voitu muokata."
+
+#: includes/admin/links-page-js.php:540
+msgid "The following error(s) occurred :"
+msgstr "Seuraava(t) virhe tapahtui:"
+
+#: includes/admin/links-page-js.php:612
+msgid "Error: Link URL must not be empty."
+msgstr "Virhe: Linkin URL-osoite ei saa olla tyhjä."
+
+#: includes/admin/links-page-js.php:688
+msgid "%d instances of the link were successfully unlinked."
+msgstr "%d tapauksessa poistettiin linkki onnistuneesti."
+
+#: includes/admin/links-page-js.php:694
+msgid "However, %d instances couldn't be removed."
+msgstr "Kuitenkaan, %d kohdetta ei voitu poistaa."
+
+#: includes/admin/links-page-js.php:699
+msgid "The plugin failed to remove the link."
+msgstr "Lisäosa epäonnistui linkin poistamisessa."
+
+#: includes/admin/links-page-js.php:702
+msgid "The following error(s) occured :"
+msgstr "Seuraavat virheet tapahtuivat :"
+
+#: includes/admin/links-page-js.php:748
+msgid "Enter a name for the new custom filter"
+msgstr "Syötä nimi uudelle mukautetulle suodattimelle"
+
+#: includes/admin/links-page-js.php:760
+msgid ""
+"You are about to delete the current filter.\n"
+"'Cancel' to stop, 'OK' to delete"
+msgstr ""
+"Olet aikeissa poistaa nykyisen suodattimen.\n"
+"'Peruuta' lopettaaksesi, 'OK' poistaaksesi"
+
+#: includes/admin/links-page-js.php:784
+msgid ""
+"Are you sure you want to delete all posts, bookmarks or other items that contain any of the selected links? This action can't be undone.\n"
+"'Cancel' to stop, 'OK' to delete"
+msgstr ""
+"Oletko varma, että haluat poistaa kaikki artikkelit, kirjanmerkit tai muut kohteet, jotka sisältävät mitä tahansa valituista linkeistä? Tätä toimintoa ei voida peruuttaa.\n"
+"'Peruuta' lopettaaksesi, 'OK' poistaaksesi"
+
+#: includes/admin/links-page-js.php:798
+msgid ""
+"Are you sure you want to remove the selected links? This action can't be undone.\n"
+"'Cancel' to stop, 'OK' to remove"
+msgstr ""
+"Oletko varma, että haluat poistaa valitut linkit? Tätä toimintoa ei voida peruuttaa.\n"
+"'Peruuta' lopettaaksesi, 'OK' poistaaksesi"
+
+#: includes/admin/links-page-js.php:928
+msgid "Enter a search string first."
+msgstr "Syötä ensin hakulause."
+
+#: includes/admin/links-page-js.php:935
+msgid "Select one or more links to edit."
+msgstr "Valitse yksi tai useampi linkki muokattavaksi."
+
+#: includes/admin/options-page-js.php:54
+msgid "Hide debug info"
+msgstr "Piilota debug-tiedot"
+
+#: includes/admin/search-form.php:16
+msgid "Save This Search As a Filter"
+msgstr "Tallenna tämä haku suodattimeksi"
+
+#: includes/admin/search-form.php:26
+msgid "Delete This Filter"
+msgstr "Poista tämä suodatin"
+
+#: includes/admin/search-form.php:32 includes/link-query.php:81
+msgid "Search"
+msgstr "Hae"
+
+#: includes/admin/search-form.php:42
+msgid "Link text"
+msgstr "Linkin teksti"
+
+#: includes/admin/search-form.php:45 includes/admin/table-printer.php:216
+msgid "URL"
+msgstr "URL"
+
+#: includes/admin/search-form.php:48 includes/admin/table-printer.php:542
+msgid "HTTP code"
+msgstr "HTTP-koodi"
+
+#: includes/admin/search-form.php:51
+msgid "Link status"
+msgstr "Linkin tila"
+
+#: includes/admin/search-form.php:68 includes/admin/search-form.php:85
+msgid "Link type"
+msgstr "Linkin tyyppi"
+
+#: includes/admin/search-form.php:70
+msgid "Any"
+msgstr "Mikä tahansa"
+
+#: includes/admin/search-form.php:74
+msgid "Links used in"
+msgstr "Linkkejä käytetty"
+
+#: includes/admin/search-form.php:112
+msgid "Search Links"
+msgstr "Hae linkkejä"
+
+#: includes/admin/search-form.php:113 includes/admin/table-printer.php:368
+#: includes/admin/table-printer.php:751 includes/admin/table-printer.php:876
+msgid "Cancel"
+msgstr "Peruuta"
+
+#: includes/admin/table-printer.php:188
+msgid "Compact View"
+msgstr "Suppea näkymä"
+
+#: includes/admin/table-printer.php:193
+msgid "Detailed View"
+msgstr "Yksityiskohtainen näkymä"
+
+#: includes/admin/table-printer.php:223
+msgid "Source"
+msgstr "Lähde"
+
+#: includes/admin/table-printer.php:229
+msgid "Link Text"
+msgstr "Linkin teksti"
+
+#: includes/admin/table-printer.php:236
+msgid "Redirect URL"
+msgstr "Uudelleenohjaa verkko-osoite"
+
+#: includes/admin/table-printer.php:286
+msgid "Bulk Actions"
+msgstr "Joukkomuokkaustoiminnot"
+
+#: includes/admin/table-printer.php:289
+msgid "Fix redirects"
+msgstr "Korjaa uudelleenohjaukset"
+
+#: includes/admin/table-printer.php:290
+msgid "Mark as not broken"
+msgstr "Merkitse ei-rikkinäiseksi"
+
+#: includes/admin/table-printer.php:295
+msgid "Move sources to Trash"
+msgstr "Siirrä lähteet roskakoriin"
+
+#: includes/admin/table-printer.php:297
+msgid "Delete sources"
+msgstr "Poista lähteet"
+
+#: includes/admin/table-printer.php:312
+msgid "&laquo;"
+msgstr "&laquo;"
+
+#: includes/admin/table-printer.php:313
+msgid "&raquo;"
+msgstr "&raquo;"
+
+#: includes/admin/table-printer.php:321
+msgid "Displaying %s&#8211;%s of <span class=\"current-link-count\">%s</span>"
+msgstr "Näytetään %s&#8211;%s / <span class=\"current-link-count\">%s</span>"
+
+#: includes/admin/table-printer.php:344
+msgid "Bulk Edit URLs"
+msgstr "Joukkomuokkaa URL-osoitteita"
+
+#: includes/admin/table-printer.php:346
+msgid "Find"
+msgstr "Etsi"
+
+#: includes/admin/table-printer.php:350
+msgid "Replace with"
+msgstr "Korvaa merkkijonolla"
+
+#: includes/admin/table-printer.php:358
+msgid "Case sensitive"
+msgstr "Sama merkkikoko"
+
+#: includes/admin/table-printer.php:362
+msgid "Regular expression"
+msgstr "Säännöllinen lauseke"
+
+#: includes/admin/table-printer.php:370 includes/admin/table-printer.php:877
+msgid "Update"
+msgstr "Päivitä"
+
+#: includes/admin/table-printer.php:523
+msgid "Post published on"
+msgstr "Artikkeli julkaistu"
+
+#: includes/admin/table-printer.php:528
+msgid "Link last checked"
+msgstr "Linkki viimeksi tarkastettu"
+
+#: includes/admin/table-printer.php:532
+msgid "Never"
+msgstr "Ei koskaan"
+
+#: includes/admin/table-printer.php:547
+msgid "Response time"
+msgstr "Vasteaika"
+
+#: includes/admin/table-printer.php:549
+msgid "%2.3f seconds"
+msgstr "%2.3f sekuntia"
+
+#: includes/admin/table-printer.php:552
+msgid "Final URL"
+msgstr "Lopullinen URL"
+
+#: includes/admin/table-printer.php:557
+msgid "Redirect count"
+msgstr "Uudelleenohjausten lukumäärä"
+
+#: includes/admin/table-printer.php:562
+msgid "Instance count"
+msgstr "Tapausten lukumäärä"
+
+#: includes/admin/table-printer.php:571
+msgid "This link has failed %d time."
+msgid_plural "This link has failed %d times."
+msgstr[0] "Tämä linkki on epäonnistunut %d kerran."
+msgstr[1] "Tämä linkki on epäonnistunut %d kertaa."
+
+#: includes/admin/table-printer.php:579
+msgid "This link has been broken for %s."
+msgstr "Tämä linkki on ollut rikkinäinen %s."
+
+#: includes/admin/table-printer.php:590
+msgid "Log"
+msgstr "Loki"
+
+#: includes/admin/table-printer.php:615 includes/admin/table-printer.php:660
+msgid "Show more info about this link"
+msgstr "Näytä lisätietoja tästä linkistä"
+
+#: includes/admin/table-printer.php:633
+msgctxt "checked how long ago"
+msgid "Checked"
+msgstr "Tarkistettu"
+
+#: includes/admin/table-printer.php:649
+msgid "Broken for"
+msgstr "Rikkinäinen"
+
+#: includes/admin/table-printer.php:661
+msgctxt "link in the \"Status\" column"
+msgid "Details"
+msgstr "Tiedot"
+
+#: includes/admin/table-printer.php:682
+msgid "Edit this link"
+msgstr "Muokkaa tätä linkkiä"
+
+#: includes/admin/table-printer.php:684
+msgid "Remove this link from all posts"
+msgstr "Poista tämä linkki kaikista artikkeleista"
+
+#: includes/admin/table-printer.php:690
+msgid "Remove this link from the list of broken links and mark it as valid"
+msgstr "Poista tämä linkki rikkinäisten linkkien listalta ja merkitse se kelvolliseksi"
+
+#: includes/admin/table-printer.php:698
+msgid "Hide this link and do not report it again unless its status changes"
+msgstr "Piilota tämä linkki, äläkä raportoi siitä, ellei sen tila muutu"
+
+#: includes/admin/table-printer.php:704
+msgid "Undismiss this link"
+msgstr "Poista linkin piilotus"
+
+#: includes/admin/table-printer.php:705
+msgid "Undismiss"
+msgstr "Poista piilotus"
+
+#: includes/admin/table-printer.php:718
+msgid "Replace this redirect with a direct link"
+msgstr "Korvaa tämä uudelleenohjaus suoralla linkillä"
+
+#: includes/admin/table-printer.php:752
+msgid "Update URL"
+msgstr "Päivitä URL"
+
+#: includes/admin/table-printer.php:779
+msgid "[An orphaned link! This is a bug.]"
+msgstr "[Orvoksi jäänyt linkki! Tämä on virhe.]"
+
+#: includes/admin/table-printer.php:856
+msgctxt "inline editor title"
+msgid "Edit Link"
+msgstr "Muokkaa linkkiä"
+
+#: includes/admin/table-printer.php:859
+msgctxt "inline link editor"
+msgid "Text"
+msgstr "Teksti"
+
+#: includes/admin/table-printer.php:864
+msgctxt "inline link editor"
+msgid "URL"
+msgstr "verkko-osoite"
+
+#: includes/admin/table-printer.php:869
+msgctxt "inline link editor"
+msgid "Suggestions"
+msgstr "Ehdotukset"
+
+#: includes/admin/table-printer.php:889
+msgid "Use this URL"
+msgstr "Käytä tätä verkko-osoitetta"
+
+#: includes/any-post.php:426 modules/containers/blogroll.php:46
+#: modules/containers/comment.php:159 modules/containers/custom_field.php:230
+msgid "Edit"
+msgstr "Muokkaa"
+
+#: includes/any-post.php:434 modules/containers/custom_field.php:236
+msgid "Move this item to the Trash"
+msgstr "Siirrä tämä kohde roskakoriin"
+
+#: includes/any-post.php:436 modules/containers/custom_field.php:238
+msgid "Trash"
+msgstr "Roskakori"
+
+#: includes/any-post.php:441 modules/containers/custom_field.php:243
+msgid "Delete this item permanently"
+msgstr "Poista tämä kohde pysyvästi"
+
+#: includes/any-post.php:443 modules/containers/blogroll.php:47
+#: modules/containers/custom_field.php:245
+msgid "Delete"
+msgstr "Poista"
+
+#: includes/any-post.php:456
+msgid "Preview &#8220;%s&#8221;"
+msgstr "Esikatsele &#8220;%s&#8221;"
+
+#: includes/any-post.php:457
+msgid "Preview"
+msgstr "Esikatsele"
+
+#: includes/any-post.php:464
+msgid "View &#8220;%s&#8221;"
+msgstr "Näytä &#8220;%s&#8221;"
+
+#: includes/any-post.php:465 modules/containers/comment.php:172
+#: modules/containers/custom_field.php:250
+msgid "View"
+msgstr "Näytä"
+
+#: includes/any-post.php:484 modules/containers/custom_field.php:230
+msgid "Edit this item"
+msgstr "Muokkaa tätä kohdetta"
+
+#: includes/any-post.php:548 modules/containers/blogroll.php:83
+#: modules/containers/comment.php:43
+msgid "Nothing to update"
+msgstr "Ei mitään päivitettävää"
+
+#: includes/any-post.php:558
+msgid "Updating post %d failed"
+msgstr "Artikkelin %d päivitys epäonnistui"
+
+#: includes/any-post.php:595 modules/containers/custom_field.php:317
+msgid "Failed to delete post \"%s\" (%d)"
+msgstr "Artikkelin \"%s\" (%d) poistaminen epäonnistui"

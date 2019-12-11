@@ -1,0 +1,663 @@
+# Translation of Themes - Dazzling in German
+# This file is distributed under the same license as the Themes - Dazzling package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2017-01-29 00:44:29+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/2.3.0-alpha\n"
+"Language: de\n"
+"Project-Id-Version: Themes - Dazzling\n"
+
+#. Theme Name of the plugin/theme
+msgid "Dazzling"
+msgstr "Dazzling"
+
+#: inc/widgets/widget-social.php:41
+msgid "Title "
+msgstr "Titel"
+
+#: inc/widgets/widget-social.php:17 inc/widgets/widget-social.php:39
+msgid "Follow us"
+msgstr "Folgen Sie uns"
+
+#: inc/widgets/widget-social.php:11 inc/widgets/widget-social.php:12
+msgid "Dazzling Social Widget"
+msgstr "Dazzling Social Widget"
+
+#: inc/metaboxes.php:21
+msgid "Select layout for this specific Post only"
+msgstr "Wähle ein Layout ausschließlich für diese Seite"
+
+#: inc/metaboxes.php:16
+msgid "Select layout for this specific Page only ( Note: This setting only reflects if page Template is set as Default Template and Blog Type Templates.)"
+msgstr "Wähle ein Layout ausschließlich für diese Seite (Beachte: Diese Einstellung ist nur wirksam, falls das Template der Seite als Standard Template  und Blog Type Template eingestellt ist.)"
+
+#: inc/customizer.php:440
+msgid "Check to show social icons in footer"
+msgstr "Aktivieren, um die Social-Icons im Footer anzuzeigen"
+
+#: inc/customizer.php:439
+msgid "Footer Social Icons"
+msgstr "Footer Social-Icons"
+
+#: inc/customizer.php:105
+msgid "Choose between different layout options to be used as default"
+msgstr "Wähle eine der Layout-Optionen als Standard aus. "
+
+#: inc/customizer.php:90
+msgid "Layout options"
+msgstr "Layout-Optionen"
+
+#: inc/customizer.php:45
+msgid "Slider options"
+msgstr "Slider-Optionen"
+
+#: inc/customizer.php:39
+msgid "Panel to update dazzling theme options"
+msgstr "Bereich um die Dazzling Theme Optionen zu aktualisieren"
+
+#: inc/customizer.php:38
+msgid "Dazzling Options"
+msgstr "Dazzling Optionen"
+
+#: header.php:29
+msgid "Toggle navigation"
+msgstr "Schalte Navigation"
+
+#: functions.php:276
+msgid "Full Width"
+msgstr "Volle Breite"
+
+#: functions.php:276
+msgid "No Sidebar"
+msgstr "Keine Seitenleiste"
+
+#: functions.php:264
+msgctxt "nav menu location"
+msgid "Social Menu"
+msgstr "Social Media Menü"
+
+#: content-single.php:44 content-single.php:46 content-single.php:52
+#: content-single.php:54
+msgid "permalink"
+msgstr "permalink"
+
+#. Template Name of the plugin/theme
+msgid "Full-width(no sidebar)"
+msgstr "Volle Breite (keine Seitenleiste)"
+
+#: sidebar.php:24
+msgid "Meta"
+msgstr "Meta"
+
+#: searchform.php:12
+msgid "Search..."
+msgstr "Suchen …"
+
+#: searchform.php:11
+msgctxt "label"
+msgid "Search for:"
+msgstr "Suche nach:"
+
+#: search.php:15
+msgid "Search Results for: %s"
+msgstr "Suchergebnis für: %s"
+
+#: inc/customizer.php:458
+msgid "Additional CSS"
+msgstr "Zusätzliches CSS"
+
+#: inc/customizer.php:457
+msgid "Custom CSS"
+msgstr "Benutzerdefiniertes CSS"
+
+#: inc/customizer.php:447
+msgid "Other"
+msgstr "Sonstiges"
+
+#: inc/customizer.php:428
+msgid "Social Icon:hover Color"
+msgstr "Social-Icon: Hover-Farbe"
+
+#: inc/customizer.php:417
+msgid "Social icon color"
+msgstr "Social-Icon Farbe"
+
+#: inc/customizer.php:407
+msgid "Social"
+msgstr "Social"
+
+#: inc/customizer.php:400
+msgid "Copyright text in footer"
+msgstr "Copyright-Text im Footer"
+
+#: inc/customizer.php:399
+msgid "Footer information"
+msgstr "Footer Information"
+
+#: inc/customizer.php:389
+msgid "Footer link color"
+msgstr "Footer-Linkfarbe"
+
+#: inc/customizer.php:379
+msgid "Footer text color"
+msgstr "Footer-Textfarbe"
+
+#: inc/customizer.php:369
+msgid "Footer background color"
+msgstr "Footer-Hintergrundfarbe"
+
+#: inc/customizer.php:359
+msgid "Footer widget area background color"
+msgstr "Footer Widget Bereich Hintergrundfarbe"
+
+#: inc/customizer.php:349
+msgid "Footer"
+msgstr "Footer"
+
+#: inc/customizer.php:343
+msgid "Dropdown item color"
+msgstr "Dropdown-Menü Elementfarbe"
+
+#: inc/customizer.php:342
+msgid "Top nav dropdown item color"
+msgstr "Dropdown-Menü Elementfarbe des Hauptmenüs"
+
+#: inc/customizer.php:332
+msgid "Background of dropdown item hover color"
+msgstr "Hintergrund des Dropdown-Elements bei Maus-Over"
+
+#: inc/customizer.php:331
+msgid "Top nav dropdown background color"
+msgstr "Dropdown-Menü Hintergrundfarbe des Hauptmenüs"
+
+#: inc/customizer.php:321
+msgid "Link color"
+msgstr "Linkfarbe"
+
+#: inc/customizer.php:320
+msgid "Top nav item color"
+msgstr "Elementfarbe Hauptmenü"
+
+#: inc/customizer.php:310
+msgid "Top nav background color"
+msgstr "Hintergrundfarbe Hauptmenü"
+
+#: inc/customizer.php:300
+msgid "Header"
+msgstr "Header"
+
+#: inc/customizer.php:293
+msgid "Link:hover Color"
+msgstr "Link: Maus-over-Farbe"
+
+#: inc/customizer.php:283
+msgid "Link Color"
+msgstr "Link-Farbe"
+
+#: inc/customizer.php:274
+msgid "Color for all headings (h1-h6)"
+msgstr "Farbe für alle Überschriften (h1-h6)"
+
+#: inc/customizer.php:273
+msgid "Heading Color"
+msgstr "Überschrift Farbe"
+
+#: inc/customizer.php:233
+msgid "Used in p tags"
+msgstr "Benutzt in p-Tags"
+
+#: inc/customizer.php:232
+msgid "Main Body Text"
+msgstr "Haupttext"
+
+#: inc/customizer.php:218
+msgid "Typography"
+msgstr "Typographie"
+
+#: inc/customizer.php:211
+msgid "Call For Action Button Text Color"
+msgstr "Aktionsbutton Text Farbe"
+
+#: inc/customizer.php:201
+msgid "Call For Action Button Border Color"
+msgstr "Aktionsbutton Rahmenfarbe"
+
+#: inc/customizer.php:191
+msgid "Call For Action Background Color"
+msgstr "Aktionsbutton Hintergrundfarbe"
+
+#: inc/customizer.php:181
+msgid "Call For Action Text Color"
+msgstr "Aktionsbutton Textfarbe"
+
+#: inc/customizer.php:171
+msgid "Enter the link for Call For Action button"
+msgstr "Gib den Link für den Aktionsbutton ein"
+
+#: inc/customizer.php:169
+msgid "CFA button link"
+msgstr "Aktionsbutton Link"
+
+#: inc/customizer.php:159
+msgid "Enter the title for Call For Action button"
+msgstr "Gib den Titel für den Aktionsbutton ein"
+
+#: inc/customizer.php:157
+msgid "Call For Action Button Title"
+msgstr "Aktionsbutton Titel"
+
+#: inc/customizer.php:146
+msgid "Enter the text for call for action section"
+msgstr "Gib den Text für den Aktionsbutton-Abschnitt ein"
+
+#: inc/customizer.php:145
+msgid "Call For Action Text"
+msgstr "Aktionsbutton Text"
+
+#: inc/customizer.php:135
+msgid "Action Button"
+msgstr "Aktionsschaltfläche"
+
+#: inc/customizer.php:127
+msgid "Element color on hover"
+msgstr "Elementfarbe bei Maus-Over"
+
+#: inc/customizer.php:116 inc/customizer.php:128 inc/customizer.php:182
+#: inc/customizer.php:192 inc/customizer.php:202 inc/customizer.php:212
+#: inc/customizer.php:284 inc/customizer.php:294 inc/customizer.php:311
+#: inc/customizer.php:418 inc/customizer.php:429
+msgid "Default used if no color is selected"
+msgstr "Standard wird benutzt, wenn keine Farbe ausgewählt ist"
+
+#: inc/customizer.php:115
+msgid "Element Color"
+msgstr "Elementfarbe"
+
+#: inc/customizer.php:102
+msgid "Website Layout Options"
+msgstr "Website Layout Einstellungen"
+
+#: inc/customizer.php:85
+msgid "Enter the number of slide items"
+msgstr "Gib die Anzahl der Bilder im Slider an"
+
+#: inc/customizer.php:83
+msgid "Number of slide items"
+msgstr "Anzahl Slider Bilder"
+
+#: inc/customizer.php:73
+msgid "Select a category for the featured post slider"
+msgstr "Wähle eine Anzeigekategorie für die Beiträge im Slider"
+
+#: inc/customizer.php:70
+msgid "Slider Category"
+msgstr "Slider Kategorie"
+
+#: inc/customizer.php:55
+msgid "Check if you want to enable slider"
+msgstr "Aktivieren, wenn der Slider angezeigt werden soll"
+
+#: functions.php:276
+msgid "Left Sidebar"
+msgstr "Seitenleiste links"
+
+#: functions.php:276
+msgid "Right Sidebar"
+msgstr "Seitenleiste rechts"
+
+#: inc/woo-setup.php:101
+msgid "%d item"
+msgid_plural "%d items"
+msgstr[0] "%d preis"
+msgstr[1] "%d preis"
+
+#: inc/woo-setup.php:97
+msgid "Start shopping"
+msgstr "Jetzt einkaufen"
+
+#: inc/woo-setup.php:96
+msgid "View your shopping cart"
+msgstr "Ihren Warenkorb ansehen"
+
+#: inc/template-tags.php:104
+msgid "Your comment is awaiting moderation."
+msgstr "Dein Kommentar muss noch freigeschaltet werden."
+
+#: inc/template-tags.php:97
+msgctxt "1: date, 2: time"
+msgid "%1$s at %2$s"
+msgstr "%1$s um %2$s"
+
+#: inc/template-tags.php:91
+msgid "%s <span class=\"says\">says:</span>"
+msgstr "%s <span class=\"says\">schreibt:</span>"
+
+#: inc/template-tags.php:81
+msgid "Pingback:"
+msgstr "Pingback:"
+
+#: inc/template-tags.php:60
+msgctxt "Next post link"
+msgid "%title <i class=\"fa fa-chevron-right\"></i>"
+msgstr "%title <i class=\"fa fa-chevron-right\"></i> [Nächster Beitrag]"
+
+#: inc/template-tags.php:59
+msgctxt "Previous post link"
+msgid "<i class=\"fa fa-chevron-left\"></i> %title"
+msgstr "<i class=\"fa fa-chevron-left\"></i> %title [Voriger Beitrag]"
+
+#: inc/template-tags.php:56
+msgid "Post navigation"
+msgstr "Beitragsnavigation"
+
+#: inc/template-tags.php:31
+msgid "Newer posts <i class=\"fa fa-chevron-right\"></i>"
+msgstr "neuere Artikel <i class=\"fa fa-chevron-right\"></i>"
+
+#: inc/template-tags.php:27
+msgid "<i class=\"fa fa-chevron-left\"></i> Older posts"
+msgstr "<i class=\"fa fa-chevron-left\"></i> ältere Artikel"
+
+#: inc/template-tags.php:23
+msgid "Posts navigation"
+msgstr "Beitragsnavigation"
+
+#: inc/widgets/widget-popular-posts.php:156
+msgid "Number of posts to show"
+msgstr "Anzahl der anzuzeigenden Beitr&auml;ge"
+
+#: inc/widgets/widget-popular-posts.php:115
+msgid "on"
+msgstr " - "
+
+#: inc/widgets/widget-popular-posts.php:115
+msgid "Anonymous"
+msgstr "Anonym"
+
+#: inc/widgets/widget-popular-posts.php:38
+msgid "Recent"
+msgstr "Kürzlich"
+
+#: inc/widgets/widget-popular-posts.php:37
+msgid "Popular"
+msgstr "Sehr beliebt"
+
+#: inc/widgets/widget-popular-posts.php:19
+msgid "Dazzling Popular Posts Widget"
+msgstr "Dazzling Beliebte Beiträge Widget"
+
+#: inc/widgets/widget-popular-posts.php:13
+msgid "Displays tabbed list of popular posts, recent posts & comments"
+msgstr "Zeigt eine gekennzeichnete Liste mit beliebten Beiträgen, neuesten Beiträgen und Kommentaren an"
+
+#: inc/customizer.php:639
+msgid "Follow on Twitter"
+msgstr "Folgen auf Twitter"
+
+#: inc/customizer.php:638
+msgid "Like on Facebook"
+msgstr "&#8222;Gefällt mir&#8220; auf Facebook"
+
+#: inc/customizer.php:637
+msgid "Rate this Theme"
+msgstr "Bewerte dieses Design"
+
+#: inc/customizer.php:635
+msgid "If you like this theme, I'd appreciate any of the following:"
+msgstr "Wenn dir dieses Design gef&auml;llt, w&uuml;rde ich mich sehr &uuml;ber eins oder mehrere der folgenden Dinge freuen:"
+
+#: inc/customizer.php:634
+msgid "Colorlib support forum"
+msgstr "Colorlib-Supportforum"
+
+#: inc/customizer.php:634
+msgid "The best way to contact us with <b>support questions</b> and <b>bug reports</b> is via"
+msgstr "Die beste Möglichkeit mit uns in Kontakt zu kommen ist über <strong>Supportfragen</strong> und <strong>Fehlerberichte (bug reports)</strong> über das "
+
+#: inc/customizer.php:633
+msgid "Dazzling Documentation"
+msgstr "Dazzling Dokumentation"
+
+#: inc/customizer.php:465
+msgid "Support and Documentation"
+msgstr "Support und Dokumentation"
+
+#: inc/extras.php:269
+msgid "Theme by %1$s Powered by %2$s"
+msgstr "Theme von %1$s Powered by %2$s"
+
+#: inc/extras.php:75
+msgid "Submit"
+msgstr "Absenden"
+
+#: inc/extras.php:72
+msgid "Password:"
+msgstr "Passwort:"
+
+#: inc/extras.php:71
+msgid "This post is password protected. To view it please enter your password below:"
+msgstr "Dieser Beitrag ist passwortgeschützt. Um ihn anzusehen, gib bitte dein Passwort unten ein:"
+
+#: image.php:25
+msgid "Next <i class=\"fa fa-chevron-right\"></i>"
+msgstr "N&auml;chste <i class=\"fa fa-chevron-right\"></i>"
+
+#: image.php:24
+msgid "<i class=\"fa fa-chevron-left\"></i> Previous"
+msgstr "<i class=\"fa fa-chevron-left\"></i> Vorherige"
+
+#: functions.php:147
+msgid "Footer Widget 3"
+msgstr "Footer Widget 3"
+
+#: functions.php:137
+msgid "Footer Widget 2"
+msgstr "Footer Widget 2"
+
+#: functions.php:128 functions.php:138 functions.php:148
+msgid "Used for footer widget area"
+msgstr "Platz für Footer Widgets"
+
+#: functions.php:127
+msgid "Footer Widget 1"
+msgstr "Footer Widget 1"
+
+#: functions.php:117
+msgid "Homepage Widget 3"
+msgstr "Homepage Widget 3"
+
+#: functions.php:107
+msgid "Homepage Widget 2"
+msgstr "Homepage Widget 2"
+
+#: functions.php:98 functions.php:108 functions.php:118
+msgid "Displays on the Home Page"
+msgstr "Wird auf der Startseite angezeigt"
+
+#: functions.php:97
+msgid "Homepage Widget 1"
+msgstr "Homepage Widget 1"
+
+#: functions.php:88
+msgid "Sidebar"
+msgstr "Seitenleiste"
+
+#: functions.php:60 inc/extras.php:155
+msgid "Footer Links"
+msgstr "Footer-Links"
+
+#: functions.php:59
+msgid "Primary Menu"
+msgstr "Primäres Menü"
+
+#: content.php:39 content.php:54
+msgid "Continue reading"
+msgstr "Lesen Sie weiter"
+
+#: content.php:25
+msgid " %1$s"
+msgstr " %1$s"
+
+#: content.php:15
+msgid "% Comments"
+msgstr "% Kommentare"
+
+#: content.php:15
+msgid "1 Comment"
+msgstr "1 Kommentar"
+
+#: content.php:15
+msgid "Leave a comment"
+msgstr "Einen Kommentar hinterlassen"
+
+#. translators: used between list items, there is a space after the comma
+#: content-single.php:36 content-single.php:39 content.php:21
+msgid ", "
+msgstr ", "
+
+#: content-page.php:29 content-single.php:67 content.php:30
+#: inc/template-tags.php:81 inc/template-tags.php:100
+msgid "Edit"
+msgstr "Bearbeiten"
+
+#: content-page.php:18 content-single.php:23 content.php:61 image.php:81
+msgid "Pages:"
+msgstr "Seiten:"
+
+#: content-none.php:28
+msgid "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help."
+msgstr "Es scheint, dass wir dir nicht weiterhelfen können. Möglicherweise hilft die Suche."
+
+#: content-none.php:23
+msgid "Sorry, but nothing matched your search terms. Please try again with some different keywords."
+msgstr "Es gibt keine passenden Suchergebnisse. Bitte versuche es mit anderen Suchbegriffen."
+
+#: content-none.php:19
+msgid "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr "Bist du bereit deinen ersten Beitrag zu veröffentlichen? <a href=\"%1$s\">Hier geht es los</a>."
+
+#: content-none.php:13
+msgid "Nothing Found"
+msgstr "Nichts gefunden"
+
+#: comments.php:71
+msgid "Comments are closed."
+msgstr "Kommentare sind geschlossen."
+
+#: comments.php:37 comments.php:61
+msgid "Newer Comments &rarr;"
+msgstr "Neuere Kommentare &rarr;"
+
+#: comments.php:36 comments.php:60
+msgid "&larr; Older Comments"
+msgstr "&larr; Ältere Kommentare"
+
+#: comments.php:35 comments.php:59
+msgid "Comment navigation"
+msgstr "Kommentar-Navigation"
+
+#: comments.php:28
+msgctxt "comments title"
+msgid "One thought on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
+msgstr[0] "Ein Gedanke zu &#8222;%2$s&#8220;"
+msgstr[1] "%1$s Gedanken zu &#8222;%2$s&#8220;"
+
+#: archive.php:65 sidebar.php:17
+msgid "Archives"
+msgstr "Archiv"
+
+#: archive.php:62
+msgid "Chats"
+msgstr "Chats"
+
+#: archive.php:59
+msgid "Audios"
+msgstr "Audios"
+
+#: archive.php:56
+msgid "Statuses"
+msgstr "Status"
+
+#: archive.php:53
+msgid "Links"
+msgstr "Links"
+
+#: archive.php:50
+msgid "Quotes"
+msgstr "Zitate"
+
+#: archive.php:47
+msgid "Videos"
+msgstr "Videos"
+
+#: archive.php:44
+msgid "Images"
+msgstr "Bilder"
+
+#: archive.php:41
+msgid "Galleries"
+msgstr "Galerien"
+
+#: archive.php:38
+msgid "Asides"
+msgstr "Kurzmitteilungen"
+
+#: archive.php:35
+msgctxt "yearly archives date format"
+msgid "Y"
+msgstr "Y"
+
+#: archive.php:35
+msgid "Year: %s"
+msgstr "Jahr: %s"
+
+#: archive.php:32
+msgctxt "monthly archives date format"
+msgid "F Y"
+msgstr "F Y"
+
+#: archive.php:32
+msgid "Month: %s"
+msgstr "Monat: %s"
+
+#: archive.php:29
+msgid "Day: %s"
+msgstr "Tag: %s"
+
+#: archive.php:26
+msgid "Author: %s"
+msgstr "Autor: %s"
+
+#. translators: %1$s: smiley
+#: 404.php:43
+msgid "Try looking in the monthly archives. %1$s"
+msgstr "Versuche es in der monatlichen Archivübersicht. %1$s"
+
+#: 404.php:26
+msgid "Most Used Categories"
+msgstr "Am meisten verwendetete Kategorien"
+
+#: 404.php:18
+msgid "It looks like nothing was found at this location. Maybe try one of the links below or a search?"
+msgstr "Es wurde nichts gefunden. Versuche es vielleicht mit einem der folgenden Links oder der Suche?"
+
+#: 404.php:14
+msgid "Oops! That page can&rsquo;t be found."
+msgstr "Die Seite konnte leider nicht gefunden werden."
+
+#. Author URI of the plugin/theme
+msgid "http://colorlib.com/wp/"
+msgstr "http://colorlib.com/wp/"
+
+#. Author of the plugin/theme
+msgid "Colorlib"
+msgstr "Colorlib"
+
+#. Theme URI of the plugin/theme
+msgid "http://colorlib.com/wp/themes/dazzling"
+msgstr "http://colorlib.com/wp/themes/dazzling"

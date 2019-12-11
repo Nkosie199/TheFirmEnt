@@ -1,0 +1,528 @@
+# Translation of Plugins - WP Mail SMTP by WPForms - Development (trunk) in Swedish
+# This file is distributed under the same license as the Plugins - WP Mail SMTP by WPForms - Development (trunk) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2018-01-23 15:35:04+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/2.4.0-alpha\n"
+"Language: sv_SE\n"
+"Project-Id-Version: Plugins - WP Mail SMTP by WPForms - Development (trunk)\n"
+
+#: src/Admin/Pages/Test.php:134
+msgid "There was a problem while sending a test email. Related debugging output is shown below:"
+msgstr "Ett fel uppstod när testmeddelandet skulle skickas. Relaterad felsökningsinformation visas nedan:"
+
+#: src/Providers/OptionsAbstract.php:208
+msgid "By default TLS encryption is automatically used if the server supports it, which is recommended. In some cases, due to server misconfigurations, this can cause issues and may need to be disabled."
+msgstr "Som standard används TLS-kryptering automatiskt om servern stöder det, vilket rekommenderas. I vissa fall, om servern har konfigurerats felaktigt, så kan detta orsaka problem och behöva inaktiveras."
+
+#: src/Providers/OptionsAbstract.php:194
+msgid "Auto TLS"
+msgstr "Auto TLS"
+
+#: src/Providers/OptionsAbstract.php:186
+msgid "For most servers TLS is the recommended option. If your SMTP provider offers both SSL and TLS options, we recommend using TLS."
+msgstr "För de flesta servrar är TLS det rekommenderade alternativet. Om din SMTP-leverantör erbjuder både SSL och TLS så rekommenderar vi att du väljer TLS."
+
+#: src/Admin/Pages/Test.php:136
+msgid "Please copy only the content of the error debug message above, identified with an orange left border, into the support forum topic if you experience any issues."
+msgstr "Vänligen kopiera bara innehållet i felmeddelandet ovan, som identifieras med en orange ram till vänster, till supportforumet om du upplever några problem."
+
+#. translators: %s - SendGrid access level.
+#: src/Providers/Sendgrid/Options.php:79
+msgid "To send emails you will need only a %s access level for this API key."
+msgstr "För att skicka e-post behöver du bara åtkomstnivå %s för denna API-nyckel."
+
+#: src/Providers/Sendgrid/Options.php:71
+msgid "Create API Key"
+msgstr "Skapa API-nyckel"
+
+#. translators: %s - API key link.
+#: src/Providers/Sendgrid/Options.php:69
+msgid "Follow this link to get an API Key from SendGrid: %s."
+msgstr "Följ denna länk för att få en API-nyckel från SendGrid: %s."
+
+#: src/Providers/Sendgrid/Options.php:57
+msgid "API Key"
+msgstr "API-nyckel"
+
+#. translators: %1$s - opening link tag; %2$s - closing link tag; %3$s -
+#. opening link tag; %4$s - closing link tag.
+#: src/Providers/Sendgrid/Options.php:29
+msgid "%1$sSendGrid%2$s is one of the leading transactional email services, sending over 35 billion emails every month. They provide users 100 free emails per month.<br><br>Read our %3$sSendGrid documentation%4$s to learn how to set up SendGrid and improve your email deliverability."
+msgstr "%1$sSendGrid%2$s är en av världens största e-posttjänster, som skickar över 35 miljarder e-postmeddelanden varje månad. Deras användare får 100 kostnadsfria meddelanden per månad. <br><br>Läs vår %3$sSendGrid dokumentation%4$s för att lära dig konfigurera SendGrind och förbättra din e-postleverans."
+
+#: src/Providers/Sendgrid/Options.php:25
+msgid "SendGrid"
+msgstr "SendGrid"
+
+#. translators: %1$s - opening link tag; %2$s - closing link tag.
+#: src/Providers/SMTP/Options.php:29
+msgid "Use the SMTP details provided by your hosting provider or email service.<br><br>To see recommended settings for the popular services as well as troubleshooting tips, check out our %1$sSMTP documentation%2$s."
+msgstr "Ange SMTP-uppgifterna från ditt webbhotell eller e-postleverantör. <br><br>För att se rekommenderade inställningar för populära tjänster samt felsökningstips, kolla in vår %1$sSMTP-dokumentation%2$s."
+
+#: src/Providers/SMTP/Options.php:25
+msgid "Other SMTP"
+msgstr "Övrig SMTP"
+
+#: src/Providers/Pepipost/Options.php:25
+msgid "Pepipost"
+msgstr "Pepipost"
+
+#: src/Providers/OptionsAbstract.php:307
+msgid "Meanwhile you can switch to the \"Other SMTP\" Mailer option."
+msgstr "Under tiden kan du byta till alternativet \"Övrig SMTP\"."
+
+#. translators: %1$s - Provider name; %2$s - PHP version required by Provider;
+#. %3$s - current PHP version.
+#: src/Providers/OptionsAbstract.php:300
+msgid "%1$s requires PHP %2$s to work and does not support your current PHP version %3$s. Please contact your host and request a PHP upgrade to the latest one."
+msgstr "%1$s kräver PHP %2$s för att fungera och stödjer inte din nuvarande PHP version %3$s. Vänligen kontakta ditt webbhotell och be dem uppgradera PHP till den senaste versionen."
+
+#. translators: %s - wp-config.php.
+#: src/Providers/OptionsAbstract.php:263
+msgid "The password is stored in plain text. We highly recommend you setup your password in your WordPress configuration file for improved security; to do this add the lines below to your %s file."
+msgstr "Lösenordet lagras i klartext. Av säkerhetsskäl rekommenderar vi starkt att du sparar ditt lösenord i konfigurationsfilen för WordPress. För att göra det, lägg in nedanstående rader i filen %s."
+
+#: src/Providers/OptionsAbstract.php:249
+msgid "SMTP Password"
+msgstr "SMTP-lösenord"
+
+#: src/Providers/OptionsAbstract.php:235
+msgid "SMTP Username"
+msgstr "SMTP-användarnamn"
+
+#: src/Providers/OptionsAbstract.php:205 src/Providers/OptionsAbstract.php:227
+msgid "Off"
+msgstr "Av"
+
+#: src/Providers/OptionsAbstract.php:204 src/Providers/OptionsAbstract.php:226
+msgid "On"
+msgstr "På"
+
+#: src/Providers/OptionsAbstract.php:182
+msgid "TLS"
+msgstr "TLS"
+
+#: src/Providers/OptionsAbstract.php:173
+msgid "SSL"
+msgstr "SSL"
+
+#: src/Providers/OptionsAbstract.php:164
+msgid "None"
+msgstr "Ingen"
+
+#: src/Providers/Mailgun/Options.php:96
+msgid "Get a Domain Name"
+msgstr "Skaffa ett domännamn"
+
+#. translators: %s - Domain Name link.
+#: src/Providers/Mailgun/Options.php:94
+msgid "Follow this link to get a Domain Name from Mailgun: %s."
+msgstr "Följ denna länk för att skaffa ett domännamn hos Mailgun: %s."
+
+#: src/Providers/Mailgun/Options.php:82
+msgid "Domain Name"
+msgstr "Domännamn"
+
+#: src/Providers/Mailgun/Options.php:71
+msgid "Get a Private API Key"
+msgstr "Skaffa en privat API-nyckel"
+
+#. translators: %s - API key link.
+#: src/Providers/Mailgun/Options.php:69
+msgid "Follow this link to get an API Key from Mailgun: %s."
+msgstr "Följ denna länk för att få en API-nyckel från Mailgun: %s."
+
+#: src/Providers/Mailgun/Options.php:57
+msgid "Private API Key"
+msgstr "Privat API-nyckel"
+
+#. translators: %1$s - opening link tag; %2$s - closing link tag; %3$s -
+#. opening link tag; %4$s - closing link tag.
+#: src/Providers/Mailgun/Options.php:29
+msgid "%1$sMailgun%2$s is one of the leading transactional email services trusted by over 10,000 website and application developers. They provide users 10,000 free emails per month.<br><br>Read our %3$sMailgun documentation%4$s to learn how to configure Mailgun and improve your email deliverability."
+msgstr "%1$sMailgun%2$s är en av världens största e-posttjänster, som används av över 10 000 webbplatser och utvecklare. Deras användare får 10 000 kostnadsfria meddelanden per månad.<br><br>Läs vår %3$sMailgun dokumentation%4$s för att lära dig konfigurera Mailgun och förbättra din e-postleverans."
+
+#: src/Providers/Mailgun/Options.php:25
+msgid "Mailgun"
+msgstr "Mailgun"
+
+#: src/Providers/Mail/Options.php:37
+msgid "You currently have the native WordPress option selected. Please select any other Mailer option above to continue the setup."
+msgstr "Det inbyggda WordPress-alternativet är förnärvarande valt. Vänligen välj ett annat alternativ ovan för att fortsätta installationen."
+
+#: src/Providers/Mail/Options.php:25
+msgid "Default (none)"
+msgstr "Standard (ingen)"
+
+#: src/Providers/Gmail/Options.php:123
+msgid "Click the button above to confirm authorization."
+msgstr "Klicka på knappen ovan för att bekräfta auktoriseringen."
+
+#: src/Providers/Gmail/Options.php:120
+msgid "Allow plugin to send emails using your Google account"
+msgstr "Tillåt tillägg att skicka e-post med ditt Google-konto."
+
+#: src/Providers/Gmail/Options.php:116
+msgid "Authorize"
+msgstr "Auktorisera"
+
+#: src/Providers/Gmail/Options.php:106
+msgid "You need to copy this URL into \"Authorized redirect URIs\" field for you web application on Google APIs site for your project there."
+msgstr "Du behöver kopiera denna webbadress till fältet \"Auktoriserad omskrivning URI\" för din webbapplikation på Googles API-sida."
+
+#: src/Providers/Gmail/Options.php:104
+msgid "This is the path on your site that you will be redirected to after you have authenticated with Google."
+msgstr "Detta är sökvägen på din webbplats som du vidarebefordras till efter auktorisering hos Google."
+
+#: src/Providers/Gmail/Options.php:99
+msgid "Copy URL to clipboard"
+msgstr "Kopiera webbadress till urklipp"
+
+#: src/Providers/Gmail/Options.php:91
+msgid "Authorized redirect URI"
+msgstr "Auktoriserad omskrivning URI"
+
+#: src/Providers/Gmail/Options.php:77
+msgid "Client Secret"
+msgstr "Klient hemlighet"
+
+#: src/Providers/Gmail/Options.php:63
+msgid "Client ID"
+msgstr "Klient ID"
+
+#. translators: %1$s - opening link tag; %2$s - closing link tag.
+#: src/Providers/Gmail/Options.php:29
+msgid "Send emails using your Gmail or G Suite (formerly Google Apps) account, all while keeping your login credentials safe. Other Google SMTP methods require enabling less secure apps in your account and entering your password. However, this integration uses the Google API to improve email delivery issues while keeping your site secure.<br><br>Read our %1$sGmail documentation%2$s to learn how to configure Gmail or G Suite."
+msgstr "Skicka e-post med ditt Gmail eller G Suite-konto (tidigare Google Apps), samtidigt som dina inloggningsuppgifter är säkra. Andra Google SMTP-metoder kräver aktivering av mindre säkra applikationer i ditt konto samt att du anger ditt lösenord. Denna metod använder Googles API för att förbättra e-postleveransen samt hålla webbplatsen säker. <br><br>Läs vår %1$sGmail -dokumentation%2$s för att lära dig konfigurera Gmail och G Suite."
+
+#: src/Admin/Pages/Test.php:127
+msgid "Your email was sent successfully!"
+msgstr "Ditt e-postmeddelande skickades utan problem!"
+
+#. translators: %s - mailer name.
+#: src/Admin/Pages/Test.php:114
+msgid "This email was sent by %s mailer, and generated by the WP Mail SMTP WordPress plugin."
+msgstr "Detta e-postmeddelande skickades via %s och genererades av WP Mail SMTP WordPress-tillägg."
+
+#. translators: %s - email address a test email will be sent to.
+#: src/Admin/Pages/Test.php:111
+msgid "Test email to %s"
+msgstr "Testa e-post till %s"
+
+#: src/Admin/Pages/Test.php:87
+msgid "Test failed. Please use a valid email address and try to resend the test email."
+msgstr "Test misslyckades. Vänligen ange en giltig e-postadress och försök att skicka testmeddelandet igen."
+
+#: src/Admin/Pages/Test.php:67
+msgid "Send Email"
+msgstr "Skicka e-post"
+
+#: src/Admin/Pages/Test.php:61
+msgid "Type an email address here and then click a button below to generate a test email."
+msgstr "Ange en e-postadress här och klicka på knappen nedan för att generera ett testmeddelande."
+
+#: src/Admin/Pages/Test.php:56
+msgid "Send To"
+msgstr "Skicka till"
+
+#: src/Admin/Pages/Test.php:27
+msgid "Email Test"
+msgstr "Test av e-post"
+
+#: src/Admin/Pages/Settings.php:155
+msgid "If unchecked bounce messages may be lost."
+msgstr "Om avmarkerad så kan meddelanden som studsar försvinna."
+
+#. translators: %s - WordPress.
+#: src/Admin/Pages/Settings.php:98
+msgid "If you leave this blank, the emails will be sent from %s."
+msgstr "Om du lämnar detta tomt skickas e-postmeddelanden från %s."
+
+#: src/Admin/Pages/Settings.php:94
+msgid "You can specify the name that emails should be sent from."
+msgstr "Du kan ange det namn som e-posten ska skickas från."
+
+#: src/Admin/Pages/Settings.php:77
+msgid "Please note if you are sending using an email provider (Gmail, Yahoo, Hotmail, Outlook.com, etc) this setting should be your email address for that account."
+msgstr "Vänligen notera att om du skickar via en e-postleverantör (Gmail, Yahoo, Hotmail, Outlook.com, etc) så ska din e-postadress anges här."
+
+#. translators: %s - default email address.
+#: src/Admin/Pages/Settings.php:71
+msgid "If you leave this blank, the default one will be used: %s."
+msgstr "Om du lämnar detta tomt, så visas som standard: %s."
+
+#: src/Admin/Pages/Settings.php:67
+msgid "You can specify the email address that emails should be sent from."
+msgstr "Du kan ange den e-postadress som e-posten ska skickas från."
+
+#: src/Admin/Pages/Settings.php:51
+msgid "Mail"
+msgstr "E-postadress"
+
+#: src/Admin/Pages/Misc.php:95 src/Admin/Pages/Settings.php:251
+msgid "Settings were successfully saved."
+msgstr "Inställningarna sparades utan problem."
+
+#: src/Admin/Pages/Misc.php:67 src/Admin/Pages/Settings.php:185
+msgid "Save Settings"
+msgstr "Spara inställningar"
+
+#: src/Admin/Pages/Misc.php:48
+msgid "General"
+msgstr "Allmänt"
+
+#: src/Admin/Pages/Misc.php:24
+msgid "Misc"
+msgstr "Diverse"
+
+#. translators: %1$s - WP.org link; %2$s - same WP.org link.
+#: src/Admin/Area.php:199
+msgid "Please rate <strong>WP Mail SMTP</strong> <a href=\"%1$s\" target=\"_blank\" rel=\"noopener noreferrer\">&#9733;&#9733;&#9733;&#9733;&#9733;</a> on <a href=\"%2$s\" target=\"_blank\">WordPress.org</a> to help us spread the word. Thank you from the WP Mail SMTP team!"
+msgstr "Vänligen betygsätt <strong>WP Mail SMTP</strong> <a href=\"%1$s\" target=\"_blank\" rel=\"noopener noreferrer\">&#9733;&#9733;&#9733;&#9733;&#9733;</a> på <a href=\"%2$s\" target=\"_blank\">WordPress.org</a> för att hjälpa oss sprida ordet. Tack från WP Mail SMTP-teamet!"
+
+#: src/Admin/Area.php:126
+msgid "WP Mail SMTP Options"
+msgstr "Alternativ för WP Mail SMTP"
+
+#: src/Admin/Area.php:111
+msgid "You have successfully linked the current site with your Google API project. Now you can start sending emails through Google."
+msgstr "Du har framgångsriktigt länkat denna webbplats till ditt Google API-projekt. Nu kan du börja skicka e-post via Google."
+
+#: src/Admin/Area.php:102
+msgid "There was an error while processing the authentication request. Please make sure that you have Client ID and Client Secret both valid and saved."
+msgstr "Ett fel uppstod vid behandlingen av auktoriseringsbegäran. Vänligen kontrollera att rätt klient ID och klient hemlighet är angivet och sparat."
+
+#: src/Admin/Area.php:95
+msgid "There was an error while processing the authentication request. Please try again."
+msgstr "Ett fel uppstod vid behandlingen av auktoriseringsbegäran. Vänligen försök igen."
+
+#. translators: %s - error code, returned by Google API.
+#: src/Admin/Area.php:88
+msgid "There was an error while processing the authentication request: %s. Please try again."
+msgstr "Ett fel uppstod vid behandling av auktoriseringsbegäran: %s. Vänligen försök igen."
+
+#: src/Admin/Pages/Misc.php:62 wp_mail_smtp.php:405
+msgid "Check this if you would like to hide plugin announcements and update details."
+msgstr "Kryssa i detta om du vill dölja meddelanden och detaljer om uppdateringar för detta tillägg."
+
+#: src/Admin/Pages/Misc.php:55 wp_mail_smtp.php:395 wp_mail_smtp.php:400
+msgid "Hide Announcements"
+msgstr "Dölj meddelanden"
+
+#. Author of the plugin/theme
+msgid "WPForms"
+msgstr "WPForms"
+
+#. #-#-#-#-#  wp-mail-smtp-code.pot (WP Mail SMTP 1.2.5)  #-#-#-#-#
+#. Plugin URI of the plugin/theme
+#. #-#-#-#-#  wp-mail-smtp-code.pot (WP Mail SMTP 1.2.5)  #-#-#-#-#
+#. Author URI of the plugin/theme
+msgid "https://wpforms.com/"
+msgstr "https://wpforms.com/"
+
+#. translators: %1$s - WP Mail SMTP plugin name; %2$s - opening a link tag;
+#. %3$s - closing a link tag.
+#: wp_mail_smtp.php:824
+msgid "Your site is running an outdated version of PHP that is no longer supported and may cause issues with %1$s. %2$sRead more%3$s for additional information."
+msgstr "Din webbplats kör en föråldrad version av PHP som inte längre stöds och kan orsaka problem med %1$s. %2$sLäs mer%3$s för ytterligare information."
+
+#: wp_mail_smtp.php:606
+msgid "To"
+msgstr "Till"
+
+#. translators: %s - Pepipost registration URL.
+#: wp_mail_smtp.php:526
+msgid "You need to signup on %s to get the SMTP username/password."
+msgstr "Du måste registrera dig på %s för att få SMTP användarnamn / lösenord."
+
+#: wp_mail_smtp.php:520
+msgid "Pepipost SMTP Options"
+msgstr "Pepipost SMTP-alternativ"
+
+#: wp_mail_smtp.php:506
+msgid "This is in plain text because it must not be stored encrypted."
+msgstr "Detta är i oformaterad text eftersom den inte får lagras krypterad."
+
+#: wp_mail_smtp.php:462
+msgid "TLS is not the same as STARTTLS. For most servers SSL is the recommended option."
+msgstr "TLS är inte detsamma som STARTTLS. För de flesta servrar är SSL det rekommenderade alternativet."
+
+#: wp_mail_smtp.php:459 wp_mail_smtp.php:581
+msgid "Use TLS encryption."
+msgstr "Använd TLS-kryptering."
+
+#: src/Admin/Pages/Settings.php:154 wp_mail_smtp.php:385
+msgid "Return Path indicates where non-delivery receipts - or bounce messages - are to be sent."
+msgstr "”Svara till” anger vart information om ej levererade meddelanden, eller studsade meddelanden, ska skickas."
+
+#. translators: %1$s - link start; %2$s - link end.
+#: wp_mail_smtp.php:356
+msgid "Looking for high inbox delivery? Try Pepipost with easy setup and free emails. Learn more %1$shere%2$s."
+msgstr "Vill du att många av breven ska nå mottagarnas inkorgar? Prova Pepipost med enkel konfiguration och gratis e-postmeddelanden. %1$sHär hittar du mer informatoin%2$s."
+
+#: wp_mail_smtp.php:350
+msgid "Use Pepipost SMTP to send emails."
+msgstr "Använd Pepipost SMTP för att skicka e-post."
+
+#: wp_mail_smtp.php:287 wp_mail_smtp.php:652
+msgid "WP Mail SMTP Settings"
+msgstr "WP Mail SMTP-inställningar"
+
+#. Description of the plugin/theme
+msgid "Reconfigures the wp_mail() function to use SMTP instead of mail() and creates an options page to manage the settings."
+msgstr "Konfigurerar om funktionen wp_mail() till att använda SMTP istället för mail() och skapar en alternativsida för att hantera inställningarna."
+
+#. #-#-#-#-#  wp-mail-smtp-code.pot (WP Mail SMTP 1.2.5)  #-#-#-#-#
+#. Plugin Name of the plugin/theme
+#: src/Admin/Area.php:127 wp_mail_smtp.php:652
+msgid "WP Mail SMTP"
+msgstr "WP Mail SMTP"
+
+#: src/Admin/Area.php:370 src/Admin/Pages/Settings.php:26 wp_mail_smtp.php:758
+msgid "Settings"
+msgstr "Inställningar"
+
+#: src/Providers/Gmail/Options.php:25
+msgid "Gmail"
+msgstr "Gmail"
+
+#: wp_mail_smtp.php:610
+msgid "Type an email address here and then click Send Test to generate a test email."
+msgstr "Ange en e-postadress här och klicka sedan på ”Skicka test” för att skicka ett testmeddelande."
+
+#: src/Admin/Pages/Test.php:49 wp_mail_smtp.php:598
+msgid "Send a Test Email"
+msgstr "Skicka ett testmeddelande"
+
+#: wp_mail_smtp.php:413 wp_mail_smtp.php:513 wp_mail_smtp.php:589
+msgid "Save Changes"
+msgstr "Spara ändringar"
+
+#: wp_mail_smtp.php:500 wp_mail_smtp.php:543
+msgid "Password"
+msgstr "Lösenord"
+
+#: wp_mail_smtp.php:492 wp_mail_smtp.php:535
+msgid "Username"
+msgstr "Användarnamn"
+
+#: wp_mail_smtp.php:485
+msgid "If this is set to no, the values below are ignored."
+msgstr "Om detta är satt till nej så ignoreras värdena nedan."
+
+#: wp_mail_smtp.php:481
+msgid "Yes: Use SMTP authentication."
+msgstr "Ja: Använd SMTP-autentisering."
+
+#: wp_mail_smtp.php:476
+msgid "No: Do not use SMTP authentication."
+msgstr "Nej: Använd inte SMTP-autentisering."
+
+#: src/Providers/OptionsAbstract.php:216 wp_mail_smtp.php:467
+#: wp_mail_smtp.php:471
+msgid "Authentication"
+msgstr "Autentisering"
+
+#: wp_mail_smtp.php:454 wp_mail_smtp.php:576
+msgid "Use SSL encryption."
+msgstr "Använd SSL-kryptering."
+
+#: wp_mail_smtp.php:449 wp_mail_smtp.php:571
+msgid "No encryption."
+msgstr "Ingen kryptering."
+
+#: src/Providers/OptionsAbstract.php:154 wp_mail_smtp.php:440
+#: wp_mail_smtp.php:444 wp_mail_smtp.php:559 wp_mail_smtp.php:565
+msgid "Encryption"
+msgstr "Kryptering"
+
+#: src/Providers/OptionsAbstract.php:140 wp_mail_smtp.php:433
+#: wp_mail_smtp.php:551
+msgid "SMTP Port"
+msgstr "SMTP-port"
+
+#: src/Providers/OptionsAbstract.php:126 wp_mail_smtp.php:425
+msgid "SMTP Host"
+msgstr "SMTP-värd"
+
+#: wp_mail_smtp.php:420
+msgid "These options only apply if you have chosen to send mail by SMTP above."
+msgstr "Dessa alternativ tillämpas bara om du har valt att skicka e-post genom SMTP ovan."
+
+#: wp_mail_smtp.php:418
+msgid "SMTP Options"
+msgstr "SMTP-alternativ"
+
+#: src/Admin/Pages/Settings.php:151 wp_mail_smtp.php:381
+msgid "Set the return-path to match the From Email"
+msgstr "Sätt e-postadressen ”Svara till” till samma som adressen ”Från”"
+
+#: src/Admin/Pages/Settings.php:142 wp_mail_smtp.php:371 wp_mail_smtp.php:376
+msgid "Return Path"
+msgstr "Svara till"
+
+#: wp_mail_smtp.php:344
+msgid "Use the PHP mail() function to send emails."
+msgstr "Använd funktionen PHP mail() för att skicka e-post."
+
+#: wp_mail_smtp.php:340
+msgid "Send all WordPress emails via SMTP."
+msgstr "Skicka all e-post för WordPress via SMTP."
+
+#: src/Admin/Pages/Settings.php:109 wp_mail_smtp.php:330 wp_mail_smtp.php:335
+msgid "Mailer"
+msgstr "Skickare"
+
+#: wp_mail_smtp.php:321
+msgid "You can specify the name that emails should be sent from. If you leave this blank, the emails will be sent from WordPress."
+msgstr "Du kan ange namnet som e-post ska skickas från. Om du lämnar detta blankt kommer all e-post skickas från WordPress."
+
+#: src/Admin/Pages/Settings.php:85 wp_mail_smtp.php:315
+msgid "From Name"
+msgstr "Från namn"
+
+#: wp_mail_smtp.php:306
+msgid "<strong>Please Note:</strong> You appear to be using a version of WordPress prior to 2.3. Please ignore the From Name field and instead enter Name&lt;email@domain.com&gt; in this field."
+msgstr "<strong>Observera:</strong> Du verkar använda en version av WordPress före 2.3. Vänligen ignorera fältet ”Från namn” och ange istället Name&lt;email@domain.com&gt; i detta fält."
+
+#: wp_mail_smtp.php:303
+msgid "You can specify the email address that emails should be sent from. If you leave this blank, the default email will be used."
+msgstr "Du kan ange den e-postadress som all e-post ska skickas från. Om du lämnar detta blankt kommer standardvärdet för e-post att användas."
+
+#: src/Admin/Pages/Settings.php:58 wp_mail_smtp.php:296
+msgid "From Email"
+msgstr "Från e-post"
+
+#: wp_mail_smtp.php:275
+msgid "The SMTP debugging output is shown below:"
+msgstr "SMTP-felsökningsloggen visas nedan:"
+
+#: wp_mail_smtp.php:272
+msgid "The full debugging output is shown below:"
+msgstr "Hela felsökningsloggen visas nedan:"
+
+#: wp_mail_smtp.php:269
+msgid "The result was:"
+msgstr "Resultatet var:"
+
+#: wp_mail_smtp.php:268
+msgid "Test Message Sent"
+msgstr "Testmeddelande skickat"
+
+#: wp_mail_smtp.php:252
+msgid "This is a test email generated by the WP Mail SMTP WordPress plugin."
+msgstr "Detta är ett testmeddelande genererat av tillägget ”WP Mail SMTP WordPress”."
+
+#. translators: %s - email address where test mail will be sent to.
+#: wp_mail_smtp.php:251
+msgid "Test mail to %s"
+msgstr "Testmeddelande till %s"
+
+#: wp_mail_smtp.php:242 wp_mail_smtp.php:616
+msgid "Send Test"
+msgstr "Skicka testmeddelande"

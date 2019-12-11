@@ -1,0 +1,14 @@
+[16-Nov-2017 19:20:27 UTC] PHP Fatal error:  Call to undefined function get_header() in G:\PleskVhosts\thisshouldmakemedia.com\thefirment.com\wp-content\themes\twentysixteen\404.php on line 10
+[16-Nov-2017 19:20:34 UTC] PHP Fatal error:  Call to undefined function get_header() in G:\PleskVhosts\thisshouldmakemedia.com\thefirment.com\wp-content\themes\twentysixteen\404.php on line 10
+[16-Nov-2017 19:20:41 UTC] PHP Fatal error:  Call to undefined function get_header() in G:\PleskVhosts\thisshouldmakemedia.com\thefirment.com\wp-content\themes\twentysixteen\404.php on line 10
+[26-Nov-2017 04:08:46 UTC] PHP Fatal error:  Call to undefined function __() in G:\PleskVhosts\thisshouldmakemedia.com\thefirment.com\wp-admin\user\menu.php on line 10
+[26-Nov-2017 04:16:49 UTC] PHP Fatal error:  Call to undefined function __() in G:\PleskVhosts\thisshouldmakemedia.com\thefirment.com\wp-admin\user\menu.php on line 10
+[28-Nov-2017 00:11:21 UTC] PHP Fatal error:  Class 'Walker' not found in G:\PleskVhosts\thisshouldmakemedia.com\thefirment.com\wp-includes\class-walker-nav-menu.php on line 17
+[30-Nov-2017 17:04:36 UTC] PHP Fatal error:  Class 'Walker' not found in G:\PleskVhosts\thisshouldmakemedia.com\thefirment.com\wp-includes\class-walker-nav-menu.php on line 17
+[05-Jan-2018 19:31:02 UTC] PHP Fatal error:  Call to undefined function get_header() in G:\PleskVhosts\thisshouldmakemedia.com\thefirment.com\wp-content\themes\musiks\404.php on line 8
+[11-Jan-2018 06:06:20 UTC] PHP Fatal error:  Call to undefined function get_header() in G:\PleskVhosts\thisshouldmakemedia.com\thefirment.com\wp-content\themes\twentysixteen\404.php on line 10
+[12-Feb-2018 23:17:58 UTC] PHP Fatal error:  Call to undefined function get_header() in G:\PleskVhosts\thisshouldmakemedia.com\thefirment.com\wp-content\themes\twentysixteen\404.php on line 10
+[16-Mar-2018 05:58:18 UTC] PHP Fatal error:  Call to undefined function get_header() in G:\PleskVhosts\thisshouldmakemedia.com\thefirment.com\wp-content\themes\musiks\archive.php on line 10
+[16-Mar-2018 05:58:18 UTC] PHP Fatal error:  Call to undefined function get_header() in G:\PleskVhosts\thisshouldmakemedia.com\thefirment.com\wp-content\themes\musiks\archive.php on line 10
+[19-Mar-2018 14:37:59 UTC] PHP Fatal error:  Call to undefined function language_attributes() in G:\PleskVhosts\thisshouldmakemedia.com\thefirment.com\wp-content\themes\musiks\header.php on line 11
+[19-Mar-2018 14:37:59 UTC] PHP Fatal error:  Call to undefined function language_attributes() in G:\PleskVhosts\thisshouldmakemedia.com\thefirment.com\wp-content\themes\musiks\header.php on line 11

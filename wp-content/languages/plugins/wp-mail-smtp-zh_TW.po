@@ -1,0 +1,1532 @@
+# Translation of Plugins - WP Mail SMTP by WPForms - Stable (latest release) in Chinese (Taiwan)
+# This file is distributed under the same license as the Plugins - WP Mail SMTP by WPForms - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2018-12-03 18:13:38+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: GlotPress/2.4.0-alpha\n"
+"Language: zh_TW\n"
+"Project-Id-Version: Plugins - WP Mail SMTP by WPForms - Stable (latest release)\n"
+
+#. translators: %1$s - WP Mail SMTP plugin name; %2$s - opening a link tag;
+#. %3$s - closing a link tag.
+#: wp_mail_smtp.php:839
+msgid "Your site is running an outdated version of PHP that is no longer supported and may cause issues with %1$s. %2$sRead more%3$s for additional information."
+msgstr "這個網站執行於不再支援的舊版 PHP 環境，這會造成 %1$s 無法正確運作。請參閱%2$s這份文件%3$s (英文) 以取得更多資訊。"
+
+#: wp_mail_smtp.php:621
+msgid "To"
+msgstr "收件者"
+
+#. translators: %s - Pepipost registration URL.
+#: wp_mail_smtp.php:541
+msgid "You need to signup on %s to get the SMTP username/password."
+msgstr "你必須註冊 %s 帳號以取得 SMTP 使用者名稱及密碼。"
+
+#: wp_mail_smtp.php:535
+msgid "Pepipost SMTP Options"
+msgstr "Pepipost SMTP 設定"
+
+#: wp_mail_smtp.php:521
+msgid "This is in plain text because it must not be stored encrypted."
+msgstr "由於不須加密儲存，所以這是純文字欄位。"
+
+#: wp_mail_smtp.php:477
+msgid "TLS is not the same as STARTTLS. For most servers SSL is the recommended option."
+msgstr "TLS 與 STARTTLS 並不相同。對大多數的伺服器來說，建議使用 SSL 加密。"
+
+#: wp_mail_smtp.php:474 wp_mail_smtp.php:596
+msgid "Use TLS encryption."
+msgstr "使用 TLS 加密。"
+
+#. translators: %1$s - link start; %2$s - link end.
+#: wp_mail_smtp.php:371
+msgid "Looking for high inbox delivery? Try Pepipost with easy setup and free emails. Learn more %1$shere%2$s."
+msgstr "需要大量郵件寄送方案？你可以試用設定簡單並提供免費電子郵件傳送額度的 Pepipost。按一下%1$s這裡%2$s以進一步瞭解。"
+
+#: wp_mail_smtp.php:365
+msgid "Use Pepipost SMTP to send emails."
+msgstr "使用 Pepipost SMTP 傳送電子郵件。"
+
+#: wp_mail_smtp.php:302 wp_mail_smtp.php:667
+msgid "WP Mail SMTP Settings"
+msgstr "WP Mail SMTP 設定"
+
+#: src/Providers/Pepipost/Options.php:25
+msgid "Pepipost"
+msgstr "Pepipost"
+
+#: src/Providers/Gmail/Options.php:171
+msgid "To setup Gmail integration properly you should save Client ID and Client Secret."
+msgstr "請先儲存用戶端 ID 及用戶端密碼，便能正確設定 Gmail 整合。"
+
+#: src/Providers/Gmail/Options.php:163
+msgid "Removing the connection will give you an ability to redo the connection or link to another Google account."
+msgstr "移除連線後，便能再次設定連線或連結至其他 Google 帳戶。"
+
+#: src/Providers/Gmail/Options.php:160
+msgid "Remove Connection"
+msgstr "移除連線"
+
+#: src/Providers/Gmail/Options.php:154
+msgid "Click the button above to confirm authorization."
+msgstr "按一下上方按鈕以確認授權。"
+
+#: src/Providers/Gmail/Options.php:151
+msgid "Allow plugin to send emails using your Google account"
+msgstr "授與外掛使用 Google 帳戶傳送電子郵件的權限"
+
+#: src/Providers/Gmail/Options.php:143
+msgid "Are you sure you want to reset the current Gmail connection? You will need to immediately create a new one to be able to send emails."
+msgstr "確定要重設目前的 Gmail 連線嗎？這樣會需要立即建立新的 Gmail 帳戶，才能傳送電子郵件。"
+
+#: src/Providers/Gmail/Options.php:118
+msgid "Authorization"
+msgstr "驗證"
+
+#: src/Providers/Gmail/Options.php:109
+msgid "You need to copy this URL into \"Authorized redirect URIs\" field for you web application on Google APIs site for your project there."
+msgstr "請將這個網址複製到 Google API 網站上的網路應用程式專案的 [已授權的重新導向 URI] 欄位。"
+
+#: src/Providers/Gmail/Options.php:107
+msgid "This is the path on your site that you will be redirected to after you have authenticated with Google."
+msgstr "這是你與 Google 進行驗證後，要重新導向至你的網站的路徑。"
+
+#: src/Providers/Gmail/Options.php:102
+msgid "Copy URL to clipboard"
+msgstr "複製網址至剪貼簿"
+
+#: src/Providers/Gmail/Options.php:94
+msgid "Authorized redirect URI"
+msgstr "已授權的重新導向 URI"
+
+#: src/Providers/Gmail/Options.php:79
+msgid "Client Secret"
+msgstr "用戶端密碼"
+
+#: src/Providers/Gmail/Options.php:64
+msgid "Client ID"
+msgstr "用戶端 ID"
+
+#. translators: %1$s - opening link tag; %2$s - closing link tag.
+#: src/Providers/Gmail/Options.php:29
+msgid "Send emails using your Gmail or G Suite (formerly Google Apps) account, all while keeping your login credentials safe. Other Google SMTP methods require enabling less secure apps in your account and entering your password. However, this integration uses the Google API to improve email delivery issues while keeping your site secure.<br><br>Read our %1$sGmail documentation%2$s to learn how to configure Gmail or G Suite."
+msgstr "使用 Gmail API 透過 Gmail 或 G Suite (之前的 Google Apps) 帳戶傳送電子郵件，傳送郵件同時還能保障帳戶登入憑證的安全。透過其他 Google SMTP 方法傳送郵件，必須在你的帳戶中啟用安全性較低的應用程式，並在其中輸入 Google 帳戶及密碼。但是使用 Gmail API 除了能改善傳送郵件的問題外，還能保障網站安全。<br><br>請參考這份 %1$sGmail API 設定教學%2$s (英文)，為你的 Gmail 或 G Suite 進行設定。"
+
+#: src/Providers/OptionsAbstract.php:307
+msgid "Meanwhile you can switch to the \"Other SMTP\" Mailer option."
+msgstr "同時你可以切換至 [其他 SMTP] 郵件程式設定。"
+
+#. translators: %1$s - Provider name; %2$s - PHP version required by Provider;
+#. %3$s - current PHP version.
+#: src/Providers/OptionsAbstract.php:300
+msgid "%1$s requires PHP %2$s to work and does not support your current PHP version %3$s. Please contact your host and request a PHP upgrade to the latest one."
+msgstr "%1$s 需要 PHP %2$s (或更新版本) 才能正確執行，它不支援這台主機目前所使用的 PHP %3$s。請聯絡你的主機服務商，並提出將 PHP 升級至最新版的要求。"
+
+#. translators: %s - wp-config.php.
+#: src/Providers/OptionsAbstract.php:263
+msgid "The password is stored in plain text. We highly recommend you setup your password in your WordPress configuration file for improved security; to do this add the lines below to your %s file."
+msgstr "在這個欄位中所輸入的密碼，會以純文字儲存。強烈建議網站管理員將密碼設定於 WordPress 設定檔中以提高安全性。如需進行這項設定，請將以下內容加入這個網站的 %s 檔案中。"
+
+#: src/Providers/OptionsAbstract.php:249
+msgid "SMTP Password"
+msgstr "SMTP 密碼"
+
+#: src/Providers/OptionsAbstract.php:235
+msgid "SMTP Username"
+msgstr "SMTP 使用者名稱"
+
+#: src/Providers/OptionsAbstract.php:208
+msgid "By default TLS encryption is automatically used if the server supports it, which is recommended. In some cases, due to server misconfigurations, this can cause issues and may need to be disabled."
+msgstr "依照預設，如果伺服器支援 TLS (建議採用)，便會自動使用 TLS 加密。在某些情況下，由於伺服器設定錯誤導致 TLS 加密可能會造成問題，這時便會需要停用 TLS 加密。"
+
+#: src/Providers/OptionsAbstract.php:194
+msgid "Auto TLS"
+msgstr "自動 TLS"
+
+#: src/Providers/OptionsAbstract.php:172
+msgid "For most servers TLS is the recommended option. If your SMTP provider offers both SSL and TLS options, we recommend using TLS."
+msgstr "對多數的伺服器來說，TLS 是建議設定。如果 SMTP 服務提供商同時提供了 SSL 及 TLS 設定，建議採用 TLS。"
+
+#: src/Providers/OptionsAbstract.php:168
+msgid "TLS"
+msgstr "TLS"
+
+#: src/Providers/OptionsAbstract.php:159
+msgid "SSL"
+msgstr "SSL"
+
+#: src/Providers/OptionsAbstract.php:150
+msgid "None"
+msgstr "無"
+
+#. translators: %s - URL to Mailgun.com page.
+#: src/Providers/Mailgun/Options.php:136
+msgid "<a href=\"%s\" rel=\"\" target=\"_blank\">More information</a> on Mailgun.com."
+msgstr "請參考 Mailgun.com 上的<a href=\"%s\" rel=\"\" target=\"_blank\">進一步說明</a>。"
+
+#: src/Providers/Mailgun/Options.php:131
+msgid "If you are operating under EU laws, you may be required to use EU region."
+msgstr "如果相關業務的營運必須遵守歐盟法規，請選取歐盟地區。"
+
+#: src/Providers/Mailgun/Options.php:130
+msgid "Define which endpoint you want to use for sending messages."
+msgstr "請選取要用於傳送訊息的端點。"
+
+#: src/Providers/Mailgun/Options.php:126
+msgid "EU"
+msgstr "歐盟"
+
+#: src/Providers/Mailgun/Options.php:117
+msgid "US"
+msgstr "美國"
+
+#: src/Providers/Mailgun/Options.php:107
+msgid "Region"
+msgstr "寄件/資料儲存地區"
+
+#: src/Providers/Mailgun/Options.php:96
+msgid "Get a Domain Name"
+msgstr "取得網域名稱"
+
+#. translators: %s - Domain Name link.
+#: src/Providers/Mailgun/Options.php:94
+msgid "Follow this link to get a Domain Name from Mailgun: %s."
+msgstr "請依照《%s》(英文) 中的指示，從 Mailgun 取得網域名稱。"
+
+#: src/Providers/Mailgun/Options.php:82
+msgid "Domain Name"
+msgstr "網域名稱"
+
+#: src/Providers/Mailgun/Options.php:71
+msgid "Get a Private API Key"
+msgstr "取得私密 API 金鑰"
+
+#. translators: %s - API key link.
+#: src/Providers/Mailgun/Options.php:69
+msgid "Follow this link to get an API Key from Mailgun: %s."
+msgstr "請依照《%s》(英文) 中的指示，從 Mailgun 取得 API 金鑰。"
+
+#: src/Providers/Mailgun/Options.php:57
+msgid "Private API Key"
+msgstr "私密 API 金鑰"
+
+#. translators: %1$s - opening link tag; %2$s - closing link tag; %3$s -
+#. opening link tag; %4$s - closing link tag.
+#: src/Providers/Mailgun/Options.php:29
+msgid "%1$sMailgun%2$s is one of the leading transactional email services trusted by over 10,000 website and application developers. They provide users 10,000 free emails per month.<br><br>Read our %3$sMailgun documentation%4$s to learn how to configure Mailgun and improve your email deliverability."
+msgstr "%1$sMailgun%2$s 是觸發式電子郵件服務的領導品牌之一，它提供使用者每月 10000 封電子郵件的免費寄送額度，深受網站管理員及應用程式開發人員的信賴。<br><br>請參閱這份 %3$sMailgun 線上說明文件%4$s，以瞭解如何設定 Mailgun 及改善電子郵件寄達率。"
+
+#: src/Providers/Mailgun/Options.php:25
+msgid "Mailgun"
+msgstr "Mailgun"
+
+#: src/Providers/Mail/Options.php:37
+msgid "You currently have the native WordPress option selected. Please select any other Mailer option above to continue the setup."
+msgstr "目前使用的是 WordPress 的原始設定。請選取上方的其他郵件程式，然後進行設定。"
+
+#: src/Providers/Mail/Options.php:25
+msgid "Default (none)"
+msgstr "不使用其他服務 (預設)"
+
+#. translators: %s - SendGrid access level.
+#: src/Providers/Sendgrid/Options.php:79
+msgid "To send emails you will need only a %s access level for this API key."
+msgstr "僅需取得 %s 存取層級的 API 金鑰，便能傳送郵件。"
+
+#: src/Providers/Sendgrid/Options.php:71
+msgid "Create API Key"
+msgstr "建立 API 金鑰"
+
+#. translators: %s - API key link.
+#: src/Providers/Sendgrid/Options.php:69
+msgid "Follow this link to get an API Key from SendGrid: %s."
+msgstr "請依照《%s》(英文) 中的指示，從 SendGrid 取得 API 金鑰。"
+
+#: src/Providers/Sendgrid/Options.php:57
+msgid "API Key"
+msgstr "API 金鑰"
+
+#. translators: %1$s - opening link tag; %2$s - closing link tag; %3$s -
+#. opening link tag; %4$s - closing link tag.
+#: src/Providers/Sendgrid/Options.php:29
+msgid "%1$sSendGrid%2$s is one of the leading transactional email services, sending over 35 billion emails every month. They provide users 100 free emails per month.<br><br>Read our %3$sSendGrid documentation%4$s to learn how to set up SendGrid and improve your email deliverability."
+msgstr "%1$sMailgun%2$s 是觸發式電子郵件服務的領導品牌之一，它提供使用者每天 100 封電子郵件的免費寄送額度，且每月處理超過 350 億封電子郵件。<br><br>請參閱這份 %3$sSendGrid 線上說明文件%4$s，以瞭解如何設定 SendGrid 及改善電子郵件寄達率。"
+
+#: src/Providers/Sendgrid/Options.php:25
+msgid "SendGrid"
+msgstr "SendGrid"
+
+#: src/Providers/SMTP/Options.php:29
+msgid "Use the SMTP details provided by your hosting provider or email service.<br><br>To see recommended settings for the popular services as well as troubleshooting tips, check out our %1$sSMTP documentation%2$s."
+msgstr "請輸入主機或電子郵件服務提供商所提供的詳細資料。<br><br>如需查閱常用服務的建議設定及疑難排解提示，請參閱這份 %1$sSMTP 線上說明文件%2$s (英文)。"
+
+#: src/Providers/SMTP/Options.php:25
+msgid "Other SMTP"
+msgstr "其他 SMTP"
+
+#. translators: %1$s - Plugin name causing conflict; %2$s - Plugin name causing
+#. conflict.
+#: src/Core.php:522
+msgid "Heads up! WP Mail SMTP has detected %1$s is activated. Please deactivate %2$s to prevent conflicts."
+msgstr "請注意，WP Mail SMTP 已偵測到啟用的 %1$s 外掛，請停用 %2$s 以避免發生衝突。"
+
+#: src/Core.php:367
+msgid "Consider running an email test after fixing it."
+msgstr "請在修正問題後執行電子郵件測試。"
+
+#. translators: %s - plugin admin page URL.
+#: src/Core.php:356
+msgid "Please review your WP Mail SMTP settings in <a href=\"%s\">plugin admin area</a>."
+msgstr "請在<a href=\"%s\">外掛設定頁</a>中檢視 WP Mail SMTP 設定。"
+
+#. translators: %s - plugin name and its version.
+#: src/Core.php:336
+msgid "<strong>EMAIL DELIVERY ERROR:</strong> the plugin %s logged this error during the last time it tried to send an email:"
+msgstr "<strong>電子郵件傳送錯誤:</strong> 外掛 %s 最後一次嘗試傳送電子郵件所記錄的錯誤:"
+
+#. translators: %1$s - plugin name and its version, %2$s - plugin Misc settings
+#. page.
+#: src/Core.php:306
+msgid "<strong>EMAILING DISABLED:</strong> The %1$s is currently blocking all emails from being sent. To send emails, go to plugin <a href=\"%2$s\">Misc settings</a> and disable the \"Do Not Send\" option."
+msgstr "<strong>電子郵件已停用:</strong> %1$s 目前封鎖了全部電子郵件的傳送。如需傳送電子郵件，請至外掛的 [<a href=\"%2$s\">其他</a>] 設定分頁中停用 [停止傳送郵件] 設定。"
+
+#: src/Core.php:281
+msgid "There is one recommended plugin to install, update or activate."
+msgstr "有一個建議的外掛需要安裝、更新或啟用。"
+
+#. translators: 1: dashboard link.
+#: src/Core.php:280
+msgid "The recommended plugin was installed and activated successfully. %1$s"
+msgstr "建議的外掛已成功安裝並完成啟用。%1$s"
+
+#: src/Core.php:278
+msgid "Return to Recommended Plugin Installer"
+msgstr "返回 [安裝建議的外掛]"
+
+#: src/Core.php:277
+msgid "Activate WPForms"
+msgid_plural "Begin activating plugins"
+msgstr[0] "啟用外掛"
+
+#: src/Core.php:276
+msgid "Install WPForms Now"
+msgid_plural "Begin installing plugins"
+msgstr[0] "安裝外掛"
+
+#. translators: 1: plugin name(s).
+#: src/Core.php:265 src/Core.php:271
+msgid "Thanks for installing WP Mail SMTP. We also recommend using %1$s. It's the best drag & drop form builder, has over 1 million active installs, and over 2000+ 5 star ratings."
+msgid_plural "Thanks for installing WP Mail SMTP. We also recommend using %1$s. It's the best drag & drop form builder, has over 1 million active installs, and over 2000+ 5 star ratings."
+msgstr[0] "感謝採用 WP Mail SMTP，同時也推薦使用 %1$s 這個最佳拖放式表單輔助設計工具，它有著超過 1 百萬的啟用安裝數及超過 2 千個 5 星評等。"
+
+#: src/Core.php:262
+msgid "Install Recommended Plugin"
+msgstr "安裝建議的外掛"
+
+#. translators: 1: plugin name, 2: action number 3: total number of actions.
+#: src/TGMPA.php:3589
+msgid "Installing Plugin %1$s (%2$d/%3$d)"
+msgstr "正在安裝的外掛為 %1$s (總計 %3$d 個步驟，目前為第 %2$d 步驟)"
+
+#: src/TGMPA.php:3587
+msgid "All installations have been completed."
+msgstr "所有安裝均已完成。"
+
+#. translators: 1: plugin name.
+#: src/TGMPA.php:3586
+msgid "%1$s installed successfully."
+msgstr "%1$s 安裝成功。"
+
+#: src/TGMPA.php:3584
+msgid "The installation process is starting. This process may take a while on some hosts, so please be patient."
+msgstr "安裝程序進行中。該程序在某些主機上可能會需要較多的時間，請耐心等候。"
+
+#. translators: 1: plugin name, 2: action number 3: total number of actions.
+#: src/TGMPA.php:3581
+msgid "Installing and Activating Plugin %1$s (%2$d/%3$d)"
+msgstr "正在安裝並啟用的外掛為 %1$s  (總計 %3$d 個步驟，目前為第 %2$d 步驟)"
+
+#: src/TGMPA.php:3579
+msgid "All installations and activations have been completed."
+msgstr "所有安裝及啟用均已完成。"
+
+#. translators: 1: plugin name.
+#: src/TGMPA.php:3578 src/TGMPA.php:3586
+msgid "Hide Details"
+msgstr "隱藏詳細資料"
+
+#. translators: 1: plugin name.
+#: src/TGMPA.php:3578 src/TGMPA.php:3586
+msgid "Show Details"
+msgstr "顯示詳細資料"
+
+#. translators: 1: plugin name.
+#: src/TGMPA.php:3578
+msgid "%1$s installed and activated successfully."
+msgstr "已安裝並成功啟用 %1$s。"
+
+#: src/TGMPA.php:3576
+msgid "The installation and activation process is starting. This process may take a while on some hosts, so please be patient."
+msgstr "已開始進行安裝及啟用程序。該程序在某些主機上可能會需要較多的時間，請耐心等候。"
+
+#. translators: 1: plugin name.
+#: src/TGMPA.php:3572
+msgid "The installation of %1$s failed."
+msgstr "%1$s 安裝失敗。"
+
+#. translators: 1: plugin name, 2: error message.
+#: src/TGMPA.php:3570
+msgid "An error occurred while installing %1$s: <strong>%2$s</strong>."
+msgstr "安裝 %1$s 時發生錯誤: <strong>%2$s</strong>。"
+
+#. translators: 1: plugin name, 2: action number 3: total number of actions.
+#: src/TGMPA.php:3567
+msgid "Updating Plugin %1$s (%2$d/%3$d)"
+msgstr "正在更新外掛 %1$s  (總計 %3$d 個步驟，目前為第 %2$d 步驟)"
+
+#: src/TGMPA.php:3246
+msgid "Plugin activation failed."
+msgstr "外掛啟用失敗。"
+
+#: src/TGMPA.php:3029
+msgid "No plugins are available to be activated at this time."
+msgstr "目前沒有需要啟用的外掛。"
+
+#: src/TGMPA.php:3003
+msgid "No plugins were selected to be activated. No action taken."
+msgstr "並未選取任何外掛以進行啟用，沒有產生任何變更。"
+
+#: src/TGMPA.php:2897
+msgid "No plugins are available to be updated at this time."
+msgstr "目前沒有需要更新的外掛。"
+
+#: src/TGMPA.php:2895
+msgid "No plugins are available to be installed at this time."
+msgstr "目前沒有需要安裝的外掛。"
+
+#: src/TGMPA.php:2854
+msgid "No plugins were selected to be updated. No action taken."
+msgstr "並未選取任何外掛以進行更新，沒有產生任何變更。"
+
+#: src/TGMPA.php:2852
+msgid "No plugins were selected to be installed. No action taken."
+msgstr "並未選取任何外掛以進行安裝，沒有產生任何變更。"
+
+#: src/TGMPA.php:2821
+msgid "Activate"
+msgstr "啟用"
+
+#: src/TGMPA.php:2818
+msgid "Update"
+msgstr "更新"
+
+#: src/TGMPA.php:2812
+msgid "Install"
+msgstr "安裝"
+
+#: src/TGMPA.php:2779
+msgid "Upgrade message from the plugin author:"
+msgstr "來自外掛開發者的升級訊息:"
+
+#. translators: %2$s: plugin name in screen reader markup
+#: src/TGMPA.php:2709
+msgid "Activate %2$s"
+msgstr "啟用 %2$s"
+
+#. translators: %2$s: plugin name in screen reader markup
+#: src/TGMPA.php:2703
+msgid "Update %2$s"
+msgstr "更新 %2$s"
+
+#. translators: %2$s: plugin name in screen reader markup
+#: src/TGMPA.php:2698
+msgid "Install %2$s"
+msgstr "安裝 %2$s"
+
+#: src/TGMPA.php:2649
+msgid "Status"
+msgstr "安裝狀態"
+
+#: src/TGMPA.php:2648
+msgid "Version"
+msgstr "版本"
+
+#: src/TGMPA.php:2644
+msgid "Type"
+msgstr "安裝類型"
+
+#: src/TGMPA.php:2643
+msgid "Source"
+msgstr "安裝來源"
+
+#: src/TGMPA.php:2642
+msgid "Plugin"
+msgstr "外掛"
+
+#: src/TGMPA.php:2628
+msgid "No plugins to install, update or activate."
+msgstr "目前沒有需要安裝、更新或啟用的外掛。"
+
+#: src/TGMPA.php:2605
+msgid "Available version:"
+msgstr "可用版本:"
+
+#: src/TGMPA.php:2593
+msgid "Minimum required version:"
+msgstr "最低需求版本："
+
+#: src/TGMPA.php:2585
+msgid "Installed version:"
+msgstr "已安裝的版本:"
+
+#: src/TGMPA.php:2577
+msgctxt "as in: \"version nr unknown\""
+msgid "unknown"
+msgstr "未知"
+
+#. translators: 1: number of plugins.
+#: src/TGMPA.php:2495
+msgid "To Activate <span class=\"count\">(%s)</span>"
+msgid_plural "To Activate <span class=\"count\">(%s)</span>"
+msgstr[0] "待啟用 <span class=\"count\">(%s)</span>"
+
+#. translators: 1: number of plugins.
+#: src/TGMPA.php:2491
+msgid "Update Available <span class=\"count\">(%s)</span>"
+msgid_plural "Update Available <span class=\"count\">(%s)</span>"
+msgstr[0] "可用的更新 <span class=\"count\">(%s)</span>"
+
+#. translators: 1: number of plugins.
+#: src/TGMPA.php:2487
+msgid "To Install <span class=\"count\">(%s)</span>"
+msgid_plural "To Install <span class=\"count\">(%s)</span>"
+msgstr[0] "待安裝 <span class=\"count\">(%s)</span>"
+
+#. translators: 1: number of plugins.
+#: src/TGMPA.php:2483
+msgctxt "plugins"
+msgid "All <span class=\"count\">(%s)</span>"
+msgid_plural "All <span class=\"count\">(%s)</span>"
+msgstr[0] "全部 <span class=\"count\">(%s)</span>"
+
+#. translators: 1: install status, 2: update status
+#: src/TGMPA.php:2437
+msgctxt "Install/Update Status"
+msgid "%1$s, %2$s"
+msgstr "%1$s, %2$s"
+
+#: src/TGMPA.php:2428
+msgid "Update recommended"
+msgstr "建議更新"
+
+#: src/TGMPA.php:2425
+msgid "Requires Update"
+msgstr "必須更新"
+
+#: src/TGMPA.php:2422
+msgid "Required Update not Available"
+msgstr "無法使用必要的更新"
+
+#: src/TGMPA.php:2416
+msgid "Active"
+msgstr "已啟用"
+
+#: src/TGMPA.php:2414
+msgid "Installed But Not Activated"
+msgstr "已安裝但尚未啟用"
+
+#: src/TGMPA.php:2410
+msgid "Not Installed"
+msgstr "尚未安裝"
+
+#: src/TGMPA.php:2393
+msgid "Pre-Packaged"
+msgstr "預先封裝"
+
+#: src/TGMPA.php:2390
+msgid "External Source"
+msgstr "外部來源"
+
+#: src/TGMPA.php:2387
+msgid "WordPress Repository"
+msgstr "WordPress 存放庫"
+
+#: src/TGMPA.php:2371 src/Core.php:263
+msgid "Recommended"
+msgstr "建議安裝"
+
+#: src/TGMPA.php:2368
+msgid "Required"
+msgstr "必要安裝"
+
+#. translators: %s: version number
+#: src/TGMPA.php:2084
+msgid "TGMPA v%s"
+msgstr "TGMPA %s 版"
+
+#: src/TGMPA.php:1215 src/TGMPA.php:3043
+msgctxt "plugin A *and* plugin B"
+msgid "and"
+msgstr "及"
+
+#: src/TGMPA.php:1031
+msgid "The remote plugin package consists of more than one file, but the files are not packaged in a folder."
+msgstr "遠端外掛封裝包含超過一個檔案，但這些檔案並未封裝於同一個資料夾中。"
+
+#: src/TGMPA.php:1028 src/TGMPA.php:1031
+msgid "Please contact the plugin provider and ask them to package their plugin according to the WordPress guidelines."
+msgstr "請聯絡外掛開發者，並要求開發者依照 WordPress 準則為外掛進行正確的封裝。"
+
+#: src/TGMPA.php:1028
+msgid "The remote plugin package does not contain a folder with the desired slug and renaming did not work."
+msgstr "遠端的外掛封包並未包含正確代稱的資料夾，且經過重新命名也無法正確運作。"
+
+#: src/TGMPA.php:726
+msgid "Set the parent_slug config variable instead."
+msgstr "設定 parent_slug 組態變數加以取代。"
+
+#: src/TGMPA.php:609
+msgid "Update Required"
+msgstr "必須更新"
+
+#: src/TGMPA.php:608
+msgid "This plugin needs to be updated to be compatible with your theme."
+msgstr "為了與目前的佈景主題相容，這個外掛必須進行更新。"
+
+#: src/TGMPA.php:405
+msgid "Please contact the administrator of this site for help."
+msgstr "請聯絡這個網站的管理者尋求協助。"
+
+#: src/TGMPA.php:404
+msgid "There are one or more required or recommended plugins to install, update or activate."
+msgstr "有一或多個必要或建議的外掛需要安裝、更新或啟用。"
+
+#: src/TGMPA.php:403
+msgid "Dismiss this notice"
+msgstr "關閉這項通知"
+
+#. translators: 1: dashboard link.
+#: src/TGMPA.php:402
+msgid "All plugins installed and activated successfully. %1$s"
+msgstr "所有外掛均已成功安裝並完成啟用。%1$s"
+
+#. translators: 1: plugin name.
+#: src/TGMPA.php:400
+msgid "Plugin not activated. A higher version of %s is needed for this theme. Please update the plugin."
+msgstr "外掛尚未啟用。這個佈景主題需要配合較新版本的 %s，請將外掛予以更新。"
+
+#. translators: 1: plugin name.
+#: src/TGMPA.php:398
+msgid "No action taken. Plugin %1$s was already active."
+msgstr "無須進行任何操作。外掛 %1$s 已完成啟用。"
+
+#: src/TGMPA.php:396 src/TGMPA.php:3047
+msgid "The following plugin was activated successfully:"
+msgid_plural "The following plugins were activated successfully:"
+msgstr[0] "已成功啟用的外掛:"
+
+#: src/TGMPA.php:395 src/TGMPA.php:3247
+msgid "Plugin activated successfully."
+msgstr "外掛啟用成功。"
+
+#: src/TGMPA.php:394 src/TGMPA.php:921 src/TGMPA.php:2628 src/TGMPA.php:3649
+msgid "Return to the Dashboard"
+msgstr "返回 [控制台]"
+
+#: src/TGMPA.php:393
+msgid "Return to Required Plugins Installer"
+msgstr "返回 [安裝必要的外掛]"
+
+#: src/TGMPA.php:388
+msgid "Begin activating plugin"
+msgid_plural "Begin activating plugins"
+msgstr[0] "啟用外掛"
+
+#: src/TGMPA.php:383
+msgid "Begin updating plugin"
+msgid_plural "Begin updating plugins"
+msgstr[0] "更新外掛"
+
+#: src/TGMPA.php:378
+msgid "Begin installing plugin"
+msgid_plural "Begin installing plugins"
+msgstr[0] "安裝外掛"
+
+#. translators: 1: plugin name(s).
+#: src/TGMPA.php:372
+msgid "The following recommended plugin is currently inactive: %1$s."
+msgid_plural "The following recommended plugins are currently inactive: %1$s."
+msgstr[0] "目前尚未啟用的建議安裝外掛: %1$s。"
+
+#. translators: 1: plugin name(s).
+#: src/TGMPA.php:366
+msgid "The following required plugin is currently inactive: %1$s."
+msgid_plural "The following required plugins are currently inactive: %1$s."
+msgstr[0] "目前尚未啟用的必要安裝外掛: %1$s。"
+
+#. translators: 1: plugin name(s).
+#: src/TGMPA.php:360
+msgid "There is an update available for: %1$s."
+msgid_plural "There are updates available for the following plugins: %1$s."
+msgstr[0] "有可用更新的外掛: %1$s。"
+
+#. translators: 1: plugin name(s).
+#: src/TGMPA.php:354
+msgid "The following plugin needs to be updated to its latest version to ensure maximum compatibility with this theme: %1$s."
+msgid_plural "The following plugins need to be updated to their latest version to ensure maximum compatibility with this theme: %1$s."
+msgstr[0] "為確保與這個佈景主題保持最高相容性，必須更新至最新版本的外掛: %1$s。"
+
+#. translators: 1: plugin name(s).
+#: src/TGMPA.php:348
+msgid "This theme recommends the following plugin: %1$s."
+msgid_plural "This theme recommends the following plugins: %1$s."
+msgstr[0] "這個佈景主題建議安裝的外掛: %1$s。"
+
+#. translators: 1: plugin name(s).
+#: src/TGMPA.php:342
+msgid "This theme requires the following plugin: %1$s."
+msgid_plural "This theme requires the following plugins: %1$s."
+msgstr[0] "這個佈景主題必要安裝的外掛: %1$s。"
+
+#: src/TGMPA.php:341
+msgid "Something went wrong with the plugin API."
+msgstr "外掛 API 出了點小問題。"
+
+#. translators: %s: plugin name.
+#: src/TGMPA.php:340
+msgid "Updating Plugin: %s"
+msgstr "更新中的外掛: %s"
+
+#. translators: %s: plugin name.
+#: src/TGMPA.php:338
+msgid "Installing Plugin: %s"
+msgstr "安裝中的外掛: %s"
+
+#: src/TGMPA.php:336
+msgid "Install Plugins"
+msgstr "安裝外掛 (TGMPA)"
+
+#: src/TGMPA.php:335
+msgid "Install Required Plugins"
+msgstr "安裝必要的外掛"
+
+#: src/Admin/Area.php:423
+msgid "WPForms related message was successfully dismissed"
+msgstr "WPForms 相關訊息已成功關閉"
+
+#. translators: %1$s - WP.org link; %2$s - same WP.org link.
+#: src/Admin/Area.php:245
+msgid "Please rate <strong>WP Mail SMTP</strong> <a href=\"%1$s\" target=\"_blank\" rel=\"noopener noreferrer\">&#9733;&#9733;&#9733;&#9733;&#9733;</a> on <a href=\"%2$s\" target=\"_blank\">WordPress.org</a> to help us spread the word. Thank you from the WP Mail SMTP team!"
+msgstr "請於 <a href=\"%2$s\" target=\"_blank\">WordPress.org</a> 上將 <strong>WP Mail SMTP</strong> <a href=\"%1$s\" target=\"_blank\" rel=\"noopener noreferrer\">評為五星</a>，以協助我們的宣傳。WP Mail SMTP 開發團隊在此先行致謝！"
+
+#: src/Admin/Area.php:172
+msgid "WP Mail SMTP Options"
+msgstr "WP Mail SMTP 設定"
+
+#. translators: %s - Mailer anchor link.
+#: src/Admin/Area.php:150
+msgid "Thanks for using WP Mail SMTP! To complete the plugin setup and start sending emails, <strong>please select and configure your <a href=\"%s\">Mailer</a></strong>."
+msgstr "感謝採用 WP Mail SMTP。要完成外掛設定並開始傳送電子郵件，<strong>請先選取<a href=\"%s\">郵件程式</a>並加以設定</strong>。"
+
+#: src/Admin/Area.php:118
+msgid "You have successfully linked the current site with your Google API project. Now you can start sending emails through Google."
+msgstr "外掛已成功與 Google API 專案進行連結，這個網站可以開始透過 Google 服務傳送電子郵件。"
+
+#: src/Admin/Area.php:109
+msgid "There was an error while processing the authentication request. Please make sure that you have Client ID and Client Secret both valid and saved."
+msgstr "處理驗證要求時發生錯誤，請確認你填寫的用戶端 ID 及用戶端密碼均為有效且已正確儲存。"
+
+#: src/Admin/Area.php:102
+msgid "There was an error while processing the authentication request. Please try again."
+msgstr "處理驗證要求時發生錯誤，請稍後再試。"
+
+#. translators: %s - error code, returned by Google API.
+#: src/Admin/Area.php:95
+msgid "There was an error while processing the authentication request: %s. Please try again."
+msgstr "處理 %s 的驗證要求時發生錯誤，請稍後再試。"
+
+#. translators: %1$s - WPForms.com URL, %2$s - percents off.
+#: src/Admin/Pages/Settings.php:341
+msgid "<a href=\"%1$s\" target=\"_blank\" rel=\"noopener noreferrer\">Get WPForms Pro and support WP Mail SMTP</a> - use coupon \"<strong>thankyou</strong>\" to save %2$s off your purchase."
+msgstr "<a href=\"%1$s\" target=\"_blank\" rel=\"noopener noreferrer\">訂購 WPForms Pro 授權便能支援 WP Mail SMTP 的持續開發</a> - 使用優惠碼 <strong>thankyou</strong> 便能折抵 %2$s 的授權費用。"
+
+#: src/Admin/Pages/Settings.php:332
+msgid "Collect signatures, geo-location data, and more"
+msgstr "可收集簽章、地理位置資訊及更多資料"
+
+#: src/Admin/Pages/Settings.php:331
+msgid "500+ integrations with different marketing & payment services"
+msgstr "整合超過五百個不同的行銷及付款服務"
+
+#: src/Admin/Pages/Settings.php:330
+msgid "Pre-made form templates and smart conditional logic"
+msgstr "預先製作的表單範本及智慧型條件式邏輯"
+
+#: src/Admin/Pages/Settings.php:329
+msgid "No future ads inside WP Mail SMTP admin"
+msgstr "將來在 WP Mail SMTP 設定頁面中不會顯示廣告"
+
+#: src/Admin/Pages/Settings.php:326
+msgid "Create surveys & polls with the surveys addon"
+msgstr "以問卷附加元件建立問卷及投票"
+
+#: src/Admin/Pages/Settings.php:325
+msgid "All form features like file upload, pagination, etc"
+msgstr "包含全部表單該有的功能，例如檔案上傳、分頁等"
+
+#: src/Admin/Pages/Settings.php:324
+msgid "Get the best drag & drop form builder"
+msgstr "取得最佳拖放式拖放式表單輔助設計工具"
+
+#: src/Admin/Pages/Settings.php:323
+msgid "Access to premium support for WP Mail SMTP"
+msgstr "存取 WP Mail SMTP 的優先技術支援"
+
+#: src/Admin/Pages/Settings.php:319
+msgid "Other Benefits:"
+msgstr "其他優勢:"
+
+#. translators: %s - link to WP.org repo and 5 HTML encoded stars as a label.
+#: src/Admin/Pages/Settings.php:313
+msgid "We know that you will truly love WPForms. It has over 2000+ five star ratings (%s) and is active on over 1 million websites."
+msgstr "我們知道使用者一定會愛上 WPForms。它目前有超過 2000 個 5 星評等 (%s)，且得到超過一百萬個網站的採用。"
+
+#. translators: %s - WPForms.com URL.
+#: src/Admin/Pages/Settings.php:295
+msgid "Please consider supporting us by <a href=\"%s\" target=\"_blank\" rel=\"noopener noreferrer\">purchasing a WPForms Pro license</a>. Aside from getting access to the best drag & drop WordPress form builder plugin, your purchase will help us continue to maintain and add new features to the WP Mail SMTP plugin while keeping this SMTP plugin free for the larger WordPress community."
+msgstr "請考慮透過<a href=\"%s\" target=\"_blank\" rel=\"noopener noreferrer\">購買 WPForms Pro 授權</a>來支援這個外掛的開發。購買 WPForms Pro 授權除了能得到最佳的 WordPress 拖放式表單輔助設計工具外，也能協助我們繼續維護 WP Mail SMTP 外掛並加入新功能，同時讓這個 SMTP 外掛在 WordPress 社群中能夠持續免費釋出。"
+
+#: src/Admin/Pages/Settings.php:283
+msgid "Get WPForms Pro and Support WP Mail SMTP"
+msgstr "訂購 WPForms Pro 授權便能支援 WP Mail SMTP 的開發"
+
+#: src/Admin/Pages/Settings.php:208
+msgid "If unchecked bounce messages may be lost."
+msgstr "如果未啟用這項設定，退回的郵件將會遺失。"
+
+#: src/Admin/Pages/Settings.php:207 wp_mail_smtp.php:400
+msgid "Return Path indicates where non-delivery receipts - or bounce messages - are to be sent."
+msgstr "傳回路徑會指出未傳送的收件者或退回的郵件會傳送至何處。"
+
+#: src/Admin/Pages/Settings.php:203
+msgid "Gmail doesn't allow to override Return Path. Emails will be bounced to the same email addresee they were sent from."
+msgstr "Gmail 不允許其他程式連線時覆寫傳回路徑，無法傳送的電子郵件會退回寄件者的電子郵件地址。"
+
+#: src/Admin/Pages/Settings.php:145
+msgid "If checked, the From Name setting above will be used for all emails, ignoring values set by other plugins."
+msgstr "啟用這項設定後，上方 [寄件者名稱] 中的設定便會套用至全部外寄電子郵件，並忽略其他外掛的相關設定。"
+
+#: src/Admin/Pages/Settings.php:136
+msgid "Force From Name"
+msgstr "強制使用 [寄件者名稱] 設定"
+
+#: src/Admin/Pages/Settings.php:124
+msgid "The name which emails are sent from."
+msgstr "寄送電子郵件的寄件者名稱。"
+
+#: src/Admin/Pages/Settings.php:120 src/Admin/Pages/Settings.php:141
+msgid "Gmail doesn't allow to override From Name. Emails will not have From Name defined at all."
+msgstr "Gmail 不允許其他程式連線時覆寫寄件者名稱，連線程式無法再變更寄件者名稱。"
+
+#: src/Admin/Pages/Settings.php:99
+msgid "If checked, the From Email setting above will be used for all emails, ignoring values set by other plugins."
+msgstr "啟用這項設定後，上方 [寄件者電子郵件地址] 中的設定便會套用至全部外寄電子郵件，並忽略其他外掛的相關設定。"
+
+#: src/Admin/Pages/Settings.php:90
+msgid "Force From Email"
+msgstr "強制使用 [寄件者電子郵件地址] 設定"
+
+#: src/Admin/Pages/Settings.php:78
+msgid "Please note that other plugins can change this, to prevent this use the setting below."
+msgstr "請注意，其他外掛能變更這項設定值；如需防止變更，請使用下方的設定。"
+
+#: src/Admin/Pages/Settings.php:75
+msgid "If you using an email provider (Gmail, Yahoo, Outlook.com, etc) this should be your email address for that account."
+msgstr "如果採用的是 Gmail、Yahoo、Outlook.com 這類電子郵件服務，請填寫服務帳號的電子郵件地址。"
+
+#: src/Admin/Pages/Settings.php:74
+msgid "The email address which emails are sent from."
+msgstr "設定用於傳送電子郵件的電子郵件地址。"
+
+#: src/Admin/Pages/Settings.php:70 src/Admin/Pages/Settings.php:95
+msgid "Gmail doesn't allow to override From Email. Emails will be sent using the email address you used to setup the connection."
+msgstr "Gmail 不允許其他程式連線時覆寫寄件者電子郵件地址，僅會以設定這項連線的電子郵件地址傳送郵件。"
+
+#: src/Admin/Pages/Settings.php:52
+msgid "Mail"
+msgstr "郵件"
+
+#: src/Admin/Pages/Test.php:1134
+msgid "Please copy only the content of the error debug message above, identified with an orange left border, into the support forum topic if you experience any issues."
+msgstr "如果你遇到任何問題，僅需複製上方以橙色左框線標註的偵錯訊息內容，然後發表於技術支援論壇時附上即可。"
+
+#: src/Admin/Pages/Test.php:1125
+msgid "Click here to view the full Error Log for debugging"
+msgstr "點擊這裡以檢視偵錯用的完整錯誤記錄"
+
+#. translators: %1$s - WP Mail SMTP support policy URL, %2$s - WP Mail SMTP
+#. support forum URL, %3$s - WPForms URL.
+#: src/Admin/Pages/Test.php:1104
+msgid "Alternatively, we also offer <a href=\"%1$s\" target=\"_blank\" rel=\"noopener noreferrer\">limited support</a> on the WordPress.org support forums. You can <a href=\"%2$s\" target=\"_blank\" rel=\"noopener noreferrer\">create a support thread</a> there, but please understand that free support is not guaranteed and is limited to simple issues. If you have an urgent or complex issue, then please consider <a href=\"%3$s\" target=\"_blank\" rel=\"noopener noreferrer\">purchasing a WPForms license</a> to access our priority support ticket system."
+msgstr "此外，我們也在 WordPress.org 技術支援論壇上提供<a href=\"%1$s\" target=\"_blank\" rel=\"noopener noreferrer\">有限的技術支援</a>。使用者可以在那<a href=\"%2$s\" target=\"_blank\" rel=\"noopener noreferrer\">建立技術支援貼文</a>，但請瞭解免費技術支援並不保證一定回覆，且僅限於回答簡單的問題。如有緊急或複雜的問題，請考慮<a href=\"%3$s\" target=\"_blank\" rel=\"noopener noreferrer\">購買 WPForms 授權</a>，以便存取我們的優先技術支援需求系統。"
+
+#: src/Admin/Pages/Test.php:1096
+msgid "You will truly love the WPForms plugin, but most importantly your support will help us continue to maintain and add new features to the WP Mail SMTP plugin while keeping it free for the larger WordPress community."
+msgstr "使用者一定會愛上 WPForms 外掛。但最重要的是使用者的支持能協助我們持續開發，並為 WP Mail SMTP 外掛加入新功能，同時為廣大的 WordPress 社群免費提供這個外掛。"
+
+#. translators: %s - Star icons.
+#: src/Admin/Pages/Test.php:1083
+msgid "WPForms is being used on over 1 million websites and has over 2000+ five star ratings (%s)."
+msgstr "WPForms 目前得到超過一百萬個網站的採用，且有超過 2000 個 5 星評等 (%s)。"
+
+#. translators: %s - WPForms URL.
+#: src/Admin/Pages/Test.php:1064
+msgid "To access priority support from our team, please <a href=\"%s\" target=\"_blank\" rel=\"noopener noreferrer\">purchase a WPForms license</a>. Along with getting priority support for WP Mail SMTP, you will also get access to the best drag & drop WordPress form builder plugin."
+msgstr "如需存取開發團隊的優先技術支援，請<a href=\"%s\" target=\"_blank\" rel=\"noopener noreferrer\">購買 WPForms 授權</a>；除了獲得 WP Mail SMTP 的優先技術支援外，還可以存取最佳的 WordPress 拖放式表單輔助設計工具。"
+
+#: src/Admin/Pages/Test.php:1056 src/Admin/Pages/Settings.php:287
+msgid "WP Mail SMTP is a free plugin, and the team behind WPForms maintains it to give back to the WordPress community."
+msgstr "WP Mail SMTP 是免費外掛，由 WPForms 的幕後開發團隊開發維護，並將它貢獻給 WordPress 社群。"
+
+#. translators: %s - WPForms account area link.
+#: src/Admin/Pages/Test.php:1039
+msgid "As a WPForms Pro user you have access to WP Mail SMTP priority support. Please log in to your WPForms.com account and <a href=\"%s\" target=\"_blank\" rel=\"noopener noreferrer\">submit a support ticket</a>."
+msgstr "每一位 WPForms Pro 的使用者均可存取 WP Mail SMTP 的優先技術支援。請登入 WPForms.com 帳號，並<a href=\"%s\" target=\"_blank\" rel=\"noopener noreferrer\">提交技術支援需求</a>。"
+
+#: src/Admin/Pages/Test.php:1030
+msgid "Need support?"
+msgstr "需要協助嗎？"
+
+#: src/Admin/Pages/Test.php:1020
+msgid "Recommended next steps:"
+msgstr "建議的處理步驟:"
+
+#: src/Admin/Pages/Test.php:1010
+msgid "There was a problem while sending the test email."
+msgstr "傳送測試電子郵件時發生問題。"
+
+#: src/Admin/Pages/Test.php:991
+msgid "Try using a different mailer."
+msgstr "請改用其他郵件程式。"
+
+#: src/Admin/Pages/Test.php:985
+msgid "Contact your web hosting provider and ask them to verify your server can make outside connections. Additionally, ask them if a firewall or security policy may be preventing the connection - many shared hosts block certain ports.<br><strong>Note: this is the most common cause of this issue.</strong>"
+msgstr "聯絡這個網站的主機服務提供商，並要求它確認網站伺服器是否可進行外部連線。此外，同時詢問它是否有防火牆或安全性原則禁止了相關連線，因為有不少共用主機會封鎖相關的特定通訊埠。<br><strong>請注意，這是造成這個問題的最常見原因。</strong>"
+
+#: src/Admin/Pages/Test.php:983
+msgid "Triple check the plugin settings, consider reconfiguring to make sure everything is correct (eg bad copy and paste)."
+msgstr "請反覆檢查外掛設定是否正確，試著重新設定以確認所有項目的正確性 (例如複製貼上操作有誤)。"
+
+#: src/Admin/Pages/Test.php:980
+msgid "Your host is rejecting the connection."
+msgstr "SMTP 伺服器拒絕連線。"
+
+#: src/Admin/Pages/Test.php:978
+msgid "Plugin settings are incorrect (wrong SMTP settings, invalid Mailer configuration, etc)."
+msgstr "外掛設定不正確，例如錯誤的 SMTP 設定、不正確的郵件程式設定等。"
+
+#: src/Admin/Pages/Test.php:976
+msgid "This means your test email was unable to be sent."
+msgstr "這代表無法傳送測試郵件。"
+
+#: src/Admin/Pages/Test.php:975
+msgid "An issue was detected."
+msgstr "檢測出問題。"
+
+#: src/Admin/Pages/Test.php:939
+msgid "Try to use a separate project for your emails, so the project has only 1 Gmail API in it enabled. You will need to remove the old project and create a new one from scratch."
+msgstr "試著為電子郵件建立僅啟用一個 Gmail API 的獨立專案。這會需要移除舊專案，並從頭開始建立新專案。"
+
+#: src/Admin/Pages/Test.php:935
+msgid "You may have added a new API to a project"
+msgstr "你可能已為專案新增了新的 API。"
+
+#. translators: %s - WPForms.com tutorial URL.
+#: src/Admin/Pages/Test.php:914
+msgid "Please follow our <a href=\"%s\" target=\"_blank\" rel=\"noopener noreferrer\">Gmail tutorial</a> to be sure that all the correct project and data is applied."
+msgstr "請依照這篇 <a href=\"%s\" target=\"_blank\" rel=\"noopener noreferrer\">Gmail 教學課程</a>，以確認套用了正確的專案及資料。"
+
+#: src/Admin/Pages/Test.php:910 src/Admin/Pages/Test.php:938
+msgid "Make sure that the used Client ID/Secret correspond to a proper project that has Gmail API enabled."
+msgstr "確認使用的用戶端 ID/用戶端密碼對應的是啟用了 Gmail API 的正確專案。"
+
+#. translators: %s - Google Developers Console URL.
+#: src/Admin/Pages/Test.php:887
+msgid "Make sure that you have Gmail API enabled, and you can do that <a href=\"%s\" target=\"_blank\" rel=\"noopener noreferrer\">here</a>."
+msgstr "確認 Gmail API 已啟用，這項操作可在<a href=\"%s\" target=\"_blank\" rel=\"noopener noreferrer\">這裡</a>進行。"
+
+#. translators: %s - Google G Suite Admin area URL.
+#: src/Admin/Pages/Test.php:873
+msgid "Make sure that Gmail app in your G Suite is actually enabled. You can check that in Apps list in <a href=\"%s\" target=\"_blank\" rel=\"noopener noreferrer\">G Suite Admin</a> area."
+msgstr "確認已在 G Suite 中完成啟用 Gmail 應用程式。請在 <a href=\"%s\" target=\"_blank\" rel=\"noopener noreferrer\">G Suite 管理控制台</a>的應用程式清單中進行檢查。"
+
+#. translators: %s - Google G Suite Admin area URL.
+#: src/Admin/Pages/Test.php:859
+msgid "Make sure that your G Suite trial period has not expired. You can check the status <a href=\"%s\" target=\"_blank\" rel=\"noopener noreferrer\">here</a>."
+msgstr "確認 G Suite 的試用期尚未過期。請前往<a href=\"%s\" target=\"_blank\" rel=\"noopener noreferrer\">這個頁面</a>檢查相關狀態。"
+
+#: src/Admin/Pages/Test.php:853
+msgid "There are various reasons for that, please review the steps below."
+msgstr "有許多原因會造成這個狀況，請檢閱以下步驟。"
+
+#: src/Admin/Pages/Test.php:842
+msgid "Make sure there is no aggressive caching on site admin area pages or try to clean cache between attempts."
+msgstr "確認網站後台管理頁面並未採用加強式快取，或在每次嘗試連線後清除快取。"
+
+#: src/Admin/Pages/Test.php:841
+msgid "Reinstall the plugin with clean plugin data turned on on Misc page. This will remove all the plugin options and you will be safe to retry."
+msgstr "在 [其他] 分頁中啟用清除外掛資料重新安裝外掛的設定。這會移除全部外掛設定資料，以便進行重新設定。"
+
+#: src/Admin/Pages/Test.php:840
+msgid "Make sure that you are not trying to manually clean up the plugin options to retry the \"Allow...\" step."
+msgstr "確認未曾嘗試手動清除外掛設定，以便重試 [允許] 步驟。"
+
+#: src/Admin/Pages/Test.php:837
+msgid "Authentication code that Google returned to you has already been used on your previous auth attempt."
+msgstr "Google 傳回的驗證代碼已使用於之前的驗證嘗試。"
+
+#. translators: %s - Blog article URL.
+#: src/Admin/Pages/Test.php:816
+msgid "Please <a href=\"%s\" target=\"_blank\" rel=\"noopener noreferrer\">read this article</a> to learn more about what can cause this error and how it can be resolved."
+msgstr "Please <a href=\"%s\" target=\"_blank\" rel=\"noopener noreferrer\">read this article</a> to learn more about what can cause this error and how it can be resolved."
+
+#: src/Admin/Pages/Test.php:810
+msgid "Unfortunately, this error can be due to many different reasons."
+msgstr "不過，這項錯誤通常由許多不同原因造成。"
+
+#: src/Admin/Pages/Test.php:799
+msgid "Make sure that the generated email has a TO header, useful when you are responsible for email creation."
+msgstr "確認產生的電子郵件具備 TO (收件者) 標頭，這對負責建立電子郵件的人員會非常有幫助。"
+
+#. translators: 1 - correct email address example. 2 - incorrect email address
+#. example.
+#: src/Admin/Pages/Test.php:795
+msgid "It should be something like this: %1$s. These are incorrect values: %2$s."
+msgstr "有效電子郵件地址的範例: %1$s。無效電子郵件地址的範例: %2$s。"
+
+#: src/Admin/Pages/Test.php:792
+msgid "Check the \"Send To\" email address used and confirm it is a valid email and was not empty."
+msgstr "檢查輸入於 [收件者] 欄位的電子郵件地址，並確認它是有效的電子郵件地址且非空值。"
+
+#: src/Admin/Pages/Test.php:789
+msgid "Typically this error is because address the email was sent to is invalid or was empty."
+msgstr "一般來說，電子郵件傳送的目標地址無效或為空值便會造成這項錯誤。"
+
+#. translators: %s - Google support article URL.
+#: src/Admin/Pages/Test.php:766
+msgid "if you are using G Suite, please <a href=\"%s\" target=\"_blank\" rel=\"noopener noreferrer\">read this article</a> to proceed."
+msgstr "如果是用的是 G Suite，請<a href=\"%s\" target=\"_blank\" rel=\"noopener noreferrer\">閱讀這份線上說明</a>以繼續進行。"
+
+#. translators: %s - Google support article URL.
+#: src/Admin/Pages/Test.php:750
+msgid "if you are using regular Gmail account, please <a href=\"%s\" target=\"_blank\" rel=\"noopener noreferrer\">read this article</a> to proceed."
+msgstr "如果是用的是一般 Gmail 帳戶，請<a href=\"%s\" target=\"_blank\" rel=\"noopener noreferrer\">閱讀這份線上說明</a>以繼續進行。"
+
+#: src/Admin/Pages/Test.php:744
+msgid "Please click \"Agree\", if you see that button. If not - you will need to enable less secure apps first:"
+msgstr "如果有 [允許] 按鈕，請點擊該按鈕；如果並未出現該按鈕，必須先啟用低安全性應用程式:"
+
+#: src/Admin/Pages/Test.php:743
+msgid "After the click you should be redirected to a Gmail authorization screen, where you will be asked a permission to send emails on your behalf."
+msgstr "點擊按鈕後，會重新導向至 Gmail 驗證畫面；在這個畫面中，外掛會要求授與以指定的 Gmail 帳戶傳送電子郵件的權限。"
+
+#: src/Admin/Pages/Test.php:742
+msgid "Go to plugin Settings page and click the \"Allow plugin to send emails using your Google account\" button."
+msgstr "前往外掛設定頁面並點擊 [授與外掛使用 Google 帳戶傳送電子郵件的權限] 按鈕。"
+
+#: src/Admin/Pages/Test.php:739
+msgid "Make sure that you have clicked the \"Allow plugin to send emails using your Google account\" button under Gmail settings."
+msgstr "確認在外掛的 Gmail 設定中已點擊過 [授與外掛使用 Google 帳戶傳送電子郵件的權限] 按鈕。"
+
+#: src/Admin/Pages/Test.php:738
+msgid "You have not properly configured Gmail mailer."
+msgstr "這代表 Gmail 郵件程式目前並未正確設定。"
+
+#: src/Admin/Pages/Test.php:737 src/Admin/Pages/Test.php:788
+#: src/Admin/Pages/Test.php:809 src/Admin/Pages/Test.php:836
+#: src/Admin/Pages/Test.php:852 src/Admin/Pages/Test.php:907
+#: src/Admin/Pages/Test.php:934
+msgid "Google API Error."
+msgstr "Google API 發生錯誤。"
+
+#: src/Admin/Pages/Test.php:727
+msgid "Complete the steps in section \"2. Verify Your Domain\"."
+msgstr "請完成《2. 驗證網域名稱》(英文) 章節中的步驟。"
+
+#. translators: %s - Mailgun documentation URL.
+#: src/Admin/Pages/Test.php:716
+msgid "Go to our how-to guide for setting up <a href=\"%s\" target=\"_blank\" rel=\"noopener noreferrer\">Mailgun with WP Mail SMTP</a>."
+msgstr "請參閱這篇《<a href=\"%s\" target=\"_blank\" rel=\"noopener noreferrer\">如何使用 WP Mail SMTP 外掛以 Mailgun 為 WordPress 網站傳送電子郵件 </a>》(英文) 以進行必要的設定。。"
+
+#: src/Admin/Pages/Test.php:710
+msgid "Typically this error is because you have not setup and/or complete domain name verification for your Mailgun account."
+msgstr "一般來說，在 Mailgun 帳號中未完成設定及/或未完成網域名稱驗證，便會造成這項錯誤。"
+
+#: src/Admin/Pages/Test.php:709
+msgid "Your Mailgun account does not have access to send emails."
+msgstr "目前的 Mailgun 帳號沒有傳送電子郵件的權限。"
+
+#: src/Admin/Pages/Test.php:698
+msgid "Note that the API key includes the \"key\" prefix, so make sure that it is in the WP Mail SMTP Mailgun API setting."
+msgstr "請注意，私密 API 金鑰包含「key-」這個前置詞，務必確認在 WP Mail SMTP 的 Mailgun [私密 API 金鑰] 設定中已完整輸入。"
+
+#: src/Admin/Pages/Test.php:697
+msgid "Go to your Mailgun account and view your API key."
+msgstr "前往 Mailgun 帳號頁面並檢視 API 金鑰。"
+
+#: src/Admin/Pages/Test.php:696
+msgid "Verify your API key is correct."
+msgstr "驗證 API 金鑰是否正確。"
+
+#: src/Admin/Pages/Test.php:693
+msgid "Typically this error is because there is an issue with your Mailgun settings, in many cases the API key."
+msgstr "一般來說，Mailgun 設定 (多數為 API 金鑰) 有誤便會造成這項錯誤。"
+
+#: src/Admin/Pages/Test.php:692 src/Admin/Pages/Test.php:708
+msgid "Mailgun failed."
+msgstr "存取 Mailgun 發生錯誤。"
+
+#: src/Admin/Pages/Test.php:679
+msgid "no"
+msgstr "不"
+
+#. translators: %1$s - SMTP host address, %2$s - SMTP port, %3$s - SMTP
+#. encryption.
+#: src/Admin/Pages/Test.php:666
+msgid "Contact your web hosting provider and ask them to verify your server can connect to %1$s on port %2$s using %3$s encryption. Additionally, ask them if a firewall or security policy may be preventing the connection - many shared hosts block certain ports.<br><strong>Note: this is the most common cause of this issue.</strong>"
+msgstr "請聯絡這個網站的主機服務提供商，並要求它確認目前的網站伺服器能以通訊埠 %2$s 連線至使用 %3$s 加密的 %1$s。此外，同時詢問它是否有防火牆或安全性原則禁止了相關連線，因為有不少共用主機會封鎖相關的特定通訊埠。<br><strong>請注意，這是造成這個問題的最常見原因。</strong>"
+
+#: src/Admin/Pages/Test.php:662
+msgid "Triple check your SMTP settings including host address, email, and password, port, and security."
+msgstr "請反覆檢查 SMTP 相關設定是否正確，包含 SMTP 伺服器位址、寄件帳號及密碼、通訊埠及安全性設定。"
+
+#: src/Admin/Pages/Test.php:659
+msgid "Your SMTP host is rejecting the connection."
+msgstr "SMTP 伺服器拒絕連線。"
+
+#: src/Admin/Pages/Test.php:658 src/Admin/Pages/Test.php:979
+msgid "Your web server is blocking the connection."
+msgstr "目前的網站伺服器封鎖了傳送至 SMTP 伺服器的連線。"
+
+#: src/Admin/Pages/Test.php:657
+msgid "SMTP settings are incorrect (wrong port, security setting, incorrect host)."
+msgstr "SMTP 的相關設定不正確，例如錯誤的通訊埠號、安全性設定有誤或不正確的 SMTP 伺服器位址。"
+
+#: src/Admin/Pages/Test.php:656 src/Admin/Pages/Test.php:977
+msgid "Typically this error is returned for one of the following reasons:"
+msgstr "一般來說，傳回這項錯誤是因為以下其中一項原因所造成:"
+
+#: src/Admin/Pages/Test.php:648
+msgid "Could not connect to the SMTP host."
+msgstr "無法連線至 SMTP 伺服器。"
+
+#: src/Admin/Pages/Test.php:638
+msgid "Enter correct SMTP Username (usually this is an email address) and Password in the appropriate fields."
+msgstr "在對應的欄位輸入正確的 SMTP 使用者名稱 (通常就是電子郵件地址) 及密碼。"
+
+#: src/Admin/Pages/Test.php:637
+msgid "Enable Authentication"
+msgstr "啟用驗證"
+
+#: src/Admin/Pages/Test.php:636
+msgid "Go to WP Mail SMTP plugin Settings page."
+msgstr "前往 WP Mail SMTP 外掛 [設定] 頁面。"
+
+#: src/Admin/Pages/Test.php:633
+msgid "This means the connection to your SMTP host was made successfully, but you should enable Authentication and provide correct Username and Password."
+msgstr "這代表可成功連線至 SMTP 伺服器，但必須啟用外掛的中的 [驗證] 設定並提供正確的 [STMP 使用者名稱] 及 [SMTP 密碼]。"
+
+#: src/Admin/Pages/Test.php:632
+msgid "Unauthenticated senders are not allowed."
+msgstr "不接受未驗證的寄件者。"
+
+#: src/Admin/Pages/Test.php:622
+msgid "Verify with them your SMTP account is in good standing and your account has not been flagged."
+msgstr "請聯絡 SMTP 服務提供商，確認目前的 SMTP 帳號是否仍具備使用資格，以及帳號是否已遭標幟。"
+
+#: src/Admin/Pages/Test.php:621
+msgid "Contact your SMTP host to ask about sending/rate limits."
+msgstr "請聯絡 SMTP 服務提供商洽詢關於電子郵件傳送配額限制的相關資訊。"
+
+#: src/Admin/Pages/Test.php:620
+msgid "Check the emails that are sending are sending individually. Example: email is not sending to 30 recipients. You can install any WordPress e-mail logging plugin to do that."
+msgstr "檢查傳送的電子郵件是否個別傳送。舉例來說，電子郵件並未傳送至 30 位收件者。網站管理員可以安裝任何一款 WordPress 電子郵件記錄外掛進行檢查。"
+
+#: src/Admin/Pages/Test.php:617
+msgid "Typically this error is returned when your are sending too many e-mails or e-mails that have been identified as spam."
+msgstr "一般來說，傳回這項錯誤是因為傳送過量的電子郵件或外寄的電子郵件遭判定為垃圾郵件。"
+
+#: src/Admin/Pages/Test.php:616
+msgid "This means the connection to your SMTP host was made successfully, but the host rejected the email."
+msgstr "這代表可成功連線至 SMTP 伺服器，但 SMTP 伺服器拒絕傳送郵件。"
+
+#: src/Admin/Pages/Test.php:615
+msgid "Error due to unsolicited and/or bulk e-mail."
+msgstr "由於來路不明電子郵件及/或大量電子郵件導致發生錯誤。"
+
+#: src/Admin/Pages/Test.php:605 src/Admin/Pages/Test.php:682
+msgid "Verify with your SMTP host that your account has permissions to send emails using outside connections."
+msgstr "請聯絡 SMTP 服務提供商，確認目前使用的帳號是否具備以外部連線傳送電子郵件的權限。"
+
+#: src/Admin/Pages/Test.php:604 src/Admin/Pages/Test.php:681
+msgid "Contact your SMTP host to confirm you are using the correct username and password."
+msgstr "請聯絡 SMTP 服務提供商，確認目前使用的使用者名稱及密碼是否正確。"
+
+#: src/Admin/Pages/Test.php:603
+msgid "Triple check your SMTP settings including host address, email, and password. If you have recently reset your password you will need to update the settings."
+msgstr "請反覆檢查 SMTP 相關設定是否正確，包含 SMTP 伺服器位址、寄件帳號及密碼。如果最近變更過寄件密碼，請更新外掛中的相關設定。"
+
+#: src/Admin/Pages/Test.php:600
+msgid "Typically this error is returned when the email or password is not correct or is not what the SMTP host is expecting."
+msgstr "一般來說，傳回這項錯誤是因為設定了不正確的寄件帳號/密碼或設定不符合 SMTP 伺服器規則。"
+
+#: src/Admin/Pages/Test.php:599
+msgid "This means we were able to connect to your SMTP host, but were not able to proceed using the email/password in the settings."
+msgstr "這代表外掛能夠連線至指定的 SMTP 伺服器，但無法以設定中的電子郵件地址 (帳號)/密碼繼續執行。"
+
+#: src/Admin/Pages/Test.php:598
+msgid "Could not authenticate your SMTP account."
+msgstr "無法驗證 SMTP 帳號。"
+
+#: src/Admin/Pages/Test.php:586
+msgid "Contact your web hosting provider and inform them you are having issues making outbound connections."
+msgstr "聯絡這個網站的主機服務提供商，並通知它網站主機在進行外寄連線時發生問題。"
+
+#: src/Admin/Pages/Test.php:575
+msgid "Could not connect to your host."
+msgstr "無法連線至 SMTP 伺服器。"
+
+#: src/Admin/Pages/Test.php:565
+msgid "If using \"Other SMTP\" Mailer, contact your SMTP host to confirm they are accepting outside connections with the settings you have configured (address, username, port, security, etc)."
+msgstr "如果使用了 [其他 SMTP] 郵件程式，請聯絡 SMTP 服務提供商以確認 SMTP 伺服器是否接受包含目前設定 (SMTP 伺服器位址、使用者名稱、通訊埠、安全性設定等等) 的外部連線。"
+
+#: src/Admin/Pages/Test.php:564
+msgid "If using \"Other SMTP\" Mailer, triple check your SMTP settings including host address, email, and password."
+msgstr "如果使用了 [其他 SMTP] 郵件程式，請反覆檢查 SMTP 相關設定是否正確，包含 SMTP 伺服器位址、寄件帳號及密碼。"
+
+#. translators: %s - SMTP host address.
+#: src/Admin/Pages/Test.php:561
+msgid "Contact your web hosting provider and ask them to verify your server can connect to %s. Additionally, ask them if a firewall or security policy may be preventing the connection."
+msgstr "聯絡這個網站的主機服務提供商，並要求它確認網站伺服器是否連線至 %s。此外，同時詢問它是否有防火牆或安全性原則禁止了相關連線。"
+
+#: src/Admin/Pages/Test.php:556
+msgid "Typically this error is returned your web server is blocking the connections or the SMTP host denying the request."
+msgstr "一般來說，傳回這項錯誤是因為這個網站的伺服器封鎖了傳送至 SMTP 伺服器的連線或 SMTP 伺服器拒絕了連線要求。"
+
+#: src/Admin/Pages/Test.php:555 src/Admin/Pages/Test.php:582
+#: src/Admin/Pages/Test.php:655
+msgid "This means your web server was unable to connect to the host server."
+msgstr "這代表這個網站的伺服器無法連線至 SMTP 伺服器。"
+
+#. translators: %s - SMTP host address.
+#: src/Admin/Pages/Test.php:552 src/Admin/Pages/Test.php:579
+#: src/Admin/Pages/Test.php:652
+msgid "This means your web server was unable to connect to %s."
+msgstr "這代表這個網站的伺服器無法連線至 %s。"
+
+#: src/Admin/Pages/Test.php:548
+msgid "Could not connect to host."
+msgstr "無法連線至 SMTP 伺服器。"
+
+#: src/Admin/Pages/Test.php:537 src/Admin/Pages/Test.php:588
+msgid "Ask them to resolve the issue then try again."
+msgstr "要求它解決問題然後再試一次。"
+
+#: src/Admin/Pages/Test.php:536 src/Admin/Pages/Test.php:587
+msgid "The exact error you can provide them is in the Error log, available at the bottom of this page."
+msgstr "請提供錯誤記錄中的確切錯誤，這些資訊可於本頁底部找到。"
+
+#: src/Admin/Pages/Test.php:535
+msgid "Contact your web hosting provider and inform them your site has an issue with SSL certificates."
+msgstr "聯絡這個網站的主機服務提供商，並通知它這個網站有 SSL 憑證的問題。"
+
+#: src/Admin/Pages/Test.php:532 src/Admin/Pages/Test.php:583
+msgid "Typically this error is returned when web server is not configured properly."
+msgstr "一般來說，傳回這項錯誤是因為網頁伺服器並未正確設定。"
+
+#: src/Admin/Pages/Test.php:531
+msgid "This means your web server cannot reliably make secure connections (make requests to HTTPS sites)."
+msgstr "這代表這個網站的伺服器無法可靠地建立安全連線 (向 HTTPS 網站發出要求)。"
+
+#: src/Admin/Pages/Test.php:530
+msgid "SSL certificate issue."
+msgstr "SSL 憑證問題。"
+
+#. translators: %s - mailer name.
+#: src/Admin/Pages/Test.php:365
+msgid "This email was sent by %s mailer, and WP Mail SMTP plugin by WPForms generated it."
+msgstr "這封電子郵件由 WPForms 開發的 WP Mail SMTP 自動產生，並透過 [%s] 郵件程式進行傳送。"
+
+#. translators: %s - "HTML" in bold.
+#: src/Admin/Pages/Test.php:177
+msgid "Test %s email was sent successfully! Please check your inbox to make sure it is delivered."
+msgstr "%s 格式測試電子郵件已成功傳送。請檢查電子郵件信箱以確認郵件是否寄達。"
+
+#: src/Admin/Pages/Test.php:173
+msgid "Test plain text email was sent successfully!"
+msgstr "純文字格式測試電子郵件已成功傳送。"
+
+#. translators: %s - email address a test email will be sent to.
+#: src/Admin/Pages/Test.php:158
+msgid "Test email to %s"
+msgstr "傳送至 %s 的測試電子郵件"
+
+#: src/Admin/Pages/Test.php:136
+msgid "Test failed. Please use a valid email address and try to resend the test email."
+msgstr "測試失敗。請輸入有效的電子郵件地址並重新傳送測試電子郵件。"
+
+#: src/Admin/Pages/Test.php:108
+msgid "Send Email"
+msgstr "傳送電子郵件"
+
+#: src/Admin/Pages/Test.php:104
+msgid "You cannot send an email. Mailer is not properly configured. Please check your settings."
+msgstr "由於郵件程式並未正確設定，因此這個網站無法傳送電子郵件。請檢查相關設定。"
+
+#: src/Admin/Pages/Test.php:89
+msgid "Send this email in HTML or in plain text format."
+msgstr "設定要以 HTML 或純文字格式傳送測試電子郵件。"
+
+#: src/Admin/Pages/Test.php:86 src/Providers/OptionsAbstract.php:205
+#: src/Providers/OptionsAbstract.php:227
+msgid "Off"
+msgstr "停用"
+
+#: src/Admin/Pages/Test.php:85 src/Providers/OptionsAbstract.php:204
+#: src/Providers/OptionsAbstract.php:226
+msgid "On"
+msgstr "啟用"
+
+#: src/Admin/Pages/Test.php:79
+msgid "HTML"
+msgstr "HTML 格式電子郵件"
+
+#: src/Admin/Pages/Test.php:71
+msgid "Change an email address a test email will be sent to."
+msgstr "請輸入/變更傳送測試電子郵件的電子郵件地址。"
+
+#: src/Admin/Pages/Test.php:65
+msgid "Send To"
+msgstr "收件者"
+
+#: src/Admin/Pages/Test.php:36
+msgid "Email Test"
+msgstr "電子郵件測試"
+
+#: src/Admin/Pages/Misc.php:153 src/Admin/Pages/Settings.php:432
+msgid "Settings were successfully saved."
+msgstr "設定已成功儲存。"
+
+#: src/Admin/Pages/Misc.php:122 src/Admin/Pages/Settings.php:239
+msgid "Save Settings"
+msgstr "儲存設定"
+
+#: src/Admin/Pages/Misc.php:116
+msgid "Check this if you would like to remove ALL WP Mail SMTP data upon plugin deletion. All settings will be unrecoverable."
+msgstr "啟用這項設定後，在刪除 WP Mail SMTP 時便會從網站資料庫中移除全部外掛資料。外掛設定資料一經移除，便無法復原。"
+
+#: src/Admin/Pages/Misc.php:108
+msgid "Uninstall WP Mail SMTP"
+msgstr "解除安裝 WP Mail SMTP"
+
+#: src/Admin/Pages/Misc.php:99 wp_mail_smtp.php:420
+msgid "Check this if you would like to hide plugin announcements and update details."
+msgstr "啟用這項設定後，便會隱藏外掛相關通知及更新詳細資料。"
+
+#: src/Admin/Pages/Misc.php:90 wp_mail_smtp.php:410 wp_mail_smtp.php:415
+msgid "Hide Announcements"
+msgstr "隱藏通知"
+
+#: src/Admin/Pages/Misc.php:81
+msgid "Test emails are allowed to be sent, regardless of this option."
+msgstr "無論這項設定為何，外掛都會傳送測試電子郵件。"
+
+#: src/Admin/Pages/Misc.php:79
+msgid "You will need to consult with their documentation to switch them to use default WordPress email delivery."
+msgstr "網站管理員需要查閱這類外掛的相關說明文件，將其切換為使用預設的 WordPress 電子郵件傳送方式。"
+
+#: src/Admin/Pages/Misc.php:71
+msgid "Some plugins, like BuddyPress and Events Manager, are using own email delivery solutions. By default, this option does not block their emails, as those plugins do not use default <code>wp_mail()</code> function to send emails."
+msgstr "某些外掛 (如 BuddyPress 及 Events Manager) 會採用自有的電子郵件傳送解決方案。依照預設，這項設定不會封鎖這類外掛傳送電子郵件，因為他們並不是使用預設的 <code>wp_mail()</code> 函式傳送電子郵件。"
+
+#: src/Admin/Pages/Misc.php:65
+msgid "Check this if you would like to stop sending all emails."
+msgstr "啟用這項設定後，便會停止傳送全部電子郵件。"
+
+#: src/Admin/Pages/Misc.php:56
+msgid "Do Not Send"
+msgstr "停止傳送郵件"
+
+#: src/Admin/Pages/Misc.php:48
+msgid "General"
+msgstr "一般"
+
+#: src/Admin/Pages/Misc.php:24
+msgid "Misc"
+msgstr "其他"
+
+#. Author of the plugin
+msgid "WPForms"
+msgstr "WPForms"
+
+#. Description of the plugin
+msgid "Reconfigures the <code>wp_mail()</code> function to use Gmail/Mailgun/SendGrid/SMTP instead of the default <code>mail()</code> and creates an options page to manage the settings."
+msgstr "不使用預設的默認的 <code>mail()</code> 函式，並重新設定 <code>wp_mail()</code> 函式以使用 Gmail/Mailgun/SendGrid/SMTP 等郵件程式，然後建立設定頁面管理相關設定。"
+
+#. Plugin URI of the plugin
+#. Author URI of the plugin
+msgid "https://wpforms.com/"
+msgstr "https://wpforms.com/"
+
+#. Plugin Name of the plugin
+#: src/Admin/Area.php:173 wp_mail_smtp.php:667
+msgid "WP Mail SMTP"
+msgstr "WP Mail SMTP"
+
+#: src/Admin/Area.php:457 src/Admin/Pages/Settings.php:26 wp_mail_smtp.php:773
+msgid "Settings"
+msgstr "設定"
+
+#: src/Providers/Gmail/Options.php:25
+msgid "Gmail"
+msgstr "Gmail"
+
+#: wp_mail_smtp.php:625
+msgid "Type an email address here and then click Send Test to generate a test email."
+msgstr "在此輸入電子郵件地址，然後按一下 [傳送測試] 以產生測試用電子郵件。"
+
+#: src/Admin/Pages/Test.php:58 wp_mail_smtp.php:613
+msgid "Send a Test Email"
+msgstr "傳送測試郵件"
+
+#: wp_mail_smtp.php:428 wp_mail_smtp.php:528 wp_mail_smtp.php:604
+msgid "Save Changes"
+msgstr "儲存變更"
+
+#: wp_mail_smtp.php:515 wp_mail_smtp.php:558
+msgid "Password"
+msgstr "密碼"
+
+#: wp_mail_smtp.php:507 wp_mail_smtp.php:550
+msgid "Username"
+msgstr "使用者名稱"
+
+#: wp_mail_smtp.php:500
+msgid "If this is set to no, the values below are ignored."
+msgstr "如果設定為 [否]，下方設定會全部予以忽略。"
+
+#: wp_mail_smtp.php:496
+msgid "Yes: Use SMTP authentication."
+msgstr "是，使用 SMTP 驗證。"
+
+#: wp_mail_smtp.php:491
+msgid "No: Do not use SMTP authentication."
+msgstr "否，不使用 SMTP 驗證。"
+
+#: src/Providers/OptionsAbstract.php:216 wp_mail_smtp.php:482
+#: wp_mail_smtp.php:486
+msgid "Authentication"
+msgstr "驗證"
+
+#: wp_mail_smtp.php:469 wp_mail_smtp.php:591
+msgid "Use SSL encryption."
+msgstr "使用 SSL 加密。"
+
+#: wp_mail_smtp.php:464 wp_mail_smtp.php:586
+msgid "No encryption."
+msgstr "不加密。"
+
+#: src/Providers/OptionsAbstract.php:140 wp_mail_smtp.php:455
+#: wp_mail_smtp.php:459 wp_mail_smtp.php:574 wp_mail_smtp.php:580
+msgid "Encryption"
+msgstr "加密方式"
+
+#: src/Providers/OptionsAbstract.php:180 wp_mail_smtp.php:448
+#: wp_mail_smtp.php:566
+msgid "SMTP Port"
+msgstr "SMTP 通訊埠"
+
+#: src/Providers/OptionsAbstract.php:126 wp_mail_smtp.php:440
+msgid "SMTP Host"
+msgstr "SMTP 伺服器"
+
+#: wp_mail_smtp.php:435
+msgid "These options only apply if you have chosen to send mail by SMTP above."
+msgstr "以下設定僅在上方選取以 SMTP 傳送郵件才會生效。"
+
+#: wp_mail_smtp.php:433
+msgid "SMTP Options"
+msgstr "SMTP 設定"
+
+#: src/Admin/Pages/Settings.php:198 wp_mail_smtp.php:396
+msgid "Set the return-path to match the From Email"
+msgstr "設定傳回路徑以符合 [寄件者電子郵件地址] 中的設定"
+
+#: src/Admin/Pages/Settings.php:189 wp_mail_smtp.php:386 wp_mail_smtp.php:391
+msgid "Return Path"
+msgstr "傳回路徑"
+
+#: wp_mail_smtp.php:359
+msgid "Use the PHP mail() function to send emails."
+msgstr "使用 PHP mail() 函式傳送電子郵件。"
+
+#: wp_mail_smtp.php:355
+msgid "Send all WordPress emails via SMTP."
+msgstr "透過 SMTP 傳送所有 WordPress 電子郵件。"
+
+#: src/Admin/Pages/Settings.php:154 wp_mail_smtp.php:345 wp_mail_smtp.php:350
+msgid "Mailer"
+msgstr "郵件程式"
+
+#: wp_mail_smtp.php:336
+msgid "You can specify the name that emails should be sent from. If you leave this blank, the emails will be sent from WordPress."
+msgstr "請在此設定寄件者的電子郵件地址。如果此欄位留空，會將寄件者顯示為 WordPress。"
+
+#: src/Admin/Pages/Settings.php:109 wp_mail_smtp.php:330
+msgid "From Name"
+msgstr "寄件者名稱"
+
+#: wp_mail_smtp.php:321
+msgid "<strong>Please Note:</strong> You appear to be using a version of WordPress prior to 2.3. Please ignore the From Name field and instead enter Name&lt;email@domain.com&gt; in this field."
+msgstr "<strong>請注意:</strong> 你使用的 WordPress 為 2.3 版或更早之前的版本。請忽略 [寄件者名稱] 欄位並在此欄位改以輸入「寄件者名稱&lt;email@domain.com&gt;」取代。範例: 阿力獅&lt;fales@alexclassroom.com&gt;。"
+
+#: wp_mail_smtp.php:318
+msgid "You can specify the email address that emails should be sent from. If you leave this blank, the default email will be used."
+msgstr "請在此設定寄件者的電子郵件地址。如果此欄位留空，將以預設的電子郵件地址傳送郵件。"
+
+#: src/Admin/Pages/Settings.php:59 wp_mail_smtp.php:311
+msgid "From Email"
+msgstr "寄件者電子郵件地址"
+
+#: wp_mail_smtp.php:290
+msgid "The SMTP debugging output is shown below:"
+msgstr "SMTP 偵錯資訊顯示如下:"
+
+#: wp_mail_smtp.php:287
+msgid "The full debugging output is shown below:"
+msgstr "完整的偵錯資訊顯示如下:"
+
+#: wp_mail_smtp.php:284
+msgid "The result was:"
+msgstr "結果:"
+
+#: wp_mail_smtp.php:283
+msgid "Test Message Sent"
+msgstr "測試訊息已傳送"
+
+#: wp_mail_smtp.php:267
+msgid "This is a test email generated by the WP Mail SMTP WordPress plugin."
+msgstr "這封測試郵件由 WordPress 外掛 WP Mail SMTP 自動產生。"
+
+#. translators: %s - email address where test mail will be sent to.
+#: wp_mail_smtp.php:266
+msgid "Test mail to %s"
+msgstr "測試郵件的收件者為 %s"
+
+#: wp_mail_smtp.php:257 wp_mail_smtp.php:631
+msgid "Send Test"
+msgstr "傳送測試"

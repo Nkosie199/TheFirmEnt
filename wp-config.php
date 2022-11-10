@@ -92,10 +92,12 @@ define('WP_DEBUG_LOG', true);
 if ( !defined('ABSPATH') )
 	define('ABSPATH', dirname(__FILE__) . '/');
 
+//nkosi edit
+define('UPLOADS', 'wp-content/uploads');
+
 /** Sets up WordPress vars and included files. */
 require_once(ABSPATH . 'wp-settings.php');
 
 define( 'WP_ALLOW_MULTISITE', true );
 
 define ('FS_METHOD', 'direct');
-?>
